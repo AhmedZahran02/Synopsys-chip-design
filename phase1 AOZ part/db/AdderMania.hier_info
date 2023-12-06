@@ -1,20 +1,20 @@
 |AdderMania
-a[0] => a[0].IN2
-a[1] => a[1].IN2
-a[2] => a[2].IN2
-a[3] => a[3].IN2
-a[4] => a[4].IN2
-a[5] => a[5].IN2
-a[6] => a[6].IN2
-a[7] => a[7].IN2
-a[8] => a[8].IN2
-a[9] => a[9].IN2
-a[10] => a[10].IN2
-a[11] => a[11].IN2
-a[12] => a[12].IN2
-a[13] => a[13].IN2
-a[14] => a[14].IN2
-a[15] => a[15].IN2
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
 a[16] => a[16].IN2
 a[17] => a[17].IN2
 a[18] => a[18].IN2
@@ -31,22 +31,22 @@ a[28] => a[28].IN2
 a[29] => a[29].IN2
 a[30] => a[30].IN2
 a[31] => a[31].IN2
-b[0] => b[0].IN2
-b[1] => b[1].IN2
-b[2] => b[2].IN2
-b[3] => b[3].IN2
-b[4] => b[4].IN2
-b[5] => b[5].IN2
-b[6] => b[6].IN2
-b[7] => b[7].IN2
-b[8] => b[8].IN2
-b[9] => b[9].IN2
-b[10] => b[10].IN2
-b[11] => b[11].IN2
-b[12] => b[12].IN2
-b[13] => b[13].IN2
-b[14] => b[14].IN2
-b[15] => b[15].IN2
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
 b[16] => b[16].IN2
 b[17] => b[17].IN2
 b[18] => b[18].IN2
@@ -63,56 +63,23 @@ b[28] => b[28].IN2
 b[29] => b[29].IN2
 b[30] => b[30].IN2
 b[31] => b[31].IN2
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => sum.OUTPUTSELECT
-cin => cout.OUTPUTSELECT
-cin => overflow.OUTPUTSELECT
-sum[0] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[1] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[2] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[3] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[4] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[5] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[6] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[7] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[8] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[9] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[10] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[11] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[12] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[13] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[14] <= sum.DB_MAX_OUTPUT_PORT_TYPE
-sum[15] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cin => cin.IN1
+sum[0] <= FullAdder_16bit:u1.sum
+sum[1] <= FullAdder_16bit:u1.sum
+sum[2] <= FullAdder_16bit:u1.sum
+sum[3] <= FullAdder_16bit:u1.sum
+sum[4] <= FullAdder_16bit:u1.sum
+sum[5] <= FullAdder_16bit:u1.sum
+sum[6] <= FullAdder_16bit:u1.sum
+sum[7] <= FullAdder_16bit:u1.sum
+sum[8] <= FullAdder_16bit:u1.sum
+sum[9] <= FullAdder_16bit:u1.sum
+sum[10] <= FullAdder_16bit:u1.sum
+sum[11] <= FullAdder_16bit:u1.sum
+sum[12] <= FullAdder_16bit:u1.sum
+sum[13] <= FullAdder_16bit:u1.sum
+sum[14] <= FullAdder_16bit:u1.sum
+sum[15] <= FullAdder_16bit:u1.sum
 sum[16] <= sum.DB_MAX_OUTPUT_PORT_TYPE
 sum[17] <= sum.DB_MAX_OUTPUT_PORT_TYPE
 sum[18] <= sum.DB_MAX_OUTPUT_PORT_TYPE
@@ -133,707 +100,162 @@ cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
 overflow <= overflow.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AdderMania|FullAdder_1bit:gen_full_adders[0].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[1].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[2].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[3].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[4].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[5].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[6].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[7].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[8].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[9].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[10].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[11].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[12].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[13].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[14].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[15].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[16].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[17].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[18].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[19].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[20].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[21].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[22].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[23].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[24].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[25].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[26].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[27].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[28].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[29].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[30].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders[31].u1
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[0].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[1].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[2].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[3].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[4].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[5].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[6].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[7].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[8].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[9].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[10].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[11].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[12].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[13].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[14].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[15].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[16].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[17].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[18].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[19].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[20].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[21].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[22].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[23].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[24].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[25].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[26].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[27].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[28].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[29].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[30].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|AdderMania|FullAdder_1bit:gen_full_adders2[31].u2
-a => w1.IN0
-a => w2.IN0
-b => w1.IN1
-b => w2.IN1
-cin => w3.IN1
-cin => sum.IN1
-sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+|AdderMania|FullAdder_16bit:u1
+a[0] => _.DATAD
+a[1] => _.DATAD
+a[2] => ~NO_FANOUT~
+a[3] => ~NO_FANOUT~
+a[4] => ~NO_FANOUT~
+a[5] => ~NO_FANOUT~
+a[6] => ~NO_FANOUT~
+a[7] => ~NO_FANOUT~
+a[8] => ~NO_FANOUT~
+a[9] => ~NO_FANOUT~
+a[10] => ~NO_FANOUT~
+a[11] => ~NO_FANOUT~
+a[12] => ~NO_FANOUT~
+a[13] => ~NO_FANOUT~
+a[14] => ~NO_FANOUT~
+a[15] => ~NO_FANOUT~
+b[0] => _.DATAC
+b[1] => _.DATAC
+b[2] => ~NO_FANOUT~
+b[3] => ~NO_FANOUT~
+b[4] => ~NO_FANOUT~
+b[5] => ~NO_FANOUT~
+b[6] => ~NO_FANOUT~
+b[7] => ~NO_FANOUT~
+b[8] => ~NO_FANOUT~
+b[9] => ~NO_FANOUT~
+b[10] => ~NO_FANOUT~
+b[11] => ~NO_FANOUT~
+b[12] => ~NO_FANOUT~
+b[13] => ~NO_FANOUT~
+b[14] => ~NO_FANOUT~
+b[15] => ~NO_FANOUT~
+cin => _.DATAB
+sum[0] <= <GND>
+sum[1] <= <GND>
+sum[2] <= <GND>
+sum[3] <= <GND>
+sum[4] <= <GND>
+sum[5] <= <GND>
+sum[6] <= <GND>
+sum[7] <= <GND>
+sum[8] <= <GND>
+sum[9] <= <GND>
+sum[10] <= <GND>
+sum[11] <= <GND>
+sum[12] <= <GND>
+sum[13] <= <GND>
+sum[14] <= <GND>
+sum[15] <= <GND>
+cout <= _.SUM_OUT
+
+
+|AdderMania|FullAdder_16bit:u2
+a[0] => _.DATAD
+a[1] => _.DATAD
+a[2] => ~NO_FANOUT~
+a[3] => ~NO_FANOUT~
+a[4] => ~NO_FANOUT~
+a[5] => ~NO_FANOUT~
+a[6] => ~NO_FANOUT~
+a[7] => ~NO_FANOUT~
+a[8] => ~NO_FANOUT~
+a[9] => ~NO_FANOUT~
+a[10] => ~NO_FANOUT~
+a[11] => ~NO_FANOUT~
+a[12] => ~NO_FANOUT~
+a[13] => ~NO_FANOUT~
+a[14] => ~NO_FANOUT~
+a[15] => ~NO_FANOUT~
+b[0] => _.DATAC
+b[1] => _.DATAC
+b[2] => ~NO_FANOUT~
+b[3] => ~NO_FANOUT~
+b[4] => ~NO_FANOUT~
+b[5] => ~NO_FANOUT~
+b[6] => ~NO_FANOUT~
+b[7] => ~NO_FANOUT~
+b[8] => ~NO_FANOUT~
+b[9] => ~NO_FANOUT~
+b[10] => ~NO_FANOUT~
+b[11] => ~NO_FANOUT~
+b[12] => ~NO_FANOUT~
+b[13] => ~NO_FANOUT~
+b[14] => ~NO_FANOUT~
+b[15] => ~NO_FANOUT~
+cin => _.DATAB
+sum[0] <= <GND>
+sum[1] <= <GND>
+sum[2] <= <GND>
+sum[3] <= <GND>
+sum[4] <= <GND>
+sum[5] <= <GND>
+sum[6] <= <GND>
+sum[7] <= <GND>
+sum[8] <= <GND>
+sum[9] <= <GND>
+sum[10] <= <GND>
+sum[11] <= <GND>
+sum[12] <= <GND>
+sum[13] <= <GND>
+sum[14] <= <GND>
+sum[15] <= <GND>
+cout <= _.SUM_OUT
+
+
+|AdderMania|FullAdder_16bit:u3
+a[0] => _.DATAD
+a[1] => _.DATAD
+a[2] => ~NO_FANOUT~
+a[3] => ~NO_FANOUT~
+a[4] => ~NO_FANOUT~
+a[5] => ~NO_FANOUT~
+a[6] => ~NO_FANOUT~
+a[7] => ~NO_FANOUT~
+a[8] => ~NO_FANOUT~
+a[9] => ~NO_FANOUT~
+a[10] => ~NO_FANOUT~
+a[11] => ~NO_FANOUT~
+a[12] => ~NO_FANOUT~
+a[13] => ~NO_FANOUT~
+a[14] => ~NO_FANOUT~
+a[15] => ~NO_FANOUT~
+b[0] => _.DATAC
+b[1] => _.DATAC
+b[2] => ~NO_FANOUT~
+b[3] => ~NO_FANOUT~
+b[4] => ~NO_FANOUT~
+b[5] => ~NO_FANOUT~
+b[6] => ~NO_FANOUT~
+b[7] => ~NO_FANOUT~
+b[8] => ~NO_FANOUT~
+b[9] => ~NO_FANOUT~
+b[10] => ~NO_FANOUT~
+b[11] => ~NO_FANOUT~
+b[12] => ~NO_FANOUT~
+b[13] => ~NO_FANOUT~
+b[14] => ~NO_FANOUT~
+b[15] => ~NO_FANOUT~
+cin => _.DATAB
+sum[0] <= <GND>
+sum[1] <= <GND>
+sum[2] <= <GND>
+sum[3] <= <GND>
+sum[4] <= <GND>
+sum[5] <= <GND>
+sum[6] <= <GND>
+sum[7] <= <GND>
+sum[8] <= <GND>
+sum[9] <= <GND>
+sum[10] <= <GND>
+sum[11] <= <GND>
+sum[12] <= <GND>
+sum[13] <= <GND>
+sum[14] <= <GND>
+sum[15] <= <GND>
+cout <= _.SUM_OUT
 
 

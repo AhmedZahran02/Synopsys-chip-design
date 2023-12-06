@@ -7,7 +7,7 @@ module plus_adder(
   output overflow        
 );
 
-  wire signed [32:0] tempSum;  
+  reg signed [32:0] tempSum;  
   assign tempSum = a + b + cin;
 
   assign sum = tempSum[31:0];

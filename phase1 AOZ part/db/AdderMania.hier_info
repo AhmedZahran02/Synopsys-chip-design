@@ -1,0 +1,839 @@
+|AdderMania
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+a[8] => a[8].IN2
+a[9] => a[9].IN2
+a[10] => a[10].IN2
+a[11] => a[11].IN2
+a[12] => a[12].IN2
+a[13] => a[13].IN2
+a[14] => a[14].IN2
+a[15] => a[15].IN2
+a[16] => a[16].IN2
+a[17] => a[17].IN2
+a[18] => a[18].IN2
+a[19] => a[19].IN2
+a[20] => a[20].IN2
+a[21] => a[21].IN2
+a[22] => a[22].IN2
+a[23] => a[23].IN2
+a[24] => a[24].IN2
+a[25] => a[25].IN2
+a[26] => a[26].IN2
+a[27] => a[27].IN2
+a[28] => a[28].IN2
+a[29] => a[29].IN2
+a[30] => a[30].IN2
+a[31] => a[31].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+b[8] => b[8].IN2
+b[9] => b[9].IN2
+b[10] => b[10].IN2
+b[11] => b[11].IN2
+b[12] => b[12].IN2
+b[13] => b[13].IN2
+b[14] => b[14].IN2
+b[15] => b[15].IN2
+b[16] => b[16].IN2
+b[17] => b[17].IN2
+b[18] => b[18].IN2
+b[19] => b[19].IN2
+b[20] => b[20].IN2
+b[21] => b[21].IN2
+b[22] => b[22].IN2
+b[23] => b[23].IN2
+b[24] => b[24].IN2
+b[25] => b[25].IN2
+b[26] => b[26].IN2
+b[27] => b[27].IN2
+b[28] => b[28].IN2
+b[29] => b[29].IN2
+b[30] => b[30].IN2
+b[31] => b[31].IN2
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => sum.OUTPUTSELECT
+cin => cout.OUTPUTSELECT
+cin => overflow.OUTPUTSELECT
+sum[0] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[8] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[9] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[10] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[11] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[12] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[13] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[14] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[15] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[16] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[17] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[18] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[19] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[20] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[21] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[22] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[23] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[24] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[25] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[26] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[27] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[28] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[29] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[30] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[31] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+overflow <= overflow.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[0].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[1].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[2].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[3].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[4].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[5].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[6].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[7].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[8].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[9].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[10].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[11].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[12].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[13].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[14].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[15].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[16].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[17].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[18].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[19].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[20].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[21].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[22].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[23].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[24].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[25].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[26].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[27].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[28].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[29].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[30].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders[31].u1
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[0].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[1].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[2].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[3].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[4].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[5].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[6].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[7].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[8].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[9].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[10].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[11].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[12].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[13].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[14].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[15].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[16].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[17].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[18].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[19].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[20].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[21].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[22].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[23].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[24].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[25].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[26].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[27].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[28].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[29].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[30].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderMania|FullAdder_1bit:gen_full_adders2[31].u2
+a => w1.IN0
+a => w2.IN0
+b => w1.IN1
+b => w2.IN1
+cin => w3.IN1
+cin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

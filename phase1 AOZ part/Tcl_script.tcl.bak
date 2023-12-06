@@ -1,0 +1,56 @@
+# Set the top-level module
+set TOP_MODULE AdderMania
+
+# Set the input and output ports
+set INPUT_PORTS {A B Cin}
+set OUTPUT_PORTS {Sum Cout Overflow}
+
+# Set the clock period and input/output delays
+set CLOCK_PERIOD 20ns
+set INPUT_DELAY 1ns
+set LOAD 10
+set OUTPUT_DELAY 0.5ns
+
+# Set utilization to 60%
+set UTILIZATION 60
+
+# Enable usage of all library cells
+set USE_ALL_CELLS ON
+
+# Open the project
+project_open AdderMania
+
+# Set the top-level module
+set_global_assignment -name TOP_LEVEL_ENTITY $TOP_MODULE
+
+# Set the clock constraint
+create_clock -period $CLOCK_PERIOD [get_ports clk]
+
+# Set input delay constraint
+set_input_delay -clock clk -max $INPUT_DELAY [get_ports $INPUT_PORTS]
+
+# Set output delay constraint
+set_output_delay -clock clk -max $OUTPUT_DELAY [get_ports $OUTPUT_PORTS]
+
+# Set load and utilization constraints
+set_global_assignment -name LOAD_CONSTRAINT $LOAD
+set_global_assignment -name AUTO_SET_IO_REGISTERS OFF
+set_global_assignment -name AUTO_SET_IO_REGISTERS_EXTERNAL_DELAY OFF
+set_global_assignment -name RESOURCE_PROPORTIONAL_LIMIT OFF
+set_global_assignment -name RESOURCE_PROPORTIONAL_LIMIT_VALUE $UTILIZATION
+
+# Enable usage of all library cells
+set_global_assignment -name ALLOW_ANY_LIBRARY_CELL $USE_ALL_CELLS
+
+# Run analysis and synthesis
+analyze -format verilog $TOP_MODULE
+elaborate $TOP_MODULE
+synthesize -to mapped
+
+# Report design metrics
+report_timing_summary
+report_power
+report_area
+
+# Close the project
+project_close

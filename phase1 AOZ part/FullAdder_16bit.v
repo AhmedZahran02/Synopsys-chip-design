@@ -6,6 +6,6 @@ module FullAdder_16bit(
     output cout
 );
 
-assign {cout,f} = a+b+cin;
+assign {cout,sum} = a+b+cin;
 
 endmodule

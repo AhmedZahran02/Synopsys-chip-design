@@ -11,7 +11,8 @@ module adder_tb;
     .b(b),
     .cin(cin),
     .sum(sum),
-    .cout(cout)
+    .cout(cout),
+    .overflow(overflow)
   );
 
   integer passed = 0;

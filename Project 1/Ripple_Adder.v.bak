@@ -1,0 +1,44 @@
+module RippleCarryAdder(
+  input [31:0] A,  // 32-bit input operand A
+  input [31:0] B,  // 32-bit input operand B
+  input Cin,       // Input carry
+  output [31:0] Sum,  // 32-bit sum output
+  output Cout    ,    // Output carry
+  output Overflow        // Output carry
+);
+
+  wire [31:0] C;   // Intermediate carry signals
+  
+  // Full Adder module
+  genvar i;
+  generate
+    for (i = 0; i < 32; i = i + 1) begin : gen_full_adder
+      FullAdder FA(
+        .A(A[i]),
+        .B(B[i]),
+        .Cin((i == 0) ? Cin : C[i - 1]),
+        .Sum(Sum[i]),
+        .Cout(C[i])
+      );
+    end
+  endgenerate
+
+  assign Cout = C[31];
+  assign Overflow = (((A[31] == B[31]) && (A[31] != Sum[31])) || (1'b0));   
+
+endmodule
+
+// Full Adder module definition
+module FullAdder(
+  input A,    // Input bit A
+  input B,    // Input bit B
+  input Cin,  // Input carry
+  output Sum, // Sum output
+  output Cout // Output carry
+);
+
+  assign Sum = A ^ B ^ Cin;  // XOR of A, B, and Cin
+  assign Cout = (A & B) | (B & Cin) | (A & Cin);  // Majority function
+
+endmodule
+

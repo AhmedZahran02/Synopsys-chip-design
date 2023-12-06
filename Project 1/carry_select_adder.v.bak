@@ -43,6 +43,6 @@ FullAdder_16bit u3
 
 assign sum[31:16] = cs_signal==0?s1:s2;
 assign cout = cs_signal==0?c1:c2;
-assign overflow = cs_signal == 0 ?(a[31] & b[31] & ~s1[15]) | (~a[31] & ~b[31] & s1[15]) : (a[31] & b[31] & ~s2[15]) | (~a[31] & ~b[31] & s2[15]);
+assign overflow = cs_signal == 0 ?(a[31] & b[31] & ~c1) | (~a[31] & ~b[31] & c1) : (a[31] & b[31] & ~c2) | (~a[31] & ~b[31] & c2);
   
 endmodule

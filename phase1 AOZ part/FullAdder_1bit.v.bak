@@ -1,0 +1,12 @@
+module FullAdder_1bit(
+    input a,
+    input b,
+    input cin,
+    output sum,
+    output cout
+);
+
+assign sum = a xor b xor cin;
+assign cout = (a and b) or (cin and (a xor b));
+
+endmodule

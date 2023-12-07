@@ -1,4 +1,4 @@
-Fitter Status : Successful - Tue Dec 05 10:06:17 2023
+Fitter Status : Successful - Thu Dec 07 18:30:14 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : adders_mania
 Top-level Entity Name : carry_lookahead_adder
@@ -7,7 +7,7 @@ Device : 5CGXFC7C7F23C8
 Timing Models : Final
 Logic utilization (in ALMs) : 79 / 56,480 ( < 1 % )
 Total registers : 0
-Total pins : 98 / 268 ( 37 % )
+Total pins : 99 / 268 ( 37 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 7,024,640 ( 0 % )
 Total RAM Blocks : 0 / 686 ( 0 % )

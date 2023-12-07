@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Tue Dec 05 10:05:35 2023
+Analysis & Synthesis Status : Successful - Thu Dec 07 18:29:38 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : adders_mania
 Top-level Entity Name : carry_lookahead_adder
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 0
-Total pins : 98
+Total pins : 99
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

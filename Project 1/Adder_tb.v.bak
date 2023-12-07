@@ -6,7 +6,7 @@ module adder_tb;
   wire signed [31:0] sum;
   wire cout, overflow;
 
-  carry_lookahead_adder RCA (
+  AdderMania carry_lookahead_adder (
     .a(a),
     .b(b),
     .cin(cin),

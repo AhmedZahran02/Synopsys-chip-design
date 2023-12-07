@@ -125,6 +125,7 @@ b[29] => P[29].IN1
 b[29] => G[29].IN1
 b[30] => P[30].IN1
 b[30] => G[30].IN1
+b[31] => overflow.IN1
 b[31] => P[31].IN1
 b[31] => G[31].IN1
 cin => carries.IN1
@@ -193,5 +194,6 @@ sum[29] <= sum.DB_MAX_OUTPUT_PORT_TYPE
 sum[30] <= sum.DB_MAX_OUTPUT_PORT_TYPE
 sum[31] <= sum.DB_MAX_OUTPUT_PORT_TYPE
 cout <= carries.DB_MAX_OUTPUT_PORT_TYPE
+overflow <= overflow.DB_MAX_OUTPUT_PORT_TYPE
 
 

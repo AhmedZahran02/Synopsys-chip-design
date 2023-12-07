@@ -9,38 +9,38 @@ z2
 cModel Technology
 dD:/faculty/arch/Project/Arch-Project
 vadder_tb
-!s110 1701894445
+Z0 !s110 1701966524
 !i10b 1
-!s100 P;NEiHD@mkX9WfN5Y?jV[3
-In_TE2UV=eV8Hfej`m4ZWE3
-Z0 VDg1SIo80bB@j0V0VzS_@n1
-Z1 dC:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 1
-w1701894286
-8C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 1/adder_tb.v
-FC:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 1/adder_tb.v
+!s100 oOlI6Yn6^aozkWT_H1omZ0
+I_0;9h4Y<^Xa?z13Fz<58h1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/faculty/vlsi/Projects/Project 1
+w1701964168
+8D:/faculty/vlsi/Projects/Project 1/adder_tb.v
+FD:/faculty/vlsi/Projects/Project 1/adder_tb.v
 L0 1
-Z2 OV;L;10.5b;63
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1701894445.000000
-!s107 C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 1/adder_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 1/adder_tb.v|
+Z4 !s108 1701966524.000000
+!s107 D:/faculty/vlsi/Projects/Project 1/adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faculty/vlsi/Projects/Project 1/adder_tb.v|
 !i113 1
-Z3 o-work work
-Z4 tCvgOpt 0
+Z5 o-work work
+Z6 tCvgOpt 0
 vAdderMania
 !s110 1701894729
 !i10b 1
 !s100 <W5N8`TTBI=dT>@P0kA3R2
 I:ZoK[fZBEl^<[P:HP]3B<1
-R0
 R1
+Z7 dC:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 1
 w1701894722
 8C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 1/carry_select_adder.v
 FC:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 1/carry_select_adder.v
 L0 1
-R2
+R3
 r1
 !s85 0
 31
@@ -48,42 +48,63 @@ r1
 !s107 C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 1/carry_select_adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 1/carry_select_adder.v|
 !i113 1
-R3
-R4
+R5
+R6
 n@adder@mania
 vcarry_lookahead_adder
-!s110 1701762374
-!i10b 1
-!s100 ]ZGi[<lMXPJXETKV7DiJN2
-IWk32QkfCB5NaUU4Xe9?7P2
 R0
-dD:/faculty/vlsi/Projects/Project 1
-w1701762370
+!i10b 1
+!s100 aX9UIYK3?D`;gngdAiJ8^3
+IPoQF:58l]f2eEY1Xa<iV11
+R1
+R2
+w1701966507
 8D:/faculty/vlsi/Projects/Project 1/carry_lookahead_adder.v
 FD:/faculty/vlsi/Projects/Project 1/carry_lookahead_adder.v
 L0 1
-R2
+R3
 r1
 !s85 0
 31
-!s108 1701762374.000000
+R4
 !s107 D:/faculty/vlsi/Projects/Project 1/carry_lookahead_adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/faculty/vlsi/Projects/Project 1/carry_lookahead_adder.v|
 !i113 1
+R5
+R6
+vfull_adder
+R0
+!i10b 1
+!s100 =<;b85@P0jS1:GcXABAIY0
+IiAO;Ri8Dcogl=dG>k^ceO3
+R1
+R2
+Z8 w1701963928
+Z9 8D:/faculty/vlsi/Projects/Project 1/ripple_carry_adder.v
+Z10 FD:/faculty/vlsi/Projects/Project 1/ripple_carry_adder.v
+L0 31
 R3
+r1
+!s85 0
+31
 R4
+Z11 !s107 D:/faculty/vlsi/Projects/Project 1/ripple_carry_adder.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|D:/faculty/vlsi/Projects/Project 1/ripple_carry_adder.v|
+!i113 1
+R5
+R6
 vFullAdder_16bit
 !s110 1701894473
 !i10b 1
 !s100 <6EKi1BUXhA[KSoC]KIJf0
 I<WeJldPN3EJB1d2Fz@k:k2
-R0
 R1
+R7
 w1701893771
 8C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 1/FullAdder_16bit.v
 FC:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 1/FullAdder_16bit.v
 L0 1
-R2
+R3
 r1
 !s85 0
 31
@@ -91,6 +112,48 @@ r1
 !s107 C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 1/FullAdder_16bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 1/FullAdder_16bit.v|
 !i113 1
-R3
-R4
+R5
+R6
 n@full@adder_16bit
+vplus_adder
+R0
+!i10b 1
+!s100 F9ijMB2^`ON4hddl`Le092
+I15gfzE27_=Uk7j<@QV<K53
+R1
+R2
+R8
+8D:/faculty/vlsi/Projects/Project 1/plus_adder.v
+FD:/faculty/vlsi/Projects/Project 1/plus_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/faculty/vlsi/Projects/Project 1/plus_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faculty/vlsi/Projects/Project 1/plus_adder.v|
+!i113 1
+R5
+R6
+vripple_carry_adder
+R0
+!i10b 1
+!s100 DP]Q;i>lj>V2RfGKG1M6h2
+IUJK`58FAo5U_6boG^o7f=3
+R1
+R2
+R8
+R9
+R10
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6

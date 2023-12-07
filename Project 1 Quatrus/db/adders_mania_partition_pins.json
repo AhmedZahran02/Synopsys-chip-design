@@ -136,6 +136,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "overflow",
+					"strict" : false
+				},
+				{
 					"name" : "a[0]",
 					"strict" : false
 				},

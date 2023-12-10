@@ -6,7 +6,7 @@ module adder_tb;
   wire signed [31:0] sum;
   wire cout, overflow;
 
-  carry_lookahead_adder RCA (
+  bypass_adder BPA (
     .a(a),
     .b(b),
     .cin(cin),

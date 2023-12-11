@@ -1,32 +1,32 @@
-module adder_tb;
 
-  reg signed [31:0] a, b;
-  reg cin;
+module floating_point_adder_tb;
 
-  wire signed [31:0] sum;
-  wire cout, overflow;
 
-  carry_bypass_adder BPA (
+reg [31:0]a,b;
+wire [31:0]sum;
+wire overflow;
+
+
+
+floating_point_adder inst (
     .a(a),
     .b(b),
-    .cin(cin),
     .sum(sum),
-    .cout(cout),
     .overflow(overflow)
-  );
-
-  integer passed = 0;
-
-  initial begin
+    );
 
 
-    a = 2147483647;  
-    b = 1;           
-    cin = 0;
+integer passed = 0;
+
+
+initial begin
+
+    a = 32'h7F7FFFFF; 
+    b = 32'h7F7FFFFF; 
     #10;
 
 
-    if (sum !== -2147483648  || overflow !== 1) begin
+    if (sum !== 32'h7fffffff  || overflow !== 1) begin
       $display("TestCase#1: failed with input a=%d, b=%d, output sum=%d, overflow=%d", a, b, sum, overflow);
     end else begin
       passed = passed + 1;
@@ -34,13 +34,12 @@ module adder_tb;
     end
 
 
-    a = -2147483648;  
-    b = -1;          
-    cin = 0;
+    a = 32'hFF7FFFFF; 
+    b = 32'hFF7FFFFF;   
     #10;
 
 
-    if (sum !== 2147483647  || overflow !== 1) begin
+    if (sum !== 32'hffffffff  || overflow !== 1) begin
       $display("TestCase#2: failed with input a=%d, b=%d, output sum=%d, overflow=%d", a, b, sum, overflow);
     end else begin
       passed = passed + 1;
@@ -48,13 +47,12 @@ module adder_tb;
     end
 
 
-    a = 52;
-    b = -31;
-    cin = 0;
+    a=32'h40a851ec;
+    b=32'hc18c6666;
     #10;
 
 
-    if (sum !== 21  || overflow !== 0) begin
+    if (sum !== 32'hc144a3d6  || overflow !== 0) begin
       $display("TestCase#3: failed with input a=%d, b=%d, output sum=%d, overflow=%d", a, b, sum, overflow);
     end else begin
       passed = passed + 1;
@@ -62,13 +60,12 @@ module adder_tb;
     end
 
 
-    a = 152;
-    b = 2539;
-    cin = 0;
+    a = 32'h41139168;
+    b = 32'h45afe8cd;
     #10;
 
 
-    if (sum !== 2691  || overflow !== 0) begin
+    if (sum !== 32'h45b03295  || overflow !== 0) begin
       $display("TestCase#4: failed with input a=%d, b=%d, output sum=%d, overflow=%d", a, b, sum, overflow);
     end else begin
       passed = passed + 1;
@@ -76,13 +73,12 @@ module adder_tb;
     end
 
 
-    a = -495955;
-    b = -4548;
-    cin = 0;
+    a = 32'hc261a3d7;
+    b = 32'hc3d2d74c;
     #10;
 
 
-    if (sum !== -500503  || overflow !== 0) begin
+    if (sum !== 32'hc3ef0bc6  || overflow !== 0) begin
       $display("TestCase#5: failed with input a=%d, b=%d, output sum=%d, overflow=%d", a, b, sum, overflow);
     end else begin
       passed = passed + 1;
@@ -90,13 +86,12 @@ module adder_tb;
     end
 
 
-    a = -451;
-    b = 4498;
-    cin = 0;
+    a = 32'h47aedb0f;
+    b = 32'h48eafc7c;
     #10;
 
 
-    if (sum !== 4047  || overflow !== 0) begin
+    if (sum !== 32'h490b599f   || overflow !== 0) begin
       $display("TestCase#6: failed with input a=%d, b=%d, output sum=%d, overflow=%d", a, b, sum, overflow);
     end else begin
       passed = passed + 1;
@@ -104,13 +99,12 @@ module adder_tb;
     end
 
 
-    a = 4561;
-    b = -89;
-    cin = 0;
+    a = 32'hc5bb09d7;
+    b = 32'hc5aa98cd;
     #10;
 
 
-    if (sum !== 4472  || overflow !== 0) begin
+    if (sum !== 32'hc632d152   || overflow !== 0) begin
       $display("TestCase#7: failed with input a=%d, b=%d, output sum=%d, overflow=%d", a, b, sum, overflow);
     end else begin
       passed = passed + 1;
@@ -120,11 +114,10 @@ module adder_tb;
 
     a = 0;
     b = 0;
-    cin = 0;
     #10;
 
 
-    if (sum !== 0  || overflow !== 0) begin
+    if (sum !== 32'h00000000  || overflow !== 0) begin
       $display("TestCase#8: failed with input a=%d, b=%d, output sum=%d, overflow=%d", a, b, sum, overflow);
     end else begin
       passed = passed + 1;
@@ -134,9 +127,7 @@ module adder_tb;
 
     $display("Total Successful Test Cases: %d", passed);
 
-    #100000;
 
-
-  end
-
+#10000;
+end      
 endmodule

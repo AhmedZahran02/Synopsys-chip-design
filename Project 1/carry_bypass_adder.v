@@ -1,4 +1,4 @@
-module bypass_adder (
+module carry_bypass_adder (
     input [31:0] a,
     input [31:0] b,
     input cin,

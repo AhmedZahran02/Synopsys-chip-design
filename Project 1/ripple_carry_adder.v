@@ -11,8 +11,8 @@ module ripple_carry_adder(
   
   genvar i;
   generate
-    for (i = 0; i < 32; i = i + 1) begin : full_adder
-      full_adder FA(
+    for (i = 0; i < 32; i = i + 1) begin : full_adder_ripple
+      full_adder_ripple FA(
         .a(a[i]),
         .b(b[i]),
         .cin((i == 0) ? cin : c[i - 1]),
@@ -28,7 +28,7 @@ module ripple_carry_adder(
 endmodule
 
 
-module full_adder(
+module full_adder_ripple(
   input a,   
   input b,    
   input cin,  

@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : floating_point_adder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 16:45:17 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user37/Downloads/Lab4/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                          433
+Number of nets:                          1114
+Number of cells:                          678
+Number of combinational cells:            664
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                        119
+Number of references:                      30
+
+Combinational area:               7288.934437
+Buf/Inv area:                      658.022417
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:             424.242042
+
+Total cell area:                  7288.934437
+Total area:                       7713.176478
+1

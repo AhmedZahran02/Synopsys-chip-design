@@ -1,0 +1,118 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : carry_bypass_adder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 16:49:04 2023
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user37/Downloads/Lab4/ref/models/saed90nm_typ_ht.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+carry_bypass_adder     8000              saed90nm_typ_ht
+ripple_carry_adder_bypass_0
+                       ForQA             saed90nm_typ_ht
+mux_2x1_0              ForQA             saed90nm_typ_ht
+full_adder_bypass_0    ForQA             saed90nm_typ_ht
+ripple_carry_adder_bypass_1
+                       ForQA             saed90nm_typ_ht
+ripple_carry_adder_bypass_2
+                       ForQA             saed90nm_typ_ht
+ripple_carry_adder_bypass_3
+                       ForQA             saed90nm_typ_ht
+ripple_carry_adder_bypass_4
+                       ForQA             saed90nm_typ_ht
+ripple_carry_adder_bypass_5
+                       ForQA             saed90nm_typ_ht
+ripple_carry_adder_bypass_6
+                       ForQA             saed90nm_typ_ht
+ripple_carry_adder_bypass_7
+                       ForQA             saed90nm_typ_ht
+full_adder_bypass_1    ForQA             saed90nm_typ_ht
+full_adder_bypass_2    ForQA             saed90nm_typ_ht
+full_adder_bypass_3    ForQA             saed90nm_typ_ht
+full_adder_bypass_4    ForQA             saed90nm_typ_ht
+full_adder_bypass_5    ForQA             saed90nm_typ_ht
+full_adder_bypass_6    ForQA             saed90nm_typ_ht
+full_adder_bypass_7    ForQA             saed90nm_typ_ht
+full_adder_bypass_8    ForQA             saed90nm_typ_ht
+full_adder_bypass_9    ForQA             saed90nm_typ_ht
+full_adder_bypass_10   ForQA             saed90nm_typ_ht
+full_adder_bypass_11   ForQA             saed90nm_typ_ht
+full_adder_bypass_12   ForQA             saed90nm_typ_ht
+full_adder_bypass_13   ForQA             saed90nm_typ_ht
+full_adder_bypass_14   ForQA             saed90nm_typ_ht
+full_adder_bypass_15   ForQA             saed90nm_typ_ht
+full_adder_bypass_16   ForQA             saed90nm_typ_ht
+full_adder_bypass_17   ForQA             saed90nm_typ_ht
+full_adder_bypass_18   ForQA             saed90nm_typ_ht
+full_adder_bypass_19   ForQA             saed90nm_typ_ht
+full_adder_bypass_20   ForQA             saed90nm_typ_ht
+full_adder_bypass_21   ForQA             saed90nm_typ_ht
+full_adder_bypass_22   ForQA             saed90nm_typ_ht
+full_adder_bypass_23   ForQA             saed90nm_typ_ht
+full_adder_bypass_24   ForQA             saed90nm_typ_ht
+full_adder_bypass_25   ForQA             saed90nm_typ_ht
+full_adder_bypass_26   ForQA             saed90nm_typ_ht
+full_adder_bypass_27   ForQA             saed90nm_typ_ht
+full_adder_bypass_28   ForQA             saed90nm_typ_ht
+full_adder_bypass_29   ForQA             saed90nm_typ_ht
+full_adder_bypass_30   ForQA             saed90nm_typ_ht
+full_adder_bypass_31   ForQA             saed90nm_typ_ht
+mux_2x1_1              ForQA             saed90nm_typ_ht
+mux_2x1_2              ForQA             saed90nm_typ_ht
+mux_2x1_3              ForQA             saed90nm_typ_ht
+mux_2x1_4              ForQA             saed90nm_typ_ht
+mux_2x1_5              ForQA             saed90nm_typ_ht
+mux_2x1_6              ForQA             saed90nm_typ_ht
+mux_2x1_7              ForQA             saed90nm_typ_ht
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 447.1208 uW   (76%)
+  Net Switching Power  = 143.7283 uW   (24%)
+                         ---------
+Total Dynamic Power    = 590.8491 uW  (100%)
+
+Cell Leakage Power     =  24.6127 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)  i
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational    447.1209          143.7283        2.4613e+07          615.4617  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total            447.1209 uW       143.7283 uW     2.4613e+07 pW       615.4617 uW
+1

@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : full_adder_ripple
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 16:59:15 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user37/Downloads/Lab4/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                            5
+Number of nets:                             6
+Number of cells:                            3
+Number of combinational cells:              3
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                       2
+
+Combinational area:                 39.628800
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:               0.905160
+
+Total cell area:                    39.628800
+Total area:                         40.533961
+1

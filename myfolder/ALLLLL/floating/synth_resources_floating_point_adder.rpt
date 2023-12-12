@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : resources
+Design : floating_point_adder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 16:45:17 2023
+****************************************
+
+Resource Sharing Report for design floating_point_adder in file
+        ./source/floating_point_adder.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r103     | DW01_cmp2    | width=8    |               | gte_25               |
+| r105     | DW01_sub     | width=8    |               | sub_35               |
+| r107     | DW_rash      | A_width=24 |               | srl_36               |
+|          |              | SH_width=8 |               |                      |
+| r109     | DW01_sub     | width=25   |               | sub_38               |
+| r111     | DW01_add     | width=25   |               | add_38               |
+| r113     | DW01_inc     | width=8    |               | add_69               |
+| r115     | DW01_ash     | A_width=23 |               | sll_72               |
+|          |              | SH_width=8 |               |                      |
+| r117     | DW01_sub     | width=8    |               | sub_73               |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_35             | DW01_sub         | rpl                |                |
+| srl_36             | DW_rash          | mx2                |                |
+| sub_38             | DW01_sub         | rpl                |                |
+| add_38             | DW01_add         | rpl                |                |
+| add_69             | DW01_inc         | rpl                |                |
+| sll_72             | DW01_ash         | mx2                |                |
+| sub_73             | DW01_sub         | rpl                |                |
+===============================================================================
+
+1

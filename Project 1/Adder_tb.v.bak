@@ -6,7 +6,7 @@ module adder_tb;
   wire signed [31:0] sum;
   wire cout, overflow;
 
-  AdderMania carry_lookahead_adder (
+  plus_adder_DW01_add_0 BPA (
     .a(a),
     .b(b),
     .cin(cin),

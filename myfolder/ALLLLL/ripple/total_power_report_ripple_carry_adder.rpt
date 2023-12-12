@@ -1,0 +1,94 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : ripple_carry_adder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 16:58:51 2023
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user37/Downloads/Lab4/ref/models/saed90nm_typ_ht.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ripple_carry_adder     8000              saed90nm_typ_ht
+full_adder_ripple_0    ForQA             saed90nm_typ_ht
+full_adder_ripple_1    ForQA             saed90nm_typ_ht
+full_adder_ripple_2    ForQA             saed90nm_typ_ht
+full_adder_ripple_3    ForQA             saed90nm_typ_ht
+full_adder_ripple_4    ForQA             saed90nm_typ_ht
+full_adder_ripple_5    ForQA             saed90nm_typ_ht
+full_adder_ripple_6    ForQA             saed90nm_typ_ht
+full_adder_ripple_7    ForQA             saed90nm_typ_ht
+full_adder_ripple_8    ForQA             saed90nm_typ_ht
+full_adder_ripple_9    ForQA             saed90nm_typ_ht
+full_adder_ripple_10   ForQA             saed90nm_typ_ht
+full_adder_ripple_11   ForQA             saed90nm_typ_ht
+full_adder_ripple_12   ForQA             saed90nm_typ_ht
+full_adder_ripple_13   ForQA             saed90nm_typ_ht
+full_adder_ripple_14   ForQA             saed90nm_typ_ht
+full_adder_ripple_15   ForQA             saed90nm_typ_ht
+full_adder_ripple_16   ForQA             saed90nm_typ_ht
+full_adder_ripple_17   ForQA             saed90nm_typ_ht
+full_adder_ripple_18   ForQA             saed90nm_typ_ht
+full_adder_ripple_19   ForQA             saed90nm_typ_ht
+full_adder_ripple_20   ForQA             saed90nm_typ_ht
+full_adder_ripple_21   ForQA             saed90nm_typ_ht
+full_adder_ripple_22   ForQA             saed90nm_typ_ht
+full_adder_ripple_23   ForQA             saed90nm_typ_ht
+full_adder_ripple_24   ForQA             saed90nm_typ_ht
+full_adder_ripple_25   ForQA             saed90nm_typ_ht
+full_adder_ripple_26   ForQA             saed90nm_typ_ht
+full_adder_ripple_27   ForQA             saed90nm_typ_ht
+full_adder_ripple_28   ForQA             saed90nm_typ_ht
+full_adder_ripple_29   ForQA             saed90nm_typ_ht
+full_adder_ripple_30   ForQA             saed90nm_typ_ht
+full_adder_ripple_31   ForQA             saed90nm_typ_ht
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 422.0050 uW   (77%)
+  Net Switching Power  = 128.5083 uW   (23%)
+                         ---------
+Total Dynamic Power    = 550.5134 uW  (100%)
+
+Cell Leakage Power     =  21.6649 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)  i
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational    422.0050          128.5083        2.1665e+07          572.1782  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total            422.0050 uW       128.5083 uW     2.1665e+07 pW       572.1782 uW
+1

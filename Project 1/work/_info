@@ -52,13 +52,13 @@ R5
 R6
 n@adder@mania
 vcarry_lookahead_adder
-Z8 !s110 1702036755
+!s110 1702296876
 !i10b 1
 !s100 Im;z[>O?HKG?0E1J_]6z@0
 I4GN4:i]bI[i2b5YdBGjzz1
 R1
 R2
-w1702036740
+w1702038052
 8D:/faculty/VLSI/Projects/Project 1/carry_lookahead_adder.v
 FD:/faculty/VLSI/Projects/Project 1/carry_lookahead_adder.v
 L0 1
@@ -66,7 +66,7 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1702296875.000000
 !s107 D:/faculty/VLSI/Projects/Project 1/carry_lookahead_adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/faculty/VLSI/Projects/Project 1/carry_lookahead_adder.v|
 !i113 1
@@ -79,17 +79,17 @@ R0
 IHi5L7m6kYG20WG`O88];g2
 R1
 R2
-Z9 w1701963928
-Z10 8D:/faculty/VLSI/Projects/Project 1/ripple_carry_adder.v
-Z11 FD:/faculty/VLSI/Projects/Project 1/ripple_carry_adder.v
+Z8 w1701963928
+Z9 8D:/faculty/VLSI/Projects/Project 1/ripple_carry_adder.v
+Z10 FD:/faculty/VLSI/Projects/Project 1/ripple_carry_adder.v
 L0 31
 R3
 r1
 !s85 0
 31
-Z12 !s108 1702036756.000000
-Z13 !s107 D:/faculty/VLSI/Projects/Project 1/ripple_carry_adder.v|
-Z14 !s90 -reportprogress|300|-work|work|-stats=none|D:/faculty/VLSI/Projects/Project 1/ripple_carry_adder.v|
+Z11 !s108 1702036756.000000
+Z12 !s107 D:/faculty/VLSI/Projects/Project 1/ripple_carry_adder.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|D:/faculty/VLSI/Projects/Project 1/ripple_carry_adder.v|
 !i113 1
 R5
 R6
@@ -116,13 +116,13 @@ R5
 R6
 n@full@adder_16bit
 vplus_adder
-R8
+!s110 1702036755
 !i10b 1
 !s100 F9ijMB2^`ON4hddl`Le092
 IVXDeFXco??@E122T;CKXK1
 R1
 R2
-R9
+R8
 8D:/faculty/VLSI/Projects/Project 1/plus_adder.v
 FD:/faculty/VLSI/Projects/Project 1/plus_adder.v
 L0 1
@@ -143,17 +143,17 @@ R0
 IfM:ZgKSl8bM0FKdnYR3Vm2
 R1
 R2
+R8
 R9
 R10
-R11
 L0 1
 R3
 r1
 !s85 0
 31
+R11
 R12
 R13
-R14
 !i113 1
 R5
 R6

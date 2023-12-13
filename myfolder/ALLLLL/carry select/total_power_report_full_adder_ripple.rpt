@@ -5,9 +5,9 @@ Warning: Design has unannotated primary inputs. (PWR-414)
 ****************************************
 Report : power
         -analysis_effort low
-Design : FullAdder_16bit
+Design : full_adder_ripple
 Version: U-2022.12-SP7
-Date   : Wed Dec 13 18:22:06 2023
+Date   : Wed Dec 13 18:22:25 2023
 ****************************************
 
 
@@ -21,23 +21,7 @@ Wire Load Model Mode: enclosed
 
 Design        Wire Load Model            Library
 ------------------------------------------------
-FullAdder_16bit        8000              saed90nm_typ_ht
-full_adder_ripple_48   ForQA             saed90nm_typ_ht
-full_adder_ripple_49   ForQA             saed90nm_typ_ht
-full_adder_ripple_50   ForQA             saed90nm_typ_ht
-full_adder_ripple_51   ForQA             saed90nm_typ_ht
-full_adder_ripple_52   ForQA             saed90nm_typ_ht
-full_adder_ripple_53   ForQA             saed90nm_typ_ht
-full_adder_ripple_54   ForQA             saed90nm_typ_ht
-full_adder_ripple_55   ForQA             saed90nm_typ_ht
-full_adder_ripple_56   ForQA             saed90nm_typ_ht
-full_adder_ripple_57   ForQA             saed90nm_typ_ht
-full_adder_ripple_58   ForQA             saed90nm_typ_ht
-full_adder_ripple_59   ForQA             saed90nm_typ_ht
-full_adder_ripple_60   ForQA             saed90nm_typ_ht
-full_adder_ripple_61   ForQA             saed90nm_typ_ht
-full_adder_ripple_62   ForQA             saed90nm_typ_ht
-full_adder_ripple_63   ForQA             saed90nm_typ_ht
+full_adder_ripple      ForQA             saed90nm_typ_ht
 
 
 Global Operating Voltage = 1.2  
@@ -54,12 +38,12 @@ Attributes
 i - Including register clock pin internal power
 
 
-  Cell Internal Power  = 203.0699 uW   (76%)
-  Net Switching Power  =  62.4511 uW   (24%)
+  Cell Internal Power  =  11.3004 uW   (74%)
+  Net Switching Power  =   3.8831 uW   (26%)
                          ---------
-Total Dynamic Power    = 265.5210 uW  (100%)
+Total Dynamic Power    =  15.1834 uW  (100%)
 
-Cell Leakage Power     =  10.5540 uW
+Cell Leakage Power     = 659.4045 nW
 
 Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
 
@@ -72,7 +56,7 @@ black_box          0.0000            0.0000            0.0000            0.0000 
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)  i
 register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational    203.0699           62.4511        1.0554e+07          276.0750  ( 100.00%)
+combinational     11.3004            3.8831        6.5940e+05           15.8428  ( 100.00%)
 --------------------------------------------------------------------------------------------------
-Total            203.0699 uW        62.4511 uW     1.0554e+07 pW       276.0750 uW
+Total             11.3004 uW         3.8831 uW     6.5940e+05 pW        15.8428 uW
 1

@@ -51,58 +51,62 @@ endmodule
 /////////////////////////////////////////////////////////////
 
 
-module FullAdder_16bit_DW01_add_0 ( A, B, CI, SUM, CO );
-  input [16:0] A;
-  input [16:0] B;
-  output [16:0] SUM;
-  input CI;
-  output CO;
-
-  wire   [16:1] carry;
-
-  FADDX1 U1_15 ( .A(A[15]), .B(B[15]), .CI(carry[15]), .CO(SUM[16]), .S(
-        SUM[15]) );
-  FADDX1 U1_14 ( .A(A[14]), .B(B[14]), .CI(carry[14]), .CO(carry[15]), .S(
-        SUM[14]) );
-  FADDX1 U1_13 ( .A(A[13]), .B(B[13]), .CI(carry[13]), .CO(carry[14]), .S(
-        SUM[13]) );
-  FADDX1 U1_12 ( .A(A[12]), .B(B[12]), .CI(carry[12]), .CO(carry[13]), .S(
-        SUM[12]) );
-  FADDX1 U1_11 ( .A(A[11]), .B(B[11]), .CI(carry[11]), .CO(carry[12]), .S(
-        SUM[11]) );
-  FADDX1 U1_10 ( .A(A[10]), .B(B[10]), .CI(carry[10]), .CO(carry[11]), .S(
-        SUM[10]) );
-  FADDX1 U1_9 ( .A(A[9]), .B(B[9]), .CI(carry[9]), .CO(carry[10]), .S(SUM[9])
-         );
-  FADDX1 U1_8 ( .A(A[8]), .B(B[8]), .CI(carry[8]), .CO(carry[9]), .S(SUM[8])
-         );
-  FADDX1 U1_7 ( .A(A[7]), .B(B[7]), .CI(carry[7]), .CO(carry[8]), .S(SUM[7])
-         );
-  FADDX1 U1_6 ( .A(A[6]), .B(B[6]), .CI(carry[6]), .CO(carry[7]), .S(SUM[6])
-         );
-  FADDX1 U1_5 ( .A(A[5]), .B(B[5]), .CI(carry[5]), .CO(carry[6]), .S(SUM[5])
-         );
-  FADDX1 U1_4 ( .A(A[4]), .B(B[4]), .CI(carry[4]), .CO(carry[5]), .S(SUM[4])
-         );
-  FADDX1 U1_3 ( .A(A[3]), .B(B[3]), .CI(carry[3]), .CO(carry[4]), .S(SUM[3])
-         );
-  FADDX1 U1_2 ( .A(A[2]), .B(B[2]), .CI(carry[2]), .CO(carry[3]), .S(SUM[2])
-         );
-  FADDX1 U1_1 ( .A(A[1]), .B(B[1]), .CI(carry[1]), .CO(carry[2]), .S(SUM[1])
-         );
-  FADDX1 U1_0 ( .A(A[0]), .B(B[0]), .CI(CI), .CO(carry[1]), .S(SUM[0]) );
-endmodule
-
-
 module FullAdder_16bit ( a, b, cin, sum, cout );
   input [15:0] a;
   input [15:0] b;
   output [15:0] sum;
   input cin;
   output cout;
+  wire   n3, n4;
+  wire   [14:0] c;
 
-
-  FullAdder_16bit_DW01_add_0 add_1_root_add_59_2 ( .A({1'b0, a}), .B({1'b0, b}), .CI(cin), .SUM({cout, sum}) );
+  full_adder_ripple FA1  ( .a(a[0]), .b(b[0]), .cin(cin), .sum(sum[0]), .cout(c[0]) );
+  full_adder_ripple FA  ( .a(a[1]), .b(b[1]), .cin(
+        c[0]), .sum(sum[1]), .cout(c[1]) );
+  full_adder_ripple FA2  ( .a(a[2]), .b(b[2]), .cin(
+        c[1]), .sum(sum[2]), .cout(c[2]) );
+  full_adder_ripple FA3  ( .a(a[3]), .b(b[3]), .cin(
+        c[2]), .sum(sum[3]), .cout(c[3]) );
+  full_adder_ripple FA4  ( .a(a[4]), .b(b[4]), .cin(
+        c[3]), .sum(sum[4]), .cout(c[4]) );
+  full_adder_ripple FA5  ( .a(a[5]), .b(b[5]), .cin(
+        c[4]), .sum(sum[5]), .cout(c[5]) );
+  full_adder_ripple FA6  ( .a(a[6]), .b(b[6]), .cin(
+        c[5]), .sum(sum[6]), .cout(c[6]) );
+  full_adder_ripple FA7  ( .a(a[7]), .b(b[7]), .cin(
+        c[6]), .sum(sum[7]), .cout(c[7]) );
+  full_adder_ripple FA8  ( .a(a[8]), .b(b[8]), .cin(
+        c[7]), .sum(sum[8]), .cout(c[8]) );
+  full_adder_ripple FA9  ( .a(a[9]), .b(b[9]), .cin(
+        c[8]), .sum(sum[9]), .cout(c[9]) );
+  full_adder_ripple FA10  ( .a(a[10]), .b(b[10]), 
+        .cin(c[9]), .sum(sum[10]), .cout(c[10]) );
+  full_adder_ripple FA11  ( .a(a[11]), .b(b[11]), 
+        .cin(c[10]), .sum(sum[11]), .cout(c[11]) );
+  full_adder_ripple FA12  ( .a(a[12]), .b(b[12]), 
+        .cin(c[11]), .sum(sum[12]), .cout(c[12]) );
+  full_adder_ripple FA13  ( .a(a[13]), .b(b[13]), 
+        .cin(c[12]), .sum(sum[13]), .cout(c[13]) );
+  full_adder_ripple FA14  ( .a(a[14]), .b(b[14]), 
+        .cin(c[13]), .sum(sum[14]), .cout(c[14]) );
+  full_adder_ripple FA15  ( .a(a[15]), .b(b[15]), 
+        .cin(c[14]), .sum(sum[15]), .cout(cout) );
 endmodule
 
 
+/////////////////////////////////////////////////////////////
+// Created by: Synopsys DC Expert(TM) in wire load mode
+// Version   : U-2022.12-SP7
+// Date      : Tue Dec 12 16:59:15 2023
+/////////////////////////////////////////////////////////////
+
+
+module full_adder_ripple ( a, b, cin, sum, cout );
+  input a, b, cin;
+  output sum, cout;
+  wire   n2;
+
+  XOR2X1 U4 ( .IN1(cin), .IN2(n2), .Q(sum) );
+  AO22X1 U5 ( .IN1(a), .IN2(b), .IN3(cin), .IN4(n2), .Q(cout) );
+  XOR2X1 U6 ( .IN1(a), .IN2(b), .Q(n2) );
+endmodule

@@ -6,8 +6,8 @@
 | Design Information                                      | Value                                  |
 ====================================================================================================
 | Number of Scenarios                                     | 0                                      |
-| Leaf Cell Count                                         | 48                                     |
-| Number of User Hierarchies                              | 16                                     |
+| Leaf Cell Count                                         | 7                                      |
+| Number of User Hierarchies                              | 0                                      |
 | Sequential Cell Count                                   | 0                                      |
 | Macro Count                                             | 0                                      |
 | Number of Power Domains                                 | 0                                      |
@@ -23,65 +23,34 @@
 
   Beginning Pass 1 Mapping
   ------------------------
-  Processing 'full_adder_ripple_48'
-  Processing 'FullAdder_16bit'
+  Processing 'full_adder_ripple'
 
   Updating timing information
 Information: Updating design information... (UID-85)
-Information: Design 'FullAdder_16bit' has no optimization constraints set. (OPT-108)
+Information: Design 'full_adder_ripple' has no optimization constraints set. (OPT-108)
 
   Beginning Mapping Optimizations  (Medium effort)
   -------------------------------
-  Structuring 'full_adder_ripple_63'
-  Mapping 'full_adder_ripple_63'
-  Structuring 'full_adder_ripple_62'
-  Mapping 'full_adder_ripple_62'
-  Structuring 'full_adder_ripple_61'
-  Mapping 'full_adder_ripple_61'
-  Structuring 'full_adder_ripple_60'
-  Mapping 'full_adder_ripple_60'
-  Structuring 'full_adder_ripple_59'
-  Mapping 'full_adder_ripple_59'
-  Structuring 'full_adder_ripple_58'
-  Mapping 'full_adder_ripple_58'
-  Structuring 'full_adder_ripple_57'
-  Mapping 'full_adder_ripple_57'
-  Structuring 'full_adder_ripple_56'
-  Mapping 'full_adder_ripple_56'
-  Structuring 'full_adder_ripple_55'
-  Mapping 'full_adder_ripple_55'
-  Structuring 'full_adder_ripple_54'
-  Mapping 'full_adder_ripple_54'
-  Structuring 'full_adder_ripple_53'
-  Mapping 'full_adder_ripple_53'
-  Structuring 'full_adder_ripple_52'
-  Mapping 'full_adder_ripple_52'
-  Structuring 'full_adder_ripple_51'
-  Mapping 'full_adder_ripple_51'
-  Structuring 'full_adder_ripple_50'
-  Mapping 'full_adder_ripple_50'
-  Structuring 'full_adder_ripple_49'
-  Mapping 'full_adder_ripple_49'
-  Structuring 'full_adder_ripple_48'
-  Mapping 'full_adder_ripple_48'
+  Structuring 'full_adder_ripple'
+  Mapping 'full_adder_ripple'
 Information: Command 'do_operand_isolation' is obsolete and is being ignored.  Please refer to the replacement command 'set power_enable_datapath_gating true' instead. (INFO-118)
 
                                   TOTAL                                      
    ELAPSED            WORST NEG   SETUP    DESIGN                            
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
   --------- --------- --------- --------- --------- -------------------------
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
 
 
 
@@ -92,9 +61,9 @@ Information: Command 'do_operand_isolation' is obsolete and is being ignored.  P
    ELAPSED            WORST NEG   SETUP    DESIGN                            
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
   --------- --------- --------- --------- --------- -------------------------
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
 
 
   Beginning Area-Recovery Phase  (cleanup)
@@ -104,17 +73,17 @@ Information: Command 'do_operand_isolation' is obsolete and is being ignored.  P
    ELAPSED            WORST NEG   SETUP    DESIGN                            
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
   --------- --------- --------- --------- --------- -------------------------
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
-    0:00:00     634.1      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
+    0:00:00      39.6      0.00       0.0       0.0                          
 Loading db file '/home/user37/Downloads/Lab4/ref/models/saed90nm_typ_ht.db'
 
 

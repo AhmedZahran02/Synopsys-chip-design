@@ -40,7 +40,7 @@ module carry_select_adder ( a, b, cin, sum, cout, overflow );
   NOR2X0 U41 ( .IN1(sum[31]), .IN2(n7), .QN(n6) );
   AND2X1 U42 ( .IN1(n7), .IN2(sum[31]), .Q(n5) );
   MUX21X1 U43 ( .IN1(s1[15]), .IN2(s2[15]), .S(cs_signal), .Q(sum[31]) );
-  INVX0 U44 ( .INP(a[31]), .ZN(n7) );
+  INVX0 U44 ( .IN1(a[31]), .QN(n7) );
   MUX21X1 U45 ( .IN1(c1), .IN2(c2), .S(cs_signal), .Q(cout) );
 endmodule
 

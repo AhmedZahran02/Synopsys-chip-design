@@ -5,8 +5,6 @@ output [31:0] sum,
 output overflow
 );
 
-
-
 wire [23:0] mant_a, mant_b, mant_temp_b, mant_temp1, mant_temp2, mant_temp3;
 wire sign_a, sign_b;
 
@@ -20,7 +18,6 @@ wire carry;
 wire cond;
 
 wire [7:0] shift;
-
 
 assign cond =  (a[30:23] >= b[30:23])? 1'b1 : 1'b0;
 
@@ -63,21 +60,20 @@ assign shift = (mant_temp1[23]) ? 0 :
        (mant_temp1[1])  ? 22 :
        (mant_temp1[0])  ? 23 :
        exp_a;
-
 	
 assign mant_temp2 = mant_temp1 >> 1;
-assign exp_temp1 =(a[30:0] == 31'b0000000000000000000000000000000 && b[30:0] == 31'b0000000000000000000000000000000)? exp_a : exp_a + 1'b1;
-
+assign exp_temp1 =(a[30:0] == 31'b0000000000000000000000000000000 &&
+ b[30:0] == 31'b0000000000000000000000000000000)? exp_a : exp_a + 1'b1;
 
 assign  mant_temp3 = mant_temp1 << shift;
 assign  exp_temp2 =  exp_a - shift;
-			
-	
+				
 assign sign = ({exp, mant} == 31'b0000000000000000000000000000000)? 1'b0 : sign_a;
 assign mant = (carry)? mant_temp2[22:0] : mant_temp3[22:0];
 assign exp = (carry)? exp_temp1 : exp_temp2;
 assign sum = {sign, exp, mant};
-assign overflow = ((exp_a == 8'b11111111 && carry) || (exp_a == 8'b11111110 && carry && mant_temp2 != 32'h00000000 ) ) ? 1'b1 : 1'b0;	
+assign overflow = ((exp_a == 8'b11111111 && carry) || (exp_a == 8'b11111110 &&
+ carry && mant_temp2 != 32'h00000000 ) ) ? 1'b1 : 1'b0;	
 
 endmodule
 

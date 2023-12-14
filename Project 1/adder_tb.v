@@ -6,7 +6,7 @@ module adder_tb;
   wire signed [31:0] sum;
   wire cout, overflow;
 
-  plus_adder BPA (
+  ripple_carry_adder BPA (
     .a(a),
     .b(b),
     .cin(cin),

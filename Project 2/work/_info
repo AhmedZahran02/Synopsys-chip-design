@@ -1,0 +1,116 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/AOZ/Desktop/Final Version/Modelsim test
+vfulladder
+Z0 !s110 1702828451
+!i10b 1
+!s100 DUBDj[8]7U`3TCV5YMW2I1
+I2f?I<IILD[<SAB<V2APoo1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2
+Z3 w1702828429
+Z4 8C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v
+Z5 FC:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v
+L0 107
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1702828451.000000
+Z8 !s107 C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vhalfadder
+R0
+!i10b 1
+!s100 @mK=PHK4Ge:fYglY4jhRI0
+I8iY^K1YO]SJK`e]09JB1h0
+R1
+R2
+R3
+R4
+R5
+L0 123
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vshiftAdder
+R0
+!i10b 1
+!s100 il6601TJ9XX1ebg]@IGmk1
+IRXHcLF2_65V6RjYX<@A^z0
+R1
+R2
+R3
+R4
+R5
+L0 88
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nshift@adder
+vtree_multiplier
+R0
+!i10b 1
+!s100 KdXF8Q5mm`WZiQR^8XRYb0
+IiQdGP[5aRFbAWJYz4ZHGR1
+R1
+R2
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vwallace
+!s110 1702762631
+!i10b 1
+!s100 fM`4BgjMNL>1`2l`I3z4]3
+IkO?o<7UA0F8gbogb8P6dJ2
+R1
+R2
+w1702762620
+R4
+R5
+L0 14
+R6
+r1
+!s85 0
+31
+!s108 1702762631.000000
+R8
+R9
+!i113 1
+R10
+R11

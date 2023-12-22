@@ -1,5 +1,5 @@
 Analysis & Synthesis report for tree_multiplier
-Sun Dec 17 17:58:50 2023
+Thu Dec 21 15:53:40 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Dec 17 17:58:50 2023       ;
+; Analysis & Synthesis Status     ; Successful - Thu Dec 21 15:53:40 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; tree_multiplier                             ;
 ; Top-level Entity Name           ; tree_multiplier                             ;
@@ -182,13 +182,17 @@ refer to the applicable agreement for further details.
 ; Maximum allowed            ; 10          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
+; Maximum used               ; 8           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.0%      ;
 ;     Processor 3            ;   0.0%      ;
 ;     Processor 4            ;   0.0%      ;
+;     Processor 5            ;   0.0%      ;
+;     Processor 6            ;   0.0%      ;
+;     Processor 7            ;   0.0%      ;
+;     Processor 8            ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -2112,7 +2116,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:14     ;
+; Top            ; 00:00:08     ;
 +----------------+--------------+
 
 
@@ -2122,7 +2126,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Dec 17 17:58:23 2023
+    Info: Processing started: Thu Dec 21 15:53:23 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off tree_multiplier -c tree_multiplier
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 10 of the 10 processors detected
@@ -2143,10 +2147,10 @@ Info (21057): Implemented 3008 device resources after synthesis - the final reso
     Info (21059): Implemented 64 output pins
     Info (21061): Implemented 2880 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4900 megabytes
-    Info: Processing ended: Sun Dec 17 17:58:51 2023
-    Info: Elapsed time: 00:00:28
-    Info: Total CPU time (on all processors): 00:00:31
+    Info: Peak virtual memory: 4893 megabytes
+    Info: Processing ended: Thu Dec 21 15:53:40 2023
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:24
 
 
 +------------------------------------------+

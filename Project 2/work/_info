@@ -8,38 +8,123 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/AOZ/Desktop/Final Version/Modelsim test
-vfulladder
-Z0 !s110 1702828451
+vcsa_32
+Z0 !s110 1703247635
 !i10b 1
-!s100 DUBDj[8]7U`3TCV5YMW2I1
-I2f?I<IILD[<SAB<V2APoo1
+!s100 @Kz7K1I7CU`aFd;a40LF^3
+ITRnVHk0O>;?1bbBEih[9e0
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2
-Z3 w1702828429
+Z3 w1703247632
 Z4 8C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v
 Z5 FC:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v
-L0 107
+L0 180
 Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1702828451.000000
+Z7 !s108 1703247635.000000
 Z8 !s107 C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v|
 !i113 1
 Z10 o-work work
 Z11 tCvgOpt 0
-vhalfadder
+vcsa_64
 R0
 !i10b 1
-!s100 @mK=PHK4Ge:fYglY4jhRI0
-I8iY^K1YO]SJK`e]09JB1h0
+!s100 M6i;D6L362_J@HBa]hGil0
+IHG6ebP7e<gK9NmIXO;lVQ2
 R1
 R2
 R3
 R4
 R5
-L0 123
+L0 227
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vfull_adder_ripple
+R0
+!i10b 1
+!s100 MlefDzWLA1N9<[LC53zPo0
+I4=Y65BNOVZjDYhkf``TB11
+R1
+R2
+R3
+R4
+R5
+L0 140
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vfulladder
+R0
+!i10b 1
+!s100 FIdLFhS>I9OY^OT`2]F2Q2
+Ic;R_1Dj3bG@^8<mUbn3GG3
+R1
+R2
+R3
+R4
+R5
+L0 108
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vFullAdder_16bit
+R0
+!i10b 1
+!s100 0feS=XF4i8:0N;?T6EeJf0
+INaQnd9hG@UY<1RlXH?e8[1
+R1
+R2
+R3
+R4
+R5
+L0 153
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@full@adder_16bit
+vhalfadder
+R0
+!i10b 1
+!s100 aZOfOP;Pg4039SC3YG_1d2
+I]JKm:]QV]LSY^mL?Gjf;01
+R1
+R2
+R3
+R4
+R5
+L0 124
 R6
 r1
 !s85 0
@@ -53,14 +138,14 @@ R11
 vshiftAdder
 R0
 !i10b 1
-!s100 il6601TJ9XX1ebg]@IGmk1
-IRXHcLF2_65V6RjYX<@A^z0
+!s100 ZVAOXm[f74MhOXL_5QUn40
+IzI4DGB8z@[mkNzF^zf2gA3
 R1
 R2
 R3
 R4
 R5
-L0 88
+L0 89
 R6
 r1
 !s85 0
@@ -75,8 +160,8 @@ nshift@adder
 vtree_multiplier
 R0
 !i10b 1
-!s100 KdXF8Q5mm`WZiQR^8XRYb0
-IiQdGP[5aRFbAWJYz4ZHGR1
+!s100 QjGd0@GTYTL:oc9We^=nP1
+I1OZ?i4W;BCH6D0mjF@Am@0
 R1
 R2
 R3

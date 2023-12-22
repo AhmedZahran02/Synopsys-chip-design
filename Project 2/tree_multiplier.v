@@ -81,8 +81,9 @@ module tree_multiplier(
     shiftAdder sa9(tempResults[119],tempResults[120],tempResults[121],tempResults[122],tempResults[123]);
 
 // final summation
+wire Lcout;
 
-assign P = tempResults[122]+tempResults[123];
+csa_64 csa(tempResults[122],tempResults[123],0,P,Lcout); 
 endmodule
 
 module shiftAdder( a,b,c, sum, carry );
@@ -134,4 +135,138 @@ module halfadder(a,b,sum, carry);
     and g6(t5,t3,a);
     or g7(sum,t4,t5);
     
+endmodule
+
+module full_adder_ripple(
+  input a,   
+  input b,    
+  input cin,  
+  output sum, 
+  output cout 
+);
+
+  assign sum = a ^ b ^ cin;  
+  assign cout = (a & b) | (b & cin) | (a & cin);  
+
+endmodule
+
+module FullAdder_16bit(
+  input [15:0] a,  
+  input [15:0] b,  
+  input cin,      
+  output [15:0] sum,  
+  output cout        
+);
+
+  wire [15:0] c; 
+  
+  genvar i;
+  generate
+    for (i = 0; i < 16; i = i + 1) begin : full_adder_ripple
+      full_adder_ripple FA(
+        .a(a[i]),
+        .b(b[i]),
+        .cin((i == 0) ? cin : c[i - 1]),
+        .sum(sum[i]),
+        .cout(c[i])
+      );
+    end
+  endgenerate
+
+  assign cout = c[15];  
+
+endmodule
+
+module csa_32(
+    input [31 : 0] a,
+    input [31 : 0] b,
+    input cin,
+    output [31 : 0] sum,
+    output cout
+);
+
+
+wire cs_signal;
+wire [15:0] s1;
+wire c1;
+wire [15:0] s2;
+wire c2;
+
+FullAdder_16bit u1
+(
+.a(a[15:0]),
+.b(b[15:0]),
+.cin(cin),
+.sum(sum[15:0]),
+.cout(cs_signal)
+);
+
+FullAdder_16bit u2
+(
+.a(a[31:16]),
+.b(b[31:16]),
+.cin(0),
+.sum(s1),
+.cout(c1)
+);
+
+FullAdder_16bit u3
+(
+.a(a[31:16]),
+.b(b[31:16]),
+.cin(1),
+.sum(s2),
+.cout(c2)
+);
+
+assign sum[31:16] = cs_signal==0?s1:s2;
+assign cout = cs_signal==0?c1:c2;
+  
+endmodule
+
+module csa_64(
+    input [63 : 0] a,
+    input [63 : 0] b,
+    input cin,
+    output [63 : 0] sum,
+    output cout
+);
+
+
+wire cs_signal;
+wire [31:0] s1;
+wire c1;
+wire [31:0] s2;
+wire c2;
+
+csa_32 u1
+(
+.a(a[31:0]),
+.b(b[31:0]),
+.cin(cin),
+.sum(sum[31:0]),
+.cout(cs_signal)
+);
+
+csa_32 u2
+(
+.a(a[63:32]),
+.b(b[63:32]),
+.cin(0),
+.sum(s1),
+.cout(c1)
+);
+
+csa_32 u3
+(
+.a(a[63:32]),
+.b(b[63:32]),
+.cin(1),
+.sum(s2),
+.cout(c2)
+);
+
+assign sum[63:32] = cs_signal==0?s1:s2;
+assign cout = cs_signal==0?c1:c2;
+  
 endmodule

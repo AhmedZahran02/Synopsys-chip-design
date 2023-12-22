@@ -9,37 +9,37 @@ z2
 cModel Technology
 dC:/Users/AOZ/Desktop/Final Version/Modelsim test
 vcsa_32
-Z0 !s110 1703247635
+Z0 !s110 1703254198
 !i10b 1
-!s100 @Kz7K1I7CU`aFd;a40LF^3
-ITRnVHk0O>;?1bbBEih[9e0
+!s100 8a^nYiG<BOi2m6@1_j93=3
+I?9=Vmm^h_OHD6kT7^UNhF0
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2
-Z3 w1703247632
-Z4 8C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v
-Z5 FC:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v
-L0 180
+Z3 w1703254161
+Z4 8C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier with csa.v
+Z5 FC:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier with csa.v
+L0 183
 Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1703247635.000000
-Z8 !s107 C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v|
-Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v|
+Z7 !s108 1703254198.000000
+Z8 !s107 C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier with csa.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier with csa.v|
 !i113 1
 Z10 o-work work
 Z11 tCvgOpt 0
 vcsa_64
 R0
 !i10b 1
-!s100 M6i;D6L362_J@HBa]hGil0
-IHG6ebP7e<gK9NmIXO;lVQ2
+!s100 `[bDeZC_:@Gle>dL=kT5C0
+If9O;74A[gVgMzA[DbbfN21
 R1
 R2
 R3
 R4
 R5
-L0 227
+L0 230
 R6
 r1
 !s85 0
@@ -50,17 +50,39 @@ R9
 !i113 1
 R10
 R11
-vfull_adder_ripple
+vfixSign
 R0
 !i10b 1
-!s100 MlefDzWLA1N9<[LC53zPo0
-I4=Y65BNOVZjDYhkf``TB11
+!s100 JhH8RNF3Y<M?OT?nnP[aa2
+I33oWCnjniRlZEc>lcmj8A2
 R1
 R2
 R3
 R4
 R5
-L0 140
+L0 83
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nfix@sign
+vfull_adder_ripple
+R0
+!i10b 1
+!s100 =82b1FWGLc_PRhPjAAzCQ2
+I[;4fdUN:TFAbmPn:4SG800
+R1
+R2
+R3
+R4
+R5
+L0 143
 R6
 r1
 !s85 0
@@ -74,14 +96,14 @@ R11
 vfulladder
 R0
 !i10b 1
-!s100 FIdLFhS>I9OY^OT`2]F2Q2
-Ic;R_1Dj3bG@^8<mUbn3GG3
+!s100 <N:i?U;VUlaSO1H3E]oXL1
+Icb`EK9YH47O:g[S`X1CnN0
 R1
 R2
 R3
 R4
 R5
-L0 108
+L0 111
 R6
 r1
 !s85 0
@@ -95,14 +117,14 @@ R11
 vFullAdder_16bit
 R0
 !i10b 1
-!s100 0feS=XF4i8:0N;?T6EeJf0
-INaQnd9hG@UY<1RlXH?e8[1
+!s100 mbb3A=hBXFgF`Q?DgWo2o2
+IniaGaIgF_[cQ]WP3la>7D3
 R1
 R2
 R3
 R4
 R5
-L0 153
+L0 156
 R6
 r1
 !s85 0
@@ -117,14 +139,14 @@ n@full@adder_16bit
 vhalfadder
 R0
 !i10b 1
-!s100 aZOfOP;Pg4039SC3YG_1d2
-I]JKm:]QV]LSY^mL?Gjf;01
+!s100 WTQ^bLi=;0m=j3>`]gokI2
+I=I3]?Q3dhRlRXCF_YIf]S3
 R1
 R2
 R3
 R4
 R5
-L0 124
+L0 127
 R6
 r1
 !s85 0
@@ -135,17 +157,60 @@ R9
 !i113 1
 R10
 R11
-vshiftAdder
+vmodified_tree_multiplier
+!s110 1703251266
+!i10b 1
+!s100 mJ<9O0VHS:60QeZG10M650
+IjA;YY1mD5Ak7K7lEUkzcn0
+R1
+R2
+w1703251236
+8C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/modified tree.v
+FC:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/modified tree.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1703251266.000000
+!s107 C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/modified tree.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/modified tree.v|
+!i113 1
+R10
+R11
+vremoveSign
 R0
 !i10b 1
-!s100 ZVAOXm[f74MhOXL_5QUn40
-IzI4DGB8z@[mkNzF^zf2gA3
+!s100 AA78097h?d4UE5iL?Pnch0
+IUXD7k8YPhNP68A^CgcLEM2
 R1
 R2
 R3
 R4
 R5
-L0 89
+L0 76
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nremove@sign
+vshiftAdder
+R0
+!i10b 1
+!s100 5FUeU<=j=9A5NO`C@X9Nh1
+IiQk5W2fn5BK>ZUP5Lk[LA0
+R1
+R2
+R3
+R4
+R5
+L0 92
 R6
 r1
 !s85 0
@@ -160,8 +225,8 @@ nshift@adder
 vtree_multiplier
 R0
 !i10b 1
-!s100 QjGd0@GTYTL:oc9We^=nP1
-I1OZ?i4W;BCH6D0mjF@Am@0
+!s100 Nk]9dRi;;ej^_0SNF[Di_2
+Inn8S8;Y9j9>ci_X:0W0FK3
 R1
 R2
 R3
@@ -186,16 +251,16 @@ IkO?o<7UA0F8gbogb8P6dJ2
 R1
 R2
 w1702762620
-R4
-R5
+8C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v
+FC:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v
 L0 14
 R6
 r1
 !s85 0
 31
 !s108 1702762631.000000
-R8
-R9
+!s107 C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Study/3rd Year/1st Term/CMP 25/VLSI/VLSI-Project/Project 2/tree_multiplier.v|
 !i113 1
 R10
 R11

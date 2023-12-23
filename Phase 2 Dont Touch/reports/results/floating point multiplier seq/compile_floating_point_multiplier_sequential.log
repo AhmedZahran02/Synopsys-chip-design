@@ -1,0 +1,166 @@
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | U-2022.12-DWBB_202212.5 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler                                                                   |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 199                                    |
+| Number of User Hierarchies                              | 1                                      |
+| Sequential Cell Count                                   | 101                                    |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 2                                      |
+| Number of VT Class                                      | 1                                      |
+| Number of Clocks                                        | 1                                      |
+| Number of Dont Touch Cells                              | 15                                     |
+| Number of Dont Touch Nets                               | 0                                      |
+| Number of Size Only Cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+====================================================================================================
+
+Information: There are 3 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'floating_point_multiplier'
+  Processing 'floating_point_multiplier_sequential'
+WARNING: cell slow_clk_reg ignores exact_map
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'floating_point_multiplier_DW01_add_0'
+  Processing 'floating_point_multiplier_DW01_add_1'
+  Processing 'floating_point_multiplier_DW01_inc_0'
+  Allocating blocks in 'DW02_mult_A_width24_B_width24'
+  Building model 'DW01_MUX'
+  Processing 'DW01_MUX'
+  Building model 'DW01_mmux_width2'
+  Processing 'DW01_mmux_width2'
+  Building model 'DW01_mmux_width3'
+  Processing 'DW01_mmux_width3'
+  Building model 'DW01_mmux_width4'
+  Processing 'DW01_mmux_width4'
+  Building model 'DW01_mmux_width5'
+  Processing 'DW01_mmux_width5'
+  Building model 'DW01_NAND2'
+  Processing 'DW01_NAND2'
+  Building model 'DW01_add_width46' (cla)
+  Processing 'DW01_add_width46'
+  Building model 'DW02_mult_A_width24_B_width24' (csa)
+  Processing 'DW02_mult_A_width24_B_width24'
+  Building model 'DW01_add_width8' (rpl)
+  Processing 'DW01_add_width8'
+  Building model 'DW01_add_width8' (cla)
+  Processing 'DW01_add_width8'
+  Building model 'DW01_sub_width8' (rpl)
+  Processing 'DW01_sub_width8'
+  Building model 'DW01_sub_width8' (cla)
+  Processing 'DW01_sub_width8'
+  Processing 'floating_point_multiplier_DW02_mult_0'
+  Processing 'floating_point_multiplier_DW01_add_2'
+  Processing 'floating_point_multiplier_DW01_add_3'
+  Processing 'floating_point_multiplier_DW01_sub_0'
+  Processing 'floating_point_multiplier_DW01_add_4'
+Information: Command 'do_operand_isolation' is obsolete and is being ignored.  Please refer to the replacement command 'set power_enable_datapath_gating true' instead. (INFO-118)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+Information: Command 'do_operand_isolation' is obsolete and is being ignored.  Please refer to the replacement command 'set power_enable_datapath_gating true' instead. (INFO-118)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:03   26666.5      0.00       0.0       0.0                          
+    0:00:03   26666.5      0.00       0.0       0.0                          
+    0:00:03   26666.5      0.00       0.0       0.0                          
+    0:00:03   26666.5      0.00       0.0       0.0                          
+    0:00:03   26666.5      0.00       0.0       0.0                          
+    0:00:03   25577.2      0.00       0.0       0.0                          
+    0:00:03   25576.2      0.00       0.0       0.0                          
+    0:00:03   25576.2      0.00       0.0       0.0                          
+    0:00:03   25576.2      0.00       0.0       0.0                          
+    0:00:03   25576.2      0.00       0.0       0.0                          
+    0:00:03   25576.2      0.00       0.0       0.0                          
+    0:00:03   25576.2      0.00       0.0       0.0                          
+    0:00:03   25576.2      0.00       0.0       0.0                          
+    0:00:03   25576.2      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:03   25576.2      0.00       0.0       0.0                          
+    0:00:03   25576.2      0.00       0.0       0.0                          
+    0:00:03   25576.2      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:03   25576.2      0.00       0.0       0.0                          
+    0:00:03   25576.2      0.00       0.0       0.0                          
+    0:00:03   25480.4      0.00       0.0       0.0                          
+    0:00:03   25480.4      0.00       0.0       0.0                          
+    0:00:03   25480.4      0.00       0.0       0.0                          
+    0:00:03   25480.4      0.00       0.0       0.0                          
+    0:00:03   25480.4      0.00       0.0       0.0                          
+    0:00:03   25480.4      0.00       0.0       0.0                          
+    0:00:03   25480.4      0.00       0.0       0.0                          
+    0:00:03   25480.4      0.00       0.0       0.0                          
+    0:00:03   25480.4      0.00       0.0       0.0                          
+    0:00:03   25480.4      0.00       0.0       0.0                          
+    0:00:03   25480.4      0.00       0.0       0.0                          
+Loading db file '/home/user37/Downloads/Lab4/ref/models/saed90nm_typ_ht.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: Total number of MV cells in the design.
+----------------------------------------------------------------------------------------------------
+ MV Cells                                           Total Number                                   
+----------------------------------------------------------------------------------------------------
+ Level Shifter:                                     0                                             
+ Enable Level Shifter:                              0                                             
+ Isolation Cell:                                    0                                             
+ Retention Cell:                                    0                                             
+ Retention Clamp Cell:                              0                                             
+ Switch Cell:                                       0                                             
+ Always-On Cell:                                    0                                             
+ Repeater Cell:                                     0                                             
+
+----------------------------------------------------------------------------------------------------
+Unmapped MV Cells 
+----------------------------------------------------------------------------------------------------
+0 Isolation Cells are unmapped 
+0 Retention Clamp Cells are unmapped 
+----------------------------------------------------------------------------------------------------
+1

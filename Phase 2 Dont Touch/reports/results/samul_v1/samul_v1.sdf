@@ -1,0 +1,1429 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 200
+Design : samul_v1
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 16:54:16 2023
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: b[0] (input port)
+  Endpoint: result[0] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[0] (in)                                0.00       0.20 f
+  U490/Q (MUX21X1)                         0.72       0.92 f
+  U489/QN (NAND2X0)                        1.83       2.74 r
+  U369/ZN (INVX0)                          0.50       3.24 f
+  U368/Q (MUX21X1)                         0.52       3.76 f
+  result[0] (out)                          1.84       5.61 f
+  data arrival time                                   5.61
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[0] (input port)
+  Endpoint: result[1] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  b[0] (in)                                               0.00       0.20 f
+  U490/Q (MUX21X1)                                        0.72       0.92 f
+  U489/QN (NAND2X0)                                       1.83       2.74 r
+  add_0_root_add_45_ni/A[0] (samul_v1_DW01_inc_0_DW01_inc_1)
+                                                          0.00       2.74 r
+  add_0_root_add_45_ni/U1_1_1/SO (HADDX1)                 0.88       3.62 f
+  add_0_root_add_45_ni/SUM[1] (samul_v1_DW01_inc_0_DW01_inc_1)
+                                                          0.00       3.62 f
+  U357/Q (MUX21X1)                                        0.55       4.17 f
+  result[1] (out)                                         1.84       6.02 f
+  data arrival time                                                  6.02
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[63] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U309/Q (MUX21X1)                         2.44       4.28 f
+  result[63] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[62] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U310/Q (MUX21X1)                         2.44       4.28 f
+  result[62] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[61] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U311/Q (MUX21X1)                         2.44       4.28 f
+  result[61] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[60] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U312/Q (MUX21X1)                         2.44       4.28 f
+  result[60] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[59] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U314/Q (MUX21X1)                         2.44       4.28 f
+  result[59] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[58] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U315/Q (MUX21X1)                         2.44       4.28 f
+  result[58] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[57] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U316/Q (MUX21X1)                         2.44       4.28 f
+  result[57] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[56] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U317/Q (MUX21X1)                         2.44       4.28 f
+  result[56] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[55] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U318/Q (MUX21X1)                         2.44       4.28 f
+  result[55] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[54] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U319/Q (MUX21X1)                         2.44       4.28 f
+  result[54] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[53] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U320/Q (MUX21X1)                         2.44       4.28 f
+  result[53] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[52] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U321/Q (MUX21X1)                         2.44       4.28 f
+  result[52] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[51] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U322/Q (MUX21X1)                         2.44       4.28 f
+  result[51] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[50] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U323/Q (MUX21X1)                         2.44       4.28 f
+  result[50] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[49] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U325/Q (MUX21X1)                         2.44       4.28 f
+  result[49] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[48] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U326/Q (MUX21X1)                         2.44       4.28 f
+  result[48] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[47] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U327/Q (MUX21X1)                         2.44       4.28 f
+  result[47] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[46] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U328/Q (MUX21X1)                         2.44       4.28 f
+  result[46] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[45] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U329/Q (MUX21X1)                         2.44       4.28 f
+  result[45] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[44] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U330/Q (MUX21X1)                         2.44       4.28 f
+  result[44] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[43] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U331/Q (MUX21X1)                         2.44       4.28 f
+  result[43] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[42] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U332/Q (MUX21X1)                         2.44       4.28 f
+  result[42] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[41] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U333/Q (MUX21X1)                         2.44       4.28 f
+  result[41] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[40] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U334/Q (MUX21X1)                         2.44       4.28 f
+  result[40] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[39] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U336/Q (MUX21X1)                         2.44       4.28 f
+  result[39] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[38] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U337/Q (MUX21X1)                         2.44       4.28 f
+  result[38] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[37] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U338/Q (MUX21X1)                         2.44       4.28 f
+  result[37] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[36] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U339/Q (MUX21X1)                         2.44       4.28 f
+  result[36] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[35] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U340/Q (MUX21X1)                         2.44       4.28 f
+  result[35] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[34] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U341/Q (MUX21X1)                         2.44       4.28 f
+  result[34] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[33] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U342/Q (MUX21X1)                         2.44       4.28 f
+  result[33] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[32] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U343/Q (MUX21X1)                         2.44       4.28 f
+  result[32] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U344/Q (MUX21X1)                         2.44       4.28 f
+  result[31] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[30] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U345/Q (MUX21X1)                         2.44       4.28 f
+  result[30] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[29] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U347/Q (MUX21X1)                         2.44       4.28 f
+  result[29] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[28] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U348/Q (MUX21X1)                         2.44       4.28 f
+  result[28] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[27] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U349/Q (MUX21X1)                         2.44       4.28 f
+  result[27] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[26] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U350/Q (MUX21X1)                         2.44       4.28 f
+  result[26] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[25] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U351/Q (MUX21X1)                         2.44       4.28 f
+  result[25] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[24] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U352/Q (MUX21X1)                         2.44       4.28 f
+  result[24] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[23] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U353/Q (MUX21X1)                         2.44       4.28 f
+  result[23] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[22] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U354/Q (MUX21X1)                         2.44       4.28 f
+  result[22] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[21] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U355/Q (MUX21X1)                         2.44       4.28 f
+  result[21] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[20] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U356/Q (MUX21X1)                         2.44       4.28 f
+  result[20] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[19] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U358/Q (MUX21X1)                         2.44       4.28 f
+  result[19] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[18] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U359/Q (MUX21X1)                         2.44       4.28 f
+  result[18] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[17] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U360/Q (MUX21X1)                         2.44       4.28 f
+  result[17] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[16] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U361/Q (MUX21X1)                         2.44       4.28 f
+  result[16] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U362/Q (MUX21X1)                         2.44       4.28 f
+  result[15] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[14] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U363/Q (MUX21X1)                         2.44       4.28 f
+  result[14] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[13] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U364/Q (MUX21X1)                         2.44       4.28 f
+  result[13] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[12] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U365/Q (MUX21X1)                         2.44       4.28 f
+  result[12] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[11] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U366/Q (MUX21X1)                         2.44       4.28 f
+  result[11] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[10] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U367/Q (MUX21X1)                         2.44       4.28 f
+  result[10] (out)                         1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[9] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U305/Q (MUX21X1)                         2.44       4.28 f
+  result[9] (out)                          1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[8] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U306/Q (MUX21X1)                         2.44       4.28 f
+  result[8] (out)                          1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[7] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U307/Q (MUX21X1)                         2.44       4.28 f
+  result[7] (out)                          1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[6] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U308/Q (MUX21X1)                         2.44       4.28 f
+  result[6] (out)                          1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[5] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U302/ZN (INVX0)                          0.75       1.84 f
+  U313/Q (MUX21X1)                         2.44       4.28 f
+  result[5] (out)                          1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[4] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U299/ZN (INVX0)                          0.75       1.84 f
+  U324/Q (MUX21X1)                         2.44       4.28 f
+  result[4] (out)                          1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[3] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U300/ZN (INVX0)                          0.75       1.84 f
+  U335/Q (MUX21X1)                         2.44       4.28 f
+  result[3] (out)                          1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v1           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U298/Q (XOR2X1)                          0.89       1.09 r
+  U301/ZN (INVX0)                          0.75       1.84 f
+  U346/Q (MUX21X1)                         2.44       4.28 f
+  result[2] (out)                          1.84       6.12 f
+  data arrival time                                   6.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

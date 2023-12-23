@@ -1,0 +1,240 @@
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler                                                                   |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 298                                    |
+| Number of User Hierarchies                              | 1                                      |
+| Sequential Cell Count                                   | 132                                    |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 2                                      |
+| Number of VT Class                                      | 1                                      |
+| Number of Clocks                                        | 1                                      |
+| Number of Dont Touch Cells                              | 99                                     |
+| Number of Dont Touch Nets                               | 0                                      |
+| Number of Size Only Cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+====================================================================================================
+
+Information: There are 32 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'samul_v2'
+  Processing 'samul_v2_sequential'
+WARNING: cell slow_clk_reg ignores exact_map
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'samul_v2_DW01_sub_0'
+  Building model 'DW01_NAND2'
+  Processing 'DW01_NAND2'
+  Building model 'DW01_add_width64' (rpl)
+  Processing 'DW01_add_width64'
+  Building model 'DW01_add_width64' (cla)
+  Processing 'DW01_add_width64'
+  Allocating blocks in 'DW02_mult_A_width64_B_width1'
+  Building model 'DW01_MUX'
+  Processing 'DW01_MUX'
+  Building model 'DW01_mmux_width2'
+  Processing 'DW01_mmux_width2'
+  Building model 'DW01_mmux_width3'
+  Processing 'DW01_mmux_width3'
+  Building model 'DW01_mmux_width4'
+  Processing 'DW01_mmux_width4'
+  Building model 'DW01_mmux_width5'
+  Processing 'DW01_mmux_width5'
+  Allocating blocks in 'DW01_absval_width64'
+  Building model 'DW01_inc_width64' (cla)
+  Processing 'DW01_inc_width64'
+  Building model 'DW01_absval_width64' (cla)
+  Processing 'DW01_absval_width64'
+  Allocating blocks in 'DW01_absval_width1'
+  Building model 'DW01_inc_width1' (cla)
+  Processing 'DW01_inc_width1'
+  Building model 'DW01_absval_width1' (cla)
+  Processing 'DW01_absval_width1'
+  Building model 'DW01_inc_width65' (cla)
+  Processing 'DW01_inc_width65'
+  Building model 'DW02_mult_A_width64_B_width1' (csa)
+  Processing 'DW02_mult_A_width64_B_width1'
+  Processing 'samul_v2_DW01_add_0'
+  Processing 'samul_v2_DW01_add_1'
+  Processing 'samul_v2_DW01_add_2'
+  Processing 'samul_v2_DW01_add_3'
+  Processing 'samul_v2_DW01_add_4'
+  Processing 'samul_v2_DW01_add_5'
+  Processing 'samul_v2_DW01_add_6'
+  Processing 'samul_v2_DW01_add_7'
+  Processing 'samul_v2_DW01_add_8'
+  Processing 'samul_v2_DW01_add_9'
+  Processing 'samul_v2_DW01_add_10'
+  Processing 'samul_v2_DW01_add_11'
+  Processing 'samul_v2_DW01_add_12'
+  Processing 'samul_v2_DW01_add_13'
+  Processing 'samul_v2_DW01_add_14'
+  Processing 'samul_v2_DW01_add_15'
+  Processing 'samul_v2_DW01_add_16'
+  Processing 'samul_v2_DW01_add_17'
+  Processing 'samul_v2_DW01_add_18'
+  Processing 'samul_v2_DW01_add_19'
+  Processing 'samul_v2_DW01_add_20'
+  Processing 'samul_v2_DW01_add_21'
+  Processing 'samul_v2_DW01_add_22'
+  Processing 'samul_v2_DW01_add_23'
+  Processing 'samul_v2_DW01_add_24'
+  Processing 'samul_v2_DW01_add_25'
+  Processing 'samul_v2_DW01_add_26'
+  Processing 'samul_v2_DW01_add_27'
+  Processing 'samul_v2_DW01_add_28'
+  Processing 'samul_v2_DW01_add_29'
+  Processing 'samul_v2_DW02_mult_0'
+  Processing 'samul_v2_DW02_mult_1'
+  Processing 'samul_v2_DW02_mult_2'
+  Processing 'samul_v2_DW02_mult_3'
+  Processing 'samul_v2_DW02_mult_4'
+  Processing 'samul_v2_DW02_mult_5'
+  Processing 'samul_v2_DW02_mult_6'
+  Processing 'samul_v2_DW02_mult_7'
+  Processing 'samul_v2_DW02_mult_8'
+  Processing 'samul_v2_DW02_mult_9'
+  Processing 'samul_v2_DW02_mult_10'
+  Processing 'samul_v2_DW02_mult_11'
+  Processing 'samul_v2_DW02_mult_12'
+  Processing 'samul_v2_DW02_mult_13'
+  Processing 'samul_v2_DW02_mult_14'
+  Processing 'samul_v2_DW02_mult_15'
+  Processing 'samul_v2_DW02_mult_16'
+  Processing 'samul_v2_DW02_mult_17'
+  Processing 'samul_v2_DW02_mult_18'
+  Processing 'samul_v2_DW02_mult_19'
+  Processing 'samul_v2_DW02_mult_20'
+  Processing 'samul_v2_DW02_mult_21'
+  Processing 'samul_v2_DW02_mult_22'
+  Processing 'samul_v2_DW02_mult_23'
+  Processing 'samul_v2_DW02_mult_24'
+  Processing 'samul_v2_DW02_mult_25'
+  Processing 'samul_v2_DW02_mult_26'
+  Processing 'samul_v2_DW02_mult_27'
+  Processing 'samul_v2_DW02_mult_28'
+  Processing 'samul_v2_DW02_mult_29'
+Information: Command 'do_operand_isolation' is obsolete and is being ignored.  Please refer to the replacement command 'set power_enable_datapath_gating true' instead. (INFO-118)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:10   66937.7      0.79       1.6     471.6                          
+    0:00:10   66937.7      0.79       1.6     471.6                          
+    0:00:10   68227.9      0.79       1.6     471.6                          
+    0:00:10   69518.1      0.79       1.6     471.6                          
+    0:00:10   70808.4      0.79       1.6     471.6                          
+    0:00:10   73716.0      0.79       1.6     471.6                          
+Information: Command 'do_operand_isolation' is obsolete and is being ignored.  Please refer to the replacement command 'set power_enable_datapath_gating true' instead. (INFO-118)
+    0:00:11   88581.4      0.00       0.0       0.0                          
+    0:00:11   88581.4      0.00       0.0       0.0                          
+    0:00:11   88581.4      0.00       0.0       0.0                          
+    0:00:11   88581.4      0.00       0.0       0.0                          
+    0:00:11   88581.4      0.00       0.0       0.0                          
+    0:00:12   68533.9      0.00       0.0       0.0                          
+    0:00:12   68068.5      0.00       0.0       0.0                          
+    0:00:12   67928.4      0.00       0.0       0.0                          
+    0:00:12   67928.4      0.00       0.0       0.0                          
+    0:00:12   67928.4      0.00       0.0       0.0                          
+    0:00:12   67928.4      0.00       0.0       0.0                          
+    0:00:12   67928.4      0.00       0.0       0.0                          
+    0:00:12   67928.4      0.00       0.0       0.0                          
+    0:00:12   67928.4      0.00       0.0       0.0                          
+    0:00:12   67928.4      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:12   67928.4      0.00       0.0       0.0                          
+    0:00:12   67928.4      0.00       0.0       0.0                          
+    0:00:12   67928.4      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:12   67928.4      0.00       0.0       0.0                          
+    0:00:12   67928.4      0.00       0.0       0.0                          
+    0:00:13   64771.0      0.00       0.0       0.0                          
+    0:00:13   62695.5      0.00       0.0       0.0                          
+    0:00:13   62162.8      0.00       0.0       0.0                          
+    0:00:13   61783.1      0.00       0.0       0.0                          
+    0:00:13   61473.5      0.00       0.0       0.0                          
+    0:00:13   61189.6      0.00       0.0       0.0                          
+    0:00:13   60920.5      0.00       0.0       0.0                          
+    0:00:14   60658.8      0.00       0.0       0.0                          
+    0:00:14   60432.1      0.00       0.0       0.0                          
+    0:00:14   60216.4      0.00       0.0       0.0                          
+    0:00:14   60006.3      0.00       0.0       0.0                          
+    0:00:14   59809.1      0.00       0.0       0.0                          
+    0:00:14   59602.6      0.00       0.0       0.0                          
+    0:00:14   59399.9      0.00       0.0       0.0                          
+    0:00:14   59237.7      0.00       0.0       0.0                          
+    0:00:14   59066.3      0.00       0.0       0.0                          
+    0:00:14   58911.4      0.00       0.0       0.0                          
+    0:00:14   58764.0      0.00       0.0       0.0                          
+    0:00:14   58655.2      0.00       0.0       0.0                          
+    0:00:14   58537.3      0.00       0.0       0.0                          
+    0:00:14   58537.3      0.00       0.0       0.0                          
+    0:00:14   58537.3      0.00       0.0       0.0                          
+    0:00:14   58537.3      0.00       0.0       0.0                          
+    0:00:14   58537.3      0.00       0.0       0.0                          
+    0:00:14   58537.3      0.00       0.0       0.0                          
+    0:00:14   58537.3      0.00       0.0       0.0                          
+    0:00:14   58537.3      0.00       0.0       0.0                          
+    0:00:14   58537.3      0.00       0.0       0.0                          
+Loading db file '/home/user37/Downloads/Lab4/ref/models/saed90nm_typ_ht.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: Total number of MV cells in the design.
+----------------------------------------------------------------------------------------------------
+ MV Cells                                           Total Number                                   
+----------------------------------------------------------------------------------------------------
+ Level Shifter:                                     0                                             
+ Enable Level Shifter:                              0                                             
+ Isolation Cell:                                    0                                             
+ Retention Cell:                                    0                                             
+ Retention Clamp Cell:                              0                                             
+ Switch Cell:                                       0                                             
+ Always-On Cell:                                    0                                             
+ Repeater Cell:                                     0                                             
+
+----------------------------------------------------------------------------------------------------
+Unmapped MV Cells 
+----------------------------------------------------------------------------------------------------
+0 Isolation Cells are unmapped 
+0 Retention Clamp Cells are unmapped 
+----------------------------------------------------------------------------------------------------
+1

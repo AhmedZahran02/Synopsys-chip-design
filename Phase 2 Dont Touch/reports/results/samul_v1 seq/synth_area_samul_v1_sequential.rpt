@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : samul_v1_sequential
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 18:38:24 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user37/Downloads/Lab4/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                         5722
+Number of nets:                          9392
+Number of cells:                         2903
+Number of combinational cells:           2642
+Number of sequential cells:               132
+Number of macros/black boxes:               0
+Number of buf/inv:                        337
+Number of references:                       7
+
+Combinational area:              41946.623423
+Buf/Inv area:                     1863.475248
+Noncombinational area:            4256.870468
+Macro/Black Box area:                0.000000
+Net Interconnect area:            1984.033618
+
+Total cell area:                 46203.493891
+Total area:                      48187.527509
+1

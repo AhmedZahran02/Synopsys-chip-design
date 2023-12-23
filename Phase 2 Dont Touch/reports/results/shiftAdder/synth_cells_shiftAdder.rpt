@@ -1,0 +1,84 @@
+ 
+****************************************
+Report : cell
+Design : shiftAdder
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 17:15:09 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+fal                       fulladder_0                     39.628800 h
+u1[0].fa                  fulladder_63                    39.628800 h
+u1[1].fa                  fulladder_62                    39.628800 h
+u1[2].fa                  fulladder_61                    39.628800 h
+u1[3].fa                  fulladder_60                    39.628800 h
+u1[4].fa                  fulladder_59                    39.628800 h
+u1[5].fa                  fulladder_58                    39.628800 h
+u1[6].fa                  fulladder_57                    39.628800 h
+u1[7].fa                  fulladder_56                    39.628800 h
+u1[8].fa                  fulladder_55                    39.628800 h
+u1[9].fa                  fulladder_54                    39.628800 h
+u1[10].fa                 fulladder_53                    39.628800 h
+u1[11].fa                 fulladder_52                    39.628800 h
+u1[12].fa                 fulladder_51                    39.628800 h
+u1[13].fa                 fulladder_50                    39.628800 h
+u1[14].fa                 fulladder_49                    39.628800 h
+u1[15].fa                 fulladder_48                    39.628800 h
+u1[16].fa                 fulladder_47                    39.628800 h
+u1[17].fa                 fulladder_46                    39.628800 h
+u1[18].fa                 fulladder_45                    39.628800 h
+u1[19].fa                 fulladder_44                    39.628800 h
+u1[20].fa                 fulladder_43                    39.628800 h
+u1[21].fa                 fulladder_42                    39.628800 h
+u1[22].fa                 fulladder_41                    39.628800 h
+u1[23].fa                 fulladder_40                    39.628800 h
+u1[24].fa                 fulladder_39                    39.628800 h
+u1[25].fa                 fulladder_38                    39.628800 h
+u1[26].fa                 fulladder_37                    39.628800 h
+u1[27].fa                 fulladder_36                    39.628800 h
+u1[28].fa                 fulladder_35                    39.628800 h
+u1[29].fa                 fulladder_34                    39.628800 h
+u1[30].fa                 fulladder_33                    39.628800 h
+u1[31].fa                 fulladder_32                    39.628800 h
+u1[32].fa                 fulladder_31                    39.628800 h
+u1[33].fa                 fulladder_30                    39.628800 h
+u1[34].fa                 fulladder_29                    39.628800 h
+u1[35].fa                 fulladder_28                    39.628800 h
+u1[36].fa                 fulladder_27                    39.628800 h
+u1[37].fa                 fulladder_26                    39.628800 h
+u1[38].fa                 fulladder_25                    39.628800 h
+u1[39].fa                 fulladder_24                    39.628800 h
+u1[40].fa                 fulladder_23                    39.628800 h
+u1[41].fa                 fulladder_22                    39.628800 h
+u1[42].fa                 fulladder_21                    39.628800 h
+u1[43].fa                 fulladder_20                    39.628800 h
+u1[44].fa                 fulladder_19                    39.628800 h
+u1[45].fa                 fulladder_18                    39.628800 h
+u1[46].fa                 fulladder_17                    39.628800 h
+u1[47].fa                 fulladder_16                    39.628800 h
+u1[48].fa                 fulladder_15                    39.628800 h
+u1[49].fa                 fulladder_14                    39.628800 h
+u1[50].fa                 fulladder_13                    39.628800 h
+u1[51].fa                 fulladder_12                    39.628800 h
+u1[52].fa                 fulladder_11                    39.628800 h
+u1[53].fa                 fulladder_10                    39.628800 h
+u1[54].fa                 fulladder_9                     39.628800 h
+u1[55].fa                 fulladder_8                     39.628800 h
+u1[56].fa                 fulladder_7                     39.628800 h
+u1[57].fa                 fulladder_6                     39.628800 h
+u1[58].fa                 fulladder_5                     39.628800 h
+u1[59].fa                 fulladder_4                     39.628800 h
+u1[60].fa                 fulladder_3                     39.628800 h
+u1[61].fa                 fulladder_2                     39.628800 h
+u1[62].fa                 fulladder_1                     39.628800 h
+--------------------------------------------------------------------------------
+Total 64 cells                                            2536.243225
+1

@@ -1,0 +1,83 @@
+ 
+****************************************
+Report : qor
+Design : verilog_multiplier
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 16:42:07 2023
+****************************************
+
+
+  Timing Path Group (none)
+  -----------------------------------
+  Levels of Logic:              59.00
+  Critical Path Length:         80.22
+  Critical Path Slack:         uninit
+  Critical Path Clk Period:       n/a
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          2
+  Hierarchical Port Count:        317
+  Leaf Cell Count:               2344
+  Buf/Inv Cell Count:              95
+  Buf Cell Count:                   0
+  Inv Cell Count:                  95
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      2344
+  Sequential Cell Count:            0
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    36406.886111
+  Noncombinational Area:     0.000000
+  Buf/Inv Area:            527.155213
+  Total Buffer Area:             0.00
+  Total Inverter Area:         527.16
+  Macro/Black Box Area:      0.000000
+  Net Area:               2923.404025
+  -----------------------------------
+  Cell Area:             36406.886111
+  Design Area:           39330.290136
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          3343
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: ip-172-31-17-209.ec2.internal
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    2.55
+  Logic Optimization:                  0.00
+  Mapping Optimization:                0.40
+  -----------------------------------------
+  Overall Compile Time:                3.32
+  Overall Compile Wall Clock Time:     3.55
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

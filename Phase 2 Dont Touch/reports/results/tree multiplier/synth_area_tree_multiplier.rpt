@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : tree_multiplier
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 17:07:46 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'tree_multiplier' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user37/Downloads/Lab4/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                        20036
+Number of nets:                         27517
+Number of cells:                         9382
+Number of combinational cells:           7363
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                        261
+Number of references:                      36
+
+Combinational area:              88419.226554
+Buf/Inv area:                     1443.225637
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:            9139.753529
+
+Total cell area:                 88419.226554
+Total area:                      97558.980083
+1

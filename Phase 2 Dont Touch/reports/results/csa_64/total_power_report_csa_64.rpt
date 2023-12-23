@@ -1,0 +1,218 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : csa_64
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 17:40:14 2023
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user37/Downloads/Lab4/ref/models/saed90nm_typ_ht.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+csa_64                 8000              saed90nm_typ_ht
+csa_32_0               8000              saed90nm_typ_ht
+FullAdder_16bit_0      8000              saed90nm_typ_ht
+full_adder_ripple_0    ForQA             saed90nm_typ_ht
+csa_32_1               8000              saed90nm_typ_ht
+csa_32_2               8000              saed90nm_typ_ht
+FullAdder_16bit_1      8000              saed90nm_typ_ht
+FullAdder_16bit_2      8000              saed90nm_typ_ht
+FullAdder_16bit_3      8000              saed90nm_typ_ht
+FullAdder_16bit_4      8000              saed90nm_typ_ht
+FullAdder_16bit_5      8000              saed90nm_typ_ht
+FullAdder_16bit_6      8000              saed90nm_typ_ht
+FullAdder_16bit_7      8000              saed90nm_typ_ht
+FullAdder_16bit_8      8000              saed90nm_typ_ht
+full_adder_ripple_1    ForQA             saed90nm_typ_ht
+full_adder_ripple_2    ForQA             saed90nm_typ_ht
+full_adder_ripple_3    ForQA             saed90nm_typ_ht
+full_adder_ripple_4    ForQA             saed90nm_typ_ht
+full_adder_ripple_5    ForQA             saed90nm_typ_ht
+full_adder_ripple_6    ForQA             saed90nm_typ_ht
+full_adder_ripple_7    ForQA             saed90nm_typ_ht
+full_adder_ripple_8    ForQA             saed90nm_typ_ht
+full_adder_ripple_9    ForQA             saed90nm_typ_ht
+full_adder_ripple_10   ForQA             saed90nm_typ_ht
+full_adder_ripple_11   ForQA             saed90nm_typ_ht
+full_adder_ripple_12   ForQA             saed90nm_typ_ht
+full_adder_ripple_13   ForQA             saed90nm_typ_ht
+full_adder_ripple_14   ForQA             saed90nm_typ_ht
+full_adder_ripple_15   ForQA             saed90nm_typ_ht
+full_adder_ripple_16   ForQA             saed90nm_typ_ht
+full_adder_ripple_17   ForQA             saed90nm_typ_ht
+full_adder_ripple_18   ForQA             saed90nm_typ_ht
+full_adder_ripple_19   ForQA             saed90nm_typ_ht
+full_adder_ripple_20   ForQA             saed90nm_typ_ht
+full_adder_ripple_21   ForQA             saed90nm_typ_ht
+full_adder_ripple_22   ForQA             saed90nm_typ_ht
+full_adder_ripple_23   ForQA             saed90nm_typ_ht
+full_adder_ripple_24   ForQA             saed90nm_typ_ht
+full_adder_ripple_25   ForQA             saed90nm_typ_ht
+full_adder_ripple_26   ForQA             saed90nm_typ_ht
+full_adder_ripple_27   ForQA             saed90nm_typ_ht
+full_adder_ripple_28   ForQA             saed90nm_typ_ht
+full_adder_ripple_29   ForQA             saed90nm_typ_ht
+full_adder_ripple_30   ForQA             saed90nm_typ_ht
+full_adder_ripple_31   ForQA             saed90nm_typ_ht
+full_adder_ripple_32   ForQA             saed90nm_typ_ht
+full_adder_ripple_33   ForQA             saed90nm_typ_ht
+full_adder_ripple_34   ForQA             saed90nm_typ_ht
+full_adder_ripple_35   ForQA             saed90nm_typ_ht
+full_adder_ripple_36   ForQA             saed90nm_typ_ht
+full_adder_ripple_37   ForQA             saed90nm_typ_ht
+full_adder_ripple_38   ForQA             saed90nm_typ_ht
+full_adder_ripple_39   ForQA             saed90nm_typ_ht
+full_adder_ripple_40   ForQA             saed90nm_typ_ht
+full_adder_ripple_41   ForQA             saed90nm_typ_ht
+full_adder_ripple_42   ForQA             saed90nm_typ_ht
+full_adder_ripple_43   ForQA             saed90nm_typ_ht
+full_adder_ripple_44   ForQA             saed90nm_typ_ht
+full_adder_ripple_45   ForQA             saed90nm_typ_ht
+full_adder_ripple_46   ForQA             saed90nm_typ_ht
+full_adder_ripple_47   ForQA             saed90nm_typ_ht
+full_adder_ripple_48   ForQA             saed90nm_typ_ht
+full_adder_ripple_49   ForQA             saed90nm_typ_ht
+full_adder_ripple_50   ForQA             saed90nm_typ_ht
+full_adder_ripple_51   ForQA             saed90nm_typ_ht
+full_adder_ripple_52   ForQA             saed90nm_typ_ht
+full_adder_ripple_53   ForQA             saed90nm_typ_ht
+full_adder_ripple_54   ForQA             saed90nm_typ_ht
+full_adder_ripple_55   ForQA             saed90nm_typ_ht
+full_adder_ripple_56   ForQA             saed90nm_typ_ht
+full_adder_ripple_57   ForQA             saed90nm_typ_ht
+full_adder_ripple_58   ForQA             saed90nm_typ_ht
+full_adder_ripple_59   ForQA             saed90nm_typ_ht
+full_adder_ripple_60   ForQA             saed90nm_typ_ht
+full_adder_ripple_61   ForQA             saed90nm_typ_ht
+full_adder_ripple_62   ForQA             saed90nm_typ_ht
+full_adder_ripple_63   ForQA             saed90nm_typ_ht
+full_adder_ripple_64   ForQA             saed90nm_typ_ht
+full_adder_ripple_65   ForQA             saed90nm_typ_ht
+full_adder_ripple_66   ForQA             saed90nm_typ_ht
+full_adder_ripple_67   ForQA             saed90nm_typ_ht
+full_adder_ripple_68   ForQA             saed90nm_typ_ht
+full_adder_ripple_69   ForQA             saed90nm_typ_ht
+full_adder_ripple_70   ForQA             saed90nm_typ_ht
+full_adder_ripple_71   ForQA             saed90nm_typ_ht
+full_adder_ripple_72   ForQA             saed90nm_typ_ht
+full_adder_ripple_73   ForQA             saed90nm_typ_ht
+full_adder_ripple_74   ForQA             saed90nm_typ_ht
+full_adder_ripple_75   ForQA             saed90nm_typ_ht
+full_adder_ripple_76   ForQA             saed90nm_typ_ht
+full_adder_ripple_77   ForQA             saed90nm_typ_ht
+full_adder_ripple_78   ForQA             saed90nm_typ_ht
+full_adder_ripple_79   ForQA             saed90nm_typ_ht
+full_adder_ripple_80   ForQA             saed90nm_typ_ht
+full_adder_ripple_81   ForQA             saed90nm_typ_ht
+full_adder_ripple_82   ForQA             saed90nm_typ_ht
+full_adder_ripple_83   ForQA             saed90nm_typ_ht
+full_adder_ripple_84   ForQA             saed90nm_typ_ht
+full_adder_ripple_85   ForQA             saed90nm_typ_ht
+full_adder_ripple_86   ForQA             saed90nm_typ_ht
+full_adder_ripple_87   ForQA             saed90nm_typ_ht
+full_adder_ripple_88   ForQA             saed90nm_typ_ht
+full_adder_ripple_89   ForQA             saed90nm_typ_ht
+full_adder_ripple_90   ForQA             saed90nm_typ_ht
+full_adder_ripple_91   ForQA             saed90nm_typ_ht
+full_adder_ripple_92   ForQA             saed90nm_typ_ht
+full_adder_ripple_93   ForQA             saed90nm_typ_ht
+full_adder_ripple_94   ForQA             saed90nm_typ_ht
+full_adder_ripple_95   ForQA             saed90nm_typ_ht
+full_adder_ripple_96   ForQA             saed90nm_typ_ht
+full_adder_ripple_97   ForQA             saed90nm_typ_ht
+full_adder_ripple_98   ForQA             saed90nm_typ_ht
+full_adder_ripple_99   ForQA             saed90nm_typ_ht
+full_adder_ripple_100  ForQA             saed90nm_typ_ht
+full_adder_ripple_101  ForQA             saed90nm_typ_ht
+full_adder_ripple_102  ForQA             saed90nm_typ_ht
+full_adder_ripple_103  ForQA             saed90nm_typ_ht
+full_adder_ripple_104  ForQA             saed90nm_typ_ht
+full_adder_ripple_105  ForQA             saed90nm_typ_ht
+full_adder_ripple_106  ForQA             saed90nm_typ_ht
+full_adder_ripple_107  ForQA             saed90nm_typ_ht
+full_adder_ripple_108  ForQA             saed90nm_typ_ht
+full_adder_ripple_109  ForQA             saed90nm_typ_ht
+full_adder_ripple_110  ForQA             saed90nm_typ_ht
+full_adder_ripple_111  ForQA             saed90nm_typ_ht
+full_adder_ripple_112  ForQA             saed90nm_typ_ht
+full_adder_ripple_113  ForQA             saed90nm_typ_ht
+full_adder_ripple_114  ForQA             saed90nm_typ_ht
+full_adder_ripple_115  ForQA             saed90nm_typ_ht
+full_adder_ripple_116  ForQA             saed90nm_typ_ht
+full_adder_ripple_117  ForQA             saed90nm_typ_ht
+full_adder_ripple_118  ForQA             saed90nm_typ_ht
+full_adder_ripple_119  ForQA             saed90nm_typ_ht
+full_adder_ripple_120  ForQA             saed90nm_typ_ht
+full_adder_ripple_121  ForQA             saed90nm_typ_ht
+full_adder_ripple_122  ForQA             saed90nm_typ_ht
+full_adder_ripple_123  ForQA             saed90nm_typ_ht
+full_adder_ripple_124  ForQA             saed90nm_typ_ht
+full_adder_ripple_125  ForQA             saed90nm_typ_ht
+full_adder_ripple_126  ForQA             saed90nm_typ_ht
+full_adder_ripple_127  ForQA             saed90nm_typ_ht
+full_adder_ripple_128  ForQA             saed90nm_typ_ht
+full_adder_ripple_129  ForQA             saed90nm_typ_ht
+full_adder_ripple_130  ForQA             saed90nm_typ_ht
+full_adder_ripple_131  ForQA             saed90nm_typ_ht
+full_adder_ripple_132  ForQA             saed90nm_typ_ht
+full_adder_ripple_133  ForQA             saed90nm_typ_ht
+full_adder_ripple_134  ForQA             saed90nm_typ_ht
+full_adder_ripple_135  ForQA             saed90nm_typ_ht
+full_adder_ripple_136  ForQA             saed90nm_typ_ht
+full_adder_ripple_137  ForQA             saed90nm_typ_ht
+full_adder_ripple_138  ForQA             saed90nm_typ_ht
+full_adder_ripple_139  ForQA             saed90nm_typ_ht
+full_adder_ripple_140  ForQA             saed90nm_typ_ht
+full_adder_ripple_141  ForQA             saed90nm_typ_ht
+full_adder_ripple_142  ForQA             saed90nm_typ_ht
+full_adder_ripple_143  ForQA             saed90nm_typ_ht
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =   2.1946 mW   (82%)
+  Net Switching Power  = 487.3646 uW   (18%)
+                         ---------
+Total Dynamic Power    =   2.6820 mW  (100%)
+
+Cell Leakage Power     = 114.1619 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)  i
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  2.1946e+03          487.3645        1.1416e+08        2.7962e+03  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total          2.1946e+03 uW       487.3645 uW     1.1416e+08 pW     2.7962e+03 uW
+1

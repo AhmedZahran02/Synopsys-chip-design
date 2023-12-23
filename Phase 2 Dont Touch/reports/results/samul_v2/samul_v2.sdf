@@ -1,0 +1,2064 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 200
+Design : samul_v2
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 16:55:30 2023
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[0] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  U297/Q (AND2X1)                                         2.03       2.23 f
+  add_29_root_add_32_I31_aco/A[0] (samul_v2_DW01_add_29)
+                                                          0.00       2.23 f
+  add_29_root_add_32_I31_aco/SUM[0] (samul_v2_DW01_add_29)
+                                                          0.00       2.23 f
+  add_14_root_add_32_I31_aco/B[0] (samul_v2_DW01_add_14)
+                                                          0.00       2.23 f
+  add_14_root_add_32_I31_aco/SUM[0] (samul_v2_DW01_add_14)
+                                                          0.00       2.23 f
+  add_6_root_add_32_I31_aco/A[0] (samul_v2_DW01_add_6)
+                                                          0.00       2.23 f
+  add_6_root_add_32_I31_aco/SUM[0] (samul_v2_DW01_add_6)
+                                                          0.00       2.23 f
+  add_2_root_add_32_I31_aco/A[0] (samul_v2_DW01_add_2)
+                                                          0.00       2.23 f
+  add_2_root_add_32_I31_aco/SUM[0] (samul_v2_DW01_add_2)
+                                                          0.00       2.23 f
+  add_0_root_add_32_I31_aco/A[0] (samul_v2_DW01_add_0)
+                                                          0.00       2.23 f
+  add_0_root_add_32_I31_aco/SUM[0] (samul_v2_DW01_add_0)
+                                                          0.00       2.23 f
+  U285/Q (MUX21X1)                                        0.58       2.81 f
+  result[0] (out)                                         1.84       4.65 f
+  data arrival time                                                  4.65
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  sub_30_I32/B[31] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U34/ZN (INVX0)                               2.16       2.36 r
+  sub_30_I32/U35/Q (XOR2X1)                               0.21       2.57 f
+  sub_30_I32/DIFF[31] (samul_v2_DW01_sub_0)               0.00       2.57 f
+  U261/Q (MUX21X1)                                        0.55       3.12 f
+  result[31] (out)                                        1.84       4.96 f
+  data arrival time                                                  4.96
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[1] (input port)
+  Endpoint: result[32] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[1] (in)                                               0.00       0.20 f
+  sub_30_I32/B[32] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U4/ZN (INVX0)                                2.17       2.37 r
+  sub_30_I32/U2_32/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[32] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U260/Q (MUX21X1)                                        0.58       3.35 r
+  result[32] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[2] (input port)
+  Endpoint: result[33] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[2] (in)                                               0.00       0.20 f
+  sub_30_I32/B[33] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U5/ZN (INVX0)                                2.17       2.37 r
+  sub_30_I32/U2_33/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[33] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U259/Q (MUX21X1)                                        0.58       3.35 r
+  result[33] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[30] (input port)
+  Endpoint: result[61] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[30] (in)                                              0.00       0.20 f
+  sub_30_I32/B[61] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U33/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_61/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[61] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U228/Q (MUX21X1)                                        0.58       3.35 r
+  result[61] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[29] (input port)
+  Endpoint: result[60] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[29] (in)                                              0.00       0.20 f
+  sub_30_I32/B[60] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U32/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_60/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[60] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U229/Q (MUX21X1)                                        0.58       3.35 r
+  result[60] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[28] (input port)
+  Endpoint: result[59] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[28] (in)                                              0.00       0.20 f
+  sub_30_I32/B[59] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U31/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_59/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[59] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U231/Q (MUX21X1)                                        0.58       3.35 r
+  result[59] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[27] (input port)
+  Endpoint: result[58] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[27] (in)                                              0.00       0.20 f
+  sub_30_I32/B[58] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U30/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_58/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[58] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U232/Q (MUX21X1)                                        0.58       3.35 r
+  result[58] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[26] (input port)
+  Endpoint: result[57] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[26] (in)                                              0.00       0.20 f
+  sub_30_I32/B[57] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U29/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_57/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[57] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U233/Q (MUX21X1)                                        0.58       3.35 r
+  result[57] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[25] (input port)
+  Endpoint: result[56] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[25] (in)                                              0.00       0.20 f
+  sub_30_I32/B[56] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U28/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_56/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[56] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U234/Q (MUX21X1)                                        0.58       3.35 r
+  result[56] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[24] (input port)
+  Endpoint: result[55] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[24] (in)                                              0.00       0.20 f
+  sub_30_I32/B[55] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U27/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_55/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[55] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U235/Q (MUX21X1)                                        0.58       3.35 r
+  result[55] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[23] (input port)
+  Endpoint: result[54] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[23] (in)                                              0.00       0.20 f
+  sub_30_I32/B[54] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U26/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_54/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[54] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U236/Q (MUX21X1)                                        0.58       3.35 r
+  result[54] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[22] (input port)
+  Endpoint: result[53] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[22] (in)                                              0.00       0.20 f
+  sub_30_I32/B[53] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U25/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_53/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[53] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U237/Q (MUX21X1)                                        0.58       3.35 r
+  result[53] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[21] (input port)
+  Endpoint: result[52] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[21] (in)                                              0.00       0.20 f
+  sub_30_I32/B[52] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U24/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_52/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[52] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U238/Q (MUX21X1)                                        0.58       3.35 r
+  result[52] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[20] (input port)
+  Endpoint: result[51] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[20] (in)                                              0.00       0.20 f
+  sub_30_I32/B[51] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U23/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_51/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[51] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U239/Q (MUX21X1)                                        0.58       3.35 r
+  result[51] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[19] (input port)
+  Endpoint: result[50] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[19] (in)                                              0.00       0.20 f
+  sub_30_I32/B[50] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U22/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_50/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[50] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U240/Q (MUX21X1)                                        0.58       3.35 r
+  result[50] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[18] (input port)
+  Endpoint: result[49] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[18] (in)                                              0.00       0.20 f
+  sub_30_I32/B[49] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U21/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_49/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[49] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U242/Q (MUX21X1)                                        0.58       3.35 r
+  result[49] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[17] (input port)
+  Endpoint: result[48] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[17] (in)                                              0.00       0.20 f
+  sub_30_I32/B[48] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U20/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_48/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[48] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U243/Q (MUX21X1)                                        0.58       3.35 r
+  result[48] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[16] (input port)
+  Endpoint: result[47] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[16] (in)                                              0.00       0.20 f
+  sub_30_I32/B[47] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U19/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_47/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[47] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U244/Q (MUX21X1)                                        0.58       3.35 r
+  result[47] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[15] (input port)
+  Endpoint: result[46] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[15] (in)                                              0.00       0.20 f
+  sub_30_I32/B[46] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U18/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_46/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[46] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U245/Q (MUX21X1)                                        0.58       3.35 r
+  result[46] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[14] (input port)
+  Endpoint: result[45] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[14] (in)                                              0.00       0.20 f
+  sub_30_I32/B[45] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U17/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_45/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[45] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U246/Q (MUX21X1)                                        0.58       3.35 r
+  result[45] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[13] (input port)
+  Endpoint: result[44] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[13] (in)                                              0.00       0.20 f
+  sub_30_I32/B[44] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U16/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_44/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[44] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U247/Q (MUX21X1)                                        0.58       3.35 r
+  result[44] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[12] (input port)
+  Endpoint: result[43] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[12] (in)                                              0.00       0.20 f
+  sub_30_I32/B[43] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U15/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_43/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[43] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U248/Q (MUX21X1)                                        0.58       3.35 r
+  result[43] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[11] (input port)
+  Endpoint: result[42] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[11] (in)                                              0.00       0.20 f
+  sub_30_I32/B[42] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U14/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_42/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[42] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U249/Q (MUX21X1)                                        0.58       3.35 r
+  result[42] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[10] (input port)
+  Endpoint: result[41] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[10] (in)                                              0.00       0.20 f
+  sub_30_I32/B[41] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U13/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_41/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[41] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U250/Q (MUX21X1)                                        0.58       3.35 r
+  result[41] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[9] (input port)
+  Endpoint: result[40] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[9] (in)                                               0.00       0.20 f
+  sub_30_I32/B[40] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U12/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_40/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[40] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U251/Q (MUX21X1)                                        0.58       3.35 r
+  result[40] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[8] (input port)
+  Endpoint: result[39] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[8] (in)                                               0.00       0.20 f
+  sub_30_I32/B[39] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U11/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_39/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[39] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U253/Q (MUX21X1)                                        0.58       3.35 r
+  result[39] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[7] (input port)
+  Endpoint: result[38] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[7] (in)                                               0.00       0.20 f
+  sub_30_I32/B[38] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U10/ZN (INVX0)                               2.17       2.37 r
+  sub_30_I32/U2_38/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[38] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U254/Q (MUX21X1)                                        0.58       3.35 r
+  result[38] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[6] (input port)
+  Endpoint: result[37] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[6] (in)                                               0.00       0.20 f
+  sub_30_I32/B[37] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U9/ZN (INVX0)                                2.17       2.37 r
+  sub_30_I32/U2_37/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[37] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U255/Q (MUX21X1)                                        0.58       3.35 r
+  result[37] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[5] (input port)
+  Endpoint: result[36] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[5] (in)                                               0.00       0.20 f
+  sub_30_I32/B[36] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U8/ZN (INVX0)                                2.17       2.37 r
+  sub_30_I32/U2_36/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[36] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U256/Q (MUX21X1)                                        0.58       3.35 r
+  result[36] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[4] (input port)
+  Endpoint: result[35] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[4] (in)                                               0.00       0.20 f
+  sub_30_I32/B[35] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U7/ZN (INVX0)                                2.17       2.37 r
+  sub_30_I32/U2_35/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[35] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U257/Q (MUX21X1)                                        0.58       3.35 r
+  result[35] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: result[34] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[3] (in)                                               0.00       0.20 f
+  sub_30_I32/B[34] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U6/ZN (INVX0)                                2.17       2.37 r
+  sub_30_I32/U2_34/S (FADDX1)                             0.39       2.76 r
+  sub_30_I32/DIFF[34] (samul_v2_DW01_sub_0)               0.00       2.76 r
+  U258/Q (MUX21X1)                                        0.58       3.35 r
+  result[34] (out)                                        1.84       5.19 r
+  data arrival time                                                  5.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: result[63] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[31] (in)                                              0.00       0.20 f
+  sub_30_I32/B[63] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U2/ZN (INVX0)                                2.24       2.44 r
+  sub_30_I32/U2_63/S (FADDX1)                             0.44       2.88 r
+  sub_30_I32/DIFF[63] (samul_v2_DW01_sub_0)               0.00       2.88 r
+  U226/Q (MUX21X1)                                        0.58       3.46 r
+  result[63] (out)                                        1.84       5.30 r
+  data arrival time                                                  5.30
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: result[62] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_sub_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[31] (in)                                              0.00       0.20 f
+  sub_30_I32/B[63] (samul_v2_DW01_sub_0)                  0.00       0.20 f
+  sub_30_I32/U2/ZN (INVX0)                                2.24       2.44 r
+  sub_30_I32/U2_62/S (FADDX1)                             0.44       2.88 r
+  sub_30_I32/DIFF[62] (samul_v2_DW01_sub_0)               0.00       2.88 r
+  U227/Q (MUX21X1)                                        0.58       3.46 r
+  result[62] (out)                                        1.84       5.30 r
+  data arrival time                                                  5.30
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  mult_add_32_I15_aco/A[14] (samul_v2_DW02_mult_16)       0.00       0.20 f
+  mult_add_32_I15_aco/U32/Q (AND2X1)                      2.04       2.24 f
+  mult_add_32_I15_aco/PRODUCT[14] (samul_v2_DW02_mult_16)
+                                                          0.00       2.24 f
+  add_22_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_22)
+                                                          0.00       2.24 f
+  add_22_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_22)
+                                                          0.00       2.24 f
+  add_10_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_10)
+                                                          0.00       2.24 f
+  add_10_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_10)
+                                                          0.00       2.24 f
+  add_4_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_4)
+                                                          0.00       2.24 f
+  add_4_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_4)
+                                                          0.00       2.24 f
+  add_1_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_1)
+                                                          0.00       2.24 f
+  add_1_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_1)
+                                                          0.00       2.24 f
+  add_0_root_add_32_I31_aco/B[14] (samul_v2_DW01_add_0)
+                                                          0.00       2.24 f
+  add_0_root_add_32_I31_aco/U1/Q (AND2X1)                 0.46       2.70 f
+  add_0_root_add_32_I31_aco/U1_15/S (FADDX1)              0.28       2.98 r
+  add_0_root_add_32_I31_aco/SUM[15] (samul_v2_DW01_add_0)
+                                                          0.00       2.98 r
+  U279/Q (MUX21X1)                                        0.62       3.61 r
+  result[15] (out)                                        1.84       5.45 r
+  data arrival time                                                  5.45
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[7] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_2
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  mult_add_32_I7_aco/A[6] (samul_v2_DW02_mult_24)         0.00       0.20 f
+  mult_add_32_I7_aco/U32/Q (AND2X1)                       2.04       2.24 f
+  mult_add_32_I7_aco/PRODUCT[6] (samul_v2_DW02_mult_24)
+                                                          0.00       2.24 f
+  add_26_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_26)
+                                                          0.00       2.24 f
+  add_26_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_26)
+                                                          0.00       2.24 f
+  add_12_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_12)
+                                                          0.00       2.24 f
+  add_12_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_12)
+                                                          0.00       2.24 f
+  add_5_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_5)
+                                                          0.00       2.24 f
+  add_5_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_5)
+                                                          0.00       2.24 f
+  add_2_root_add_32_I31_aco/B[6] (samul_v2_DW01_add_2)
+                                                          0.00       2.24 f
+  add_2_root_add_32_I31_aco/U1/Q (AND2X1)                 0.46       2.70 f
+  add_2_root_add_32_I31_aco/U1_7/S (FADDX1)               0.28       2.98 r
+  add_2_root_add_32_I31_aco/SUM[7] (samul_v2_DW01_add_2)
+                                                          0.00       2.98 r
+  add_0_root_add_32_I31_aco/A[7] (samul_v2_DW01_add_0)
+                                                          0.00       2.98 r
+  add_0_root_add_32_I31_aco/SUM[7] (samul_v2_DW01_add_0)
+                                                          0.00       2.98 r
+  U224/Q (MUX21X1)                                        0.62       3.61 r
+  result[7] (out)                                         1.84       5.45 r
+  data arrival time                                                  5.45
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[3] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_6
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  mult_add_32_I3_aco/A[2] (samul_v2_DW02_mult_28)         0.00       0.20 f
+  mult_add_32_I3_aco/U32/Q (AND2X1)                       2.04       2.24 f
+  mult_add_32_I3_aco/PRODUCT[2] (samul_v2_DW02_mult_28)
+                                                          0.00       2.24 f
+  add_28_root_add_32_I31_aco/A[2] (samul_v2_DW01_add_28)
+                                                          0.00       2.24 f
+  add_28_root_add_32_I31_aco/SUM[2] (samul_v2_DW01_add_28)
+                                                          0.00       2.24 f
+  add_13_root_add_32_I31_aco/A[2] (samul_v2_DW01_add_13)
+                                                          0.00       2.24 f
+  add_13_root_add_32_I31_aco/SUM[2] (samul_v2_DW01_add_13)
+                                                          0.00       2.24 f
+  add_6_root_add_32_I31_aco/B[2] (samul_v2_DW01_add_6)
+                                                          0.00       2.24 f
+  add_6_root_add_32_I31_aco/U1/Q (AND2X1)                 0.46       2.70 f
+  add_6_root_add_32_I31_aco/U1_3/S (FADDX1)               0.28       2.98 r
+  add_6_root_add_32_I31_aco/SUM[3] (samul_v2_DW01_add_6)
+                                                          0.00       2.98 r
+  add_2_root_add_32_I31_aco/A[3] (samul_v2_DW01_add_2)
+                                                          0.00       2.98 r
+  add_2_root_add_32_I31_aco/SUM[3] (samul_v2_DW01_add_2)
+                                                          0.00       2.98 r
+  add_0_root_add_32_I31_aco/A[3] (samul_v2_DW01_add_0)
+                                                          0.00       2.98 r
+  add_0_root_add_32_I31_aco/SUM[3] (samul_v2_DW01_add_0)
+                                                          0.00       2.98 r
+  U252/Q (MUX21X1)                                        0.62       3.61 r
+  result[3] (out)                                         1.84       5.45 r
+  data arrival time                                                  5.45
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[1] (input port)
+  Endpoint: result[1] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[1] (in)                                               0.00       0.20 f
+  U291/Q (AND2X1)                                         2.01       2.21 f
+  add_29_root_add_32_I31_aco/A[1] (samul_v2_DW01_add_29)
+                                                          0.00       2.21 f
+  add_29_root_add_32_I31_aco/U5/Q (XOR2X1)                0.83       3.04 f
+  add_29_root_add_32_I31_aco/SUM[1] (samul_v2_DW01_add_29)
+                                                          0.00       3.04 f
+  add_14_root_add_32_I31_aco/B[1] (samul_v2_DW01_add_14)
+                                                          0.00       3.04 f
+  add_14_root_add_32_I31_aco/SUM[1] (samul_v2_DW01_add_14)
+                                                          0.00       3.04 f
+  add_6_root_add_32_I31_aco/A[1] (samul_v2_DW01_add_6)
+                                                          0.00       3.04 f
+  add_6_root_add_32_I31_aco/SUM[1] (samul_v2_DW01_add_6)
+                                                          0.00       3.04 f
+  add_2_root_add_32_I31_aco/A[1] (samul_v2_DW01_add_2)
+                                                          0.00       3.04 f
+  add_2_root_add_32_I31_aco/SUM[1] (samul_v2_DW01_add_2)
+                                                          0.00       3.04 f
+  add_0_root_add_32_I31_aco/A[1] (samul_v2_DW01_add_0)
+                                                          0.00       3.04 f
+  add_0_root_add_32_I31_aco/SUM[1] (samul_v2_DW01_add_0)
+                                                          0.00       3.04 f
+  U274/Q (MUX21X1)                                        0.58       3.62 f
+  result[1] (out)                                         1.84       5.47 f
+  data arrival time                                                  5.47
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[14] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  mult_add_32_I15_aco/A[14] (samul_v2_DW02_mult_16)       0.00       0.20 f
+  mult_add_32_I15_aco/U32/Q (AND2X1)                      2.04       2.24 f
+  mult_add_32_I15_aco/PRODUCT[14] (samul_v2_DW02_mult_16)
+                                                          0.00       2.24 f
+  add_22_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_22)
+                                                          0.00       2.24 f
+  add_22_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_22)
+                                                          0.00       2.24 f
+  add_10_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_10)
+                                                          0.00       2.24 f
+  add_10_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_10)
+                                                          0.00       2.24 f
+  add_4_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_4)
+                                                          0.00       2.24 f
+  add_4_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_4)
+                                                          0.00       2.24 f
+  add_1_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_1)
+                                                          0.00       2.24 f
+  add_1_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_1)
+                                                          0.00       2.24 f
+  add_0_root_add_32_I31_aco/B[14] (samul_v2_DW01_add_0)
+                                                          0.00       2.24 f
+  add_0_root_add_32_I31_aco/U2/Q (XOR2X1)                 0.90       3.13 f
+  add_0_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_0)
+                                                          0.00       3.13 f
+  U280/Q (MUX21X1)                                        0.58       3.71 f
+  result[14] (out)                                        1.84       5.56 f
+  data arrival time                                                  5.56
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[6] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  mult_add_32_I7_aco/A[6] (samul_v2_DW02_mult_24)         0.00       0.20 f
+  mult_add_32_I7_aco/U32/Q (AND2X1)                       2.04       2.24 f
+  mult_add_32_I7_aco/PRODUCT[6] (samul_v2_DW02_mult_24)
+                                                          0.00       2.24 f
+  add_26_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_26)
+                                                          0.00       2.24 f
+  add_26_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_26)
+                                                          0.00       2.24 f
+  add_12_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_12)
+                                                          0.00       2.24 f
+  add_12_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_12)
+                                                          0.00       2.24 f
+  add_5_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_5)
+                                                          0.00       2.24 f
+  add_5_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_5)
+                                                          0.00       2.24 f
+  add_2_root_add_32_I31_aco/B[6] (samul_v2_DW01_add_2)
+                                                          0.00       2.24 f
+  add_2_root_add_32_I31_aco/U2/Q (XOR2X1)                 0.90       3.13 f
+  add_2_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_2)
+                                                          0.00       3.13 f
+  add_0_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_0)
+                                                          0.00       3.13 f
+  add_0_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_0)
+                                                          0.00       3.13 f
+  U225/Q (MUX21X1)                                        0.58       3.71 f
+  result[6] (out)                                         1.84       5.56 f
+  data arrival time                                                  5.56
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  mult_add_32_I3_aco/A[2] (samul_v2_DW02_mult_28)         0.00       0.20 f
+  mult_add_32_I3_aco/U32/Q (AND2X1)                       2.04       2.24 f
+  mult_add_32_I3_aco/PRODUCT[2] (samul_v2_DW02_mult_28)
+                                                          0.00       2.24 f
+  add_28_root_add_32_I31_aco/A[2] (samul_v2_DW01_add_28)
+                                                          0.00       2.24 f
+  add_28_root_add_32_I31_aco/SUM[2] (samul_v2_DW01_add_28)
+                                                          0.00       2.24 f
+  add_13_root_add_32_I31_aco/A[2] (samul_v2_DW01_add_13)
+                                                          0.00       2.24 f
+  add_13_root_add_32_I31_aco/SUM[2] (samul_v2_DW01_add_13)
+                                                          0.00       2.24 f
+  add_6_root_add_32_I31_aco/B[2] (samul_v2_DW01_add_6)
+                                                          0.00       2.24 f
+  add_6_root_add_32_I31_aco/U2/Q (XOR2X1)                 0.90       3.13 f
+  add_6_root_add_32_I31_aco/SUM[2] (samul_v2_DW01_add_6)
+                                                          0.00       3.13 f
+  add_2_root_add_32_I31_aco/A[2] (samul_v2_DW01_add_2)
+                                                          0.00       3.13 f
+  add_2_root_add_32_I31_aco/SUM[2] (samul_v2_DW01_add_2)
+                                                          0.00       3.13 f
+  add_0_root_add_32_I31_aco/A[2] (samul_v2_DW01_add_0)
+                                                          0.00       3.13 f
+  add_0_root_add_32_I31_aco/SUM[2] (samul_v2_DW01_add_0)
+                                                          0.00       3.13 f
+  U263/Q (MUX21X1)                                        0.58       3.71 f
+  result[2] (out)                                         1.84       5.56 f
+  data arrival time                                                  5.56
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[16] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  mult_add_32_I15_aco/A[14] (samul_v2_DW02_mult_16)       0.00       0.20 f
+  mult_add_32_I15_aco/U32/Q (AND2X1)                      2.04       2.24 f
+  mult_add_32_I15_aco/PRODUCT[14] (samul_v2_DW02_mult_16)
+                                                          0.00       2.24 f
+  add_22_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_22)
+                                                          0.00       2.24 f
+  add_22_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_22)
+                                                          0.00       2.24 f
+  add_10_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_10)
+                                                          0.00       2.24 f
+  add_10_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_10)
+                                                          0.00       2.24 f
+  add_4_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_4)
+                                                          0.00       2.24 f
+  add_4_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_4)
+                                                          0.00       2.24 f
+  add_1_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_1)
+                                                          0.00       2.24 f
+  add_1_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_1)
+                                                          0.00       2.24 f
+  add_0_root_add_32_I31_aco/B[14] (samul_v2_DW01_add_0)
+                                                          0.00       2.24 f
+  add_0_root_add_32_I31_aco/U1/Q (AND2X1)                 0.46       2.70 f
+  add_0_root_add_32_I31_aco/U1_15/CO (FADDX1)             0.34       3.03 f
+  add_0_root_add_32_I31_aco/U1_16/S (FADDX1)              0.29       3.32 r
+  add_0_root_add_32_I31_aco/SUM[16] (samul_v2_DW01_add_0)
+                                                          0.00       3.32 r
+  U278/Q (MUX21X1)                                        0.62       3.95 r
+  result[16] (out)                                        1.84       5.79 r
+  data arrival time                                                  5.79
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[8] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_2
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  mult_add_32_I7_aco/A[6] (samul_v2_DW02_mult_24)         0.00       0.20 f
+  mult_add_32_I7_aco/U32/Q (AND2X1)                       2.04       2.24 f
+  mult_add_32_I7_aco/PRODUCT[6] (samul_v2_DW02_mult_24)
+                                                          0.00       2.24 f
+  add_26_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_26)
+                                                          0.00       2.24 f
+  add_26_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_26)
+                                                          0.00       2.24 f
+  add_12_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_12)
+                                                          0.00       2.24 f
+  add_12_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_12)
+                                                          0.00       2.24 f
+  add_5_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_5)
+                                                          0.00       2.24 f
+  add_5_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_5)
+                                                          0.00       2.24 f
+  add_2_root_add_32_I31_aco/B[6] (samul_v2_DW01_add_2)
+                                                          0.00       2.24 f
+  add_2_root_add_32_I31_aco/U1/Q (AND2X1)                 0.46       2.70 f
+  add_2_root_add_32_I31_aco/U1_7/CO (FADDX1)              0.34       3.03 f
+  add_2_root_add_32_I31_aco/U1_8/S (FADDX1)               0.29       3.32 r
+  add_2_root_add_32_I31_aco/SUM[8] (samul_v2_DW01_add_2)
+                                                          0.00       3.32 r
+  add_0_root_add_32_I31_aco/A[8] (samul_v2_DW01_add_0)
+                                                          0.00       3.32 r
+  add_0_root_add_32_I31_aco/SUM[8] (samul_v2_DW01_add_0)
+                                                          0.00       3.32 r
+  U223/Q (MUX21X1)                                        0.62       3.95 r
+  result[8] (out)                                         1.84       5.79 r
+  data arrival time                                                  5.79
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[4] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_6
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  mult_add_32_I3_aco/A[2] (samul_v2_DW02_mult_28)         0.00       0.20 f
+  mult_add_32_I3_aco/U32/Q (AND2X1)                       2.04       2.24 f
+  mult_add_32_I3_aco/PRODUCT[2] (samul_v2_DW02_mult_28)
+                                                          0.00       2.24 f
+  add_28_root_add_32_I31_aco/A[2] (samul_v2_DW01_add_28)
+                                                          0.00       2.24 f
+  add_28_root_add_32_I31_aco/SUM[2] (samul_v2_DW01_add_28)
+                                                          0.00       2.24 f
+  add_13_root_add_32_I31_aco/A[2] (samul_v2_DW01_add_13)
+                                                          0.00       2.24 f
+  add_13_root_add_32_I31_aco/SUM[2] (samul_v2_DW01_add_13)
+                                                          0.00       2.24 f
+  add_6_root_add_32_I31_aco/B[2] (samul_v2_DW01_add_6)
+                                                          0.00       2.24 f
+  add_6_root_add_32_I31_aco/U1/Q (AND2X1)                 0.46       2.70 f
+  add_6_root_add_32_I31_aco/U1_3/CO (FADDX1)              0.34       3.03 f
+  add_6_root_add_32_I31_aco/U1_4/S (FADDX1)               0.29       3.32 r
+  add_6_root_add_32_I31_aco/SUM[4] (samul_v2_DW01_add_6)
+                                                          0.00       3.32 r
+  add_2_root_add_32_I31_aco/A[4] (samul_v2_DW01_add_2)
+                                                          0.00       3.32 r
+  add_2_root_add_32_I31_aco/SUM[4] (samul_v2_DW01_add_2)
+                                                          0.00       3.32 r
+  add_0_root_add_32_I31_aco/A[4] (samul_v2_DW01_add_0)
+                                                          0.00       3.32 r
+  add_0_root_add_32_I31_aco/SUM[4] (samul_v2_DW01_add_0)
+                                                          0.00       3.32 r
+  U241/Q (MUX21X1)                                        0.62       3.95 r
+  result[4] (out)                                         1.84       5.79 r
+  data arrival time                                                  5.79
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[17] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  mult_add_32_I15_aco/A[14] (samul_v2_DW02_mult_16)       0.00       0.20 f
+  mult_add_32_I15_aco/U32/Q (AND2X1)                      2.04       2.24 f
+  mult_add_32_I15_aco/PRODUCT[14] (samul_v2_DW02_mult_16)
+                                                          0.00       2.24 f
+  add_22_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_22)
+                                                          0.00       2.24 f
+  add_22_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_22)
+                                                          0.00       2.24 f
+  add_10_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_10)
+                                                          0.00       2.24 f
+  add_10_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_10)
+                                                          0.00       2.24 f
+  add_4_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_4)
+                                                          0.00       2.24 f
+  add_4_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_4)
+                                                          0.00       2.24 f
+  add_1_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_1)
+                                                          0.00       2.24 f
+  add_1_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_1)
+                                                          0.00       2.24 f
+  add_0_root_add_32_I31_aco/B[14] (samul_v2_DW01_add_0)
+                                                          0.00       2.24 f
+  add_0_root_add_32_I31_aco/U1/Q (AND2X1)                 0.46       2.70 f
+  add_0_root_add_32_I31_aco/U1_15/CO (FADDX1)             0.34       3.03 f
+  add_0_root_add_32_I31_aco/U1_16/CO (FADDX1)             0.34       3.37 f
+  add_0_root_add_32_I31_aco/U1_17/S (FADDX1)              0.29       3.66 r
+  add_0_root_add_32_I31_aco/SUM[17] (samul_v2_DW01_add_0)
+                                                          0.00       3.66 r
+  U277/Q (MUX21X1)                                        0.62       4.29 r
+  result[17] (out)                                        1.84       6.13 r
+  data arrival time                                                  6.13
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[9] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_2
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  mult_add_32_I7_aco/A[6] (samul_v2_DW02_mult_24)         0.00       0.20 f
+  mult_add_32_I7_aco/U32/Q (AND2X1)                       2.04       2.24 f
+  mult_add_32_I7_aco/PRODUCT[6] (samul_v2_DW02_mult_24)
+                                                          0.00       2.24 f
+  add_26_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_26)
+                                                          0.00       2.24 f
+  add_26_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_26)
+                                                          0.00       2.24 f
+  add_12_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_12)
+                                                          0.00       2.24 f
+  add_12_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_12)
+                                                          0.00       2.24 f
+  add_5_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_5)
+                                                          0.00       2.24 f
+  add_5_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_5)
+                                                          0.00       2.24 f
+  add_2_root_add_32_I31_aco/B[6] (samul_v2_DW01_add_2)
+                                                          0.00       2.24 f
+  add_2_root_add_32_I31_aco/U1/Q (AND2X1)                 0.46       2.70 f
+  add_2_root_add_32_I31_aco/U1_7/CO (FADDX1)              0.34       3.03 f
+  add_2_root_add_32_I31_aco/U1_8/CO (FADDX1)              0.34       3.37 f
+  add_2_root_add_32_I31_aco/U1_9/S (FADDX1)               0.29       3.66 r
+  add_2_root_add_32_I31_aco/SUM[9] (samul_v2_DW01_add_2)
+                                                          0.00       3.66 r
+  add_0_root_add_32_I31_aco/A[9] (samul_v2_DW01_add_0)
+                                                          0.00       3.66 r
+  add_0_root_add_32_I31_aco/SUM[9] (samul_v2_DW01_add_0)
+                                                          0.00       3.66 r
+  U222/Q (MUX21X1)                                        0.62       4.29 r
+  result[9] (out)                                         1.84       6.13 r
+  data arrival time                                                  6.13
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[5] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_6
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  mult_add_32_I3_aco/A[2] (samul_v2_DW02_mult_28)         0.00       0.20 f
+  mult_add_32_I3_aco/U32/Q (AND2X1)                       2.04       2.24 f
+  mult_add_32_I3_aco/PRODUCT[2] (samul_v2_DW02_mult_28)
+                                                          0.00       2.24 f
+  add_28_root_add_32_I31_aco/A[2] (samul_v2_DW01_add_28)
+                                                          0.00       2.24 f
+  add_28_root_add_32_I31_aco/SUM[2] (samul_v2_DW01_add_28)
+                                                          0.00       2.24 f
+  add_13_root_add_32_I31_aco/A[2] (samul_v2_DW01_add_13)
+                                                          0.00       2.24 f
+  add_13_root_add_32_I31_aco/SUM[2] (samul_v2_DW01_add_13)
+                                                          0.00       2.24 f
+  add_6_root_add_32_I31_aco/B[2] (samul_v2_DW01_add_6)
+                                                          0.00       2.24 f
+  add_6_root_add_32_I31_aco/U1/Q (AND2X1)                 0.46       2.70 f
+  add_6_root_add_32_I31_aco/U1_3/CO (FADDX1)              0.34       3.03 f
+  add_6_root_add_32_I31_aco/U1_4/CO (FADDX1)              0.34       3.37 f
+  add_6_root_add_32_I31_aco/U1_5/S (FADDX1)               0.29       3.66 r
+  add_6_root_add_32_I31_aco/SUM[5] (samul_v2_DW01_add_6)
+                                                          0.00       3.66 r
+  add_2_root_add_32_I31_aco/A[5] (samul_v2_DW01_add_2)
+                                                          0.00       3.66 r
+  add_2_root_add_32_I31_aco/SUM[5] (samul_v2_DW01_add_2)
+                                                          0.00       3.66 r
+  add_0_root_add_32_I31_aco/A[5] (samul_v2_DW01_add_0)
+                                                          0.00       3.66 r
+  add_0_root_add_32_I31_aco/SUM[5] (samul_v2_DW01_add_0)
+                                                          0.00       3.66 r
+  U230/Q (MUX21X1)                                        0.62       4.29 r
+  result[5] (out)                                         1.84       6.13 r
+  data arrival time                                                  6.13
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[18] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  mult_add_32_I15_aco/A[14] (samul_v2_DW02_mult_16)       0.00       0.20 f
+  mult_add_32_I15_aco/U32/Q (AND2X1)                      2.04       2.24 f
+  mult_add_32_I15_aco/PRODUCT[14] (samul_v2_DW02_mult_16)
+                                                          0.00       2.24 f
+  add_22_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_22)
+                                                          0.00       2.24 f
+  add_22_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_22)
+                                                          0.00       2.24 f
+  add_10_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_10)
+                                                          0.00       2.24 f
+  add_10_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_10)
+                                                          0.00       2.24 f
+  add_4_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_4)
+                                                          0.00       2.24 f
+  add_4_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_4)
+                                                          0.00       2.24 f
+  add_1_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_1)
+                                                          0.00       2.24 f
+  add_1_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_1)
+                                                          0.00       2.24 f
+  add_0_root_add_32_I31_aco/B[14] (samul_v2_DW01_add_0)
+                                                          0.00       2.24 f
+  add_0_root_add_32_I31_aco/U1/Q (AND2X1)                 0.46       2.70 f
+  add_0_root_add_32_I31_aco/U1_15/CO (FADDX1)             0.34       3.03 f
+  add_0_root_add_32_I31_aco/U1_16/CO (FADDX1)             0.34       3.37 f
+  add_0_root_add_32_I31_aco/U1_17/CO (FADDX1)             0.34       3.72 f
+  add_0_root_add_32_I31_aco/U1_18/S (FADDX1)              0.29       4.00 r
+  add_0_root_add_32_I31_aco/SUM[18] (samul_v2_DW01_add_0)
+                                                          0.00       4.00 r
+  U276/Q (MUX21X1)                                        0.62       4.63 r
+  result[18] (out)                                        1.84       6.47 r
+  data arrival time                                                  6.47
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[10] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_2
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  a[0] (in)                                               0.00       0.20 f
+  mult_add_32_I7_aco/A[6] (samul_v2_DW02_mult_24)         0.00       0.20 f
+  mult_add_32_I7_aco/U32/Q (AND2X1)                       2.04       2.24 f
+  mult_add_32_I7_aco/PRODUCT[6] (samul_v2_DW02_mult_24)
+                                                          0.00       2.24 f
+  add_26_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_26)
+                                                          0.00       2.24 f
+  add_26_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_26)
+                                                          0.00       2.24 f
+  add_12_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_12)
+                                                          0.00       2.24 f
+  add_12_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_12)
+                                                          0.00       2.24 f
+  add_5_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_5)
+                                                          0.00       2.24 f
+  add_5_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_5)
+                                                          0.00       2.24 f
+  add_2_root_add_32_I31_aco/B[6] (samul_v2_DW01_add_2)
+                                                          0.00       2.24 f
+  add_2_root_add_32_I31_aco/U1/Q (AND2X1)                 0.46       2.70 f
+  add_2_root_add_32_I31_aco/U1_7/CO (FADDX1)              0.34       3.03 f
+  add_2_root_add_32_I31_aco/U1_8/CO (FADDX1)              0.34       3.37 f
+  add_2_root_add_32_I31_aco/U1_9/CO (FADDX1)              0.34       3.72 f
+  add_2_root_add_32_I31_aco/U1_10/S (FADDX1)              0.29       4.00 r
+  add_2_root_add_32_I31_aco/SUM[10] (samul_v2_DW01_add_2)
+                                                          0.00       4.00 r
+  add_0_root_add_32_I31_aco/A[10] (samul_v2_DW01_add_0)
+                                                          0.00       4.00 r
+  add_0_root_add_32_I31_aco/SUM[10] (samul_v2_DW01_add_0)
+                                                          0.00       4.00 r
+  U284/Q (MUX21X1)                                        0.62       4.63 r
+  result[10] (out)                                        1.84       6.47 r
+  data arrival time                                                  6.47
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[19] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[0] (in)                                               0.00       0.20 r
+  mult_add_32_I15_aco/A[14] (samul_v2_DW02_mult_16)       0.00       0.20 r
+  mult_add_32_I15_aco/U32/Q (AND2X1)                      2.05       2.25 r
+  mult_add_32_I15_aco/PRODUCT[14] (samul_v2_DW02_mult_16)
+                                                          0.00       2.25 r
+  add_22_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_22)
+                                                          0.00       2.25 r
+  add_22_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_22)
+                                                          0.00       2.25 r
+  add_10_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_10)
+                                                          0.00       2.25 r
+  add_10_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_10)
+                                                          0.00       2.25 r
+  add_4_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_4)
+                                                          0.00       2.25 r
+  add_4_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_4)
+                                                          0.00       2.25 r
+  add_1_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_1)
+                                                          0.00       2.25 r
+  add_1_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_1)
+                                                          0.00       2.25 r
+  add_0_root_add_32_I31_aco/B[14] (samul_v2_DW01_add_0)
+                                                          0.00       2.25 r
+  add_0_root_add_32_I31_aco/U1/Q (AND2X1)                 0.47       2.72 r
+  add_0_root_add_32_I31_aco/U1_15/CO (FADDX1)             0.33       3.05 r
+  add_0_root_add_32_I31_aco/U1_16/CO (FADDX1)             0.33       3.38 r
+  add_0_root_add_32_I31_aco/U1_17/CO (FADDX1)             0.33       3.71 r
+  add_0_root_add_32_I31_aco/U1_18/CO (FADDX1)             0.33       4.04 r
+  add_0_root_add_32_I31_aco/U1_19/S (FADDX1)              0.30       4.34 r
+  add_0_root_add_32_I31_aco/SUM[19] (samul_v2_DW01_add_0)
+                                                          0.00       4.34 r
+  U275/Q (MUX21X1)                                        0.62       4.96 r
+  result[19] (out)                                        1.84       6.81 r
+  data arrival time                                                  6.81
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[11] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_2
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[0] (in)                                               0.00       0.20 r
+  mult_add_32_I7_aco/A[6] (samul_v2_DW02_mult_24)         0.00       0.20 r
+  mult_add_32_I7_aco/U32/Q (AND2X1)                       2.05       2.25 r
+  mult_add_32_I7_aco/PRODUCT[6] (samul_v2_DW02_mult_24)
+                                                          0.00       2.25 r
+  add_26_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_26)
+                                                          0.00       2.25 r
+  add_26_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_26)
+                                                          0.00       2.25 r
+  add_12_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_12)
+                                                          0.00       2.25 r
+  add_12_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_12)
+                                                          0.00       2.25 r
+  add_5_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_5)
+                                                          0.00       2.25 r
+  add_5_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_5)
+                                                          0.00       2.25 r
+  add_2_root_add_32_I31_aco/B[6] (samul_v2_DW01_add_2)
+                                                          0.00       2.25 r
+  add_2_root_add_32_I31_aco/U1/Q (AND2X1)                 0.47       2.72 r
+  add_2_root_add_32_I31_aco/U1_7/CO (FADDX1)              0.33       3.05 r
+  add_2_root_add_32_I31_aco/U1_8/CO (FADDX1)              0.33       3.38 r
+  add_2_root_add_32_I31_aco/U1_9/CO (FADDX1)              0.33       3.71 r
+  add_2_root_add_32_I31_aco/U1_10/CO (FADDX1)             0.33       4.04 r
+  add_2_root_add_32_I31_aco/U1_11/S (FADDX1)              0.30       4.34 r
+  add_2_root_add_32_I31_aco/SUM[11] (samul_v2_DW01_add_2)
+                                                          0.00       4.34 r
+  add_0_root_add_32_I31_aco/A[11] (samul_v2_DW01_add_0)
+                                                          0.00       4.34 r
+  add_0_root_add_32_I31_aco/SUM[11] (samul_v2_DW01_add_0)
+                                                          0.00       4.34 r
+  U283/Q (MUX21X1)                                        0.62       4.96 r
+  result[11] (out)                                        1.84       6.81 r
+  data arrival time                                                  6.81
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[20] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[0] (in)                                               0.00       0.20 r
+  mult_add_32_I15_aco/A[14] (samul_v2_DW02_mult_16)       0.00       0.20 r
+  mult_add_32_I15_aco/U32/Q (AND2X1)                      2.05       2.25 r
+  mult_add_32_I15_aco/PRODUCT[14] (samul_v2_DW02_mult_16)
+                                                          0.00       2.25 r
+  add_22_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_22)
+                                                          0.00       2.25 r
+  add_22_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_22)
+                                                          0.00       2.25 r
+  add_10_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_10)
+                                                          0.00       2.25 r
+  add_10_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_10)
+                                                          0.00       2.25 r
+  add_4_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_4)
+                                                          0.00       2.25 r
+  add_4_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_4)
+                                                          0.00       2.25 r
+  add_1_root_add_32_I31_aco/A[14] (samul_v2_DW01_add_1)
+                                                          0.00       2.25 r
+  add_1_root_add_32_I31_aco/SUM[14] (samul_v2_DW01_add_1)
+                                                          0.00       2.25 r
+  add_0_root_add_32_I31_aco/B[14] (samul_v2_DW01_add_0)
+                                                          0.00       2.25 r
+  add_0_root_add_32_I31_aco/U1/Q (AND2X1)                 0.47       2.72 r
+  add_0_root_add_32_I31_aco/U1_15/CO (FADDX1)             0.33       3.05 r
+  add_0_root_add_32_I31_aco/U1_16/CO (FADDX1)             0.33       3.38 r
+  add_0_root_add_32_I31_aco/U1_17/CO (FADDX1)             0.33       3.71 r
+  add_0_root_add_32_I31_aco/U1_18/CO (FADDX1)             0.33       4.04 r
+  add_0_root_add_32_I31_aco/U1_19/CO (FADDX1)             0.33       4.38 r
+  add_0_root_add_32_I31_aco/U1_20/S (FADDX1)              0.30       4.67 r
+  add_0_root_add_32_I31_aco/SUM[20] (samul_v2_DW01_add_0)
+                                                          0.00       4.67 r
+  U273/Q (MUX21X1)                                        0.62       5.30 r
+  result[20] (out)                                        1.84       7.14 r
+  data arrival time                                                  7.14
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: result[12] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+  samul_v2_DW01_add_2
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[0] (in)                                               0.00       0.20 r
+  mult_add_32_I7_aco/A[6] (samul_v2_DW02_mult_24)         0.00       0.20 r
+  mult_add_32_I7_aco/U32/Q (AND2X1)                       2.05       2.25 r
+  mult_add_32_I7_aco/PRODUCT[6] (samul_v2_DW02_mult_24)
+                                                          0.00       2.25 r
+  add_26_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_26)
+                                                          0.00       2.25 r
+  add_26_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_26)
+                                                          0.00       2.25 r
+  add_12_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_12)
+                                                          0.00       2.25 r
+  add_12_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_12)
+                                                          0.00       2.25 r
+  add_5_root_add_32_I31_aco/A[6] (samul_v2_DW01_add_5)
+                                                          0.00       2.25 r
+  add_5_root_add_32_I31_aco/SUM[6] (samul_v2_DW01_add_5)
+                                                          0.00       2.25 r
+  add_2_root_add_32_I31_aco/B[6] (samul_v2_DW01_add_2)
+                                                          0.00       2.25 r
+  add_2_root_add_32_I31_aco/U1/Q (AND2X1)                 0.47       2.72 r
+  add_2_root_add_32_I31_aco/U1_7/CO (FADDX1)              0.33       3.05 r
+  add_2_root_add_32_I31_aco/U1_8/CO (FADDX1)              0.33       3.38 r
+  add_2_root_add_32_I31_aco/U1_9/CO (FADDX1)              0.33       3.71 r
+  add_2_root_add_32_I31_aco/U1_10/CO (FADDX1)             0.33       4.04 r
+  add_2_root_add_32_I31_aco/U1_11/CO (FADDX1)             0.33       4.38 r
+  add_2_root_add_32_I31_aco/U1_12/S (FADDX1)              0.30       4.67 r
+  add_2_root_add_32_I31_aco/SUM[12] (samul_v2_DW01_add_2)
+                                                          0.00       4.67 r
+  add_0_root_add_32_I31_aco/A[12] (samul_v2_DW01_add_0)
+                                                          0.00       4.67 r
+  add_0_root_add_32_I31_aco/SUM[12] (samul_v2_DW01_add_0)
+                                                          0.00       4.67 r
+  U282/Q (MUX21X1)                                        0.62       5.30 r
+  result[12] (out)                                        1.84       7.14 r
+  data arrival time                                                  7.14
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[30] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U262/Q (MUX21X1)                         5.31       5.51 r
+  result[30] (out)                         1.84       7.35 r
+  data arrival time                                   7.35
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[29] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U264/Q (MUX21X1)                         5.31       5.51 r
+  result[29] (out)                         1.84       7.35 r
+  data arrival time                                   7.35
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[28] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U265/Q (MUX21X1)                         5.31       5.51 r
+  result[28] (out)                         1.84       7.35 r
+  data arrival time                                   7.35
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[27] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U266/Q (MUX21X1)                         5.31       5.51 r
+  result[27] (out)                         1.84       7.35 r
+  data arrival time                                   7.35
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[26] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U267/Q (MUX21X1)                         5.31       5.51 r
+  result[26] (out)                         1.84       7.35 r
+  data arrival time                                   7.35
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[25] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U268/Q (MUX21X1)                         5.31       5.51 r
+  result[25] (out)                         1.84       7.35 r
+  data arrival time                                   7.35
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[24] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U269/Q (MUX21X1)                         5.31       5.51 r
+  result[24] (out)                         1.84       7.35 r
+  data arrival time                                   7.35
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[23] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U270/Q (MUX21X1)                         5.31       5.51 r
+  result[23] (out)                         1.84       7.35 r
+  data arrival time                                   7.35
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[22] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U271/Q (MUX21X1)                         5.31       5.51 r
+  result[22] (out)                         1.84       7.35 r
+  data arrival time                                   7.35
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[21] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U272/Q (MUX21X1)                         5.31       5.51 r
+  result[21] (out)                         1.84       7.35 r
+  data arrival time                                   7.35
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[13] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  samul_v2           70000                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U281/Q (MUX21X1)                         5.31       5.51 r
+  result[13] (out)                         1.84       7.35 r
+  data arrival time                                   7.35
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

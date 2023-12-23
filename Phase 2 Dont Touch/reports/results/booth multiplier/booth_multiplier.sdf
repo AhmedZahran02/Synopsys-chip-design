@@ -1,0 +1,1359 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 200
+Design : booth_multiplier
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 16:56:55 2023
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: b[0] (input port)
+  Endpoint: result[0] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[0] (in)                                0.00       0.20 f
+  U1430/Q (AND2X1)                         2.62       2.82 f
+  result[0] (out)                          2.02       4.84 f
+  data arrival time                                   4.84
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[61] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1371/Q (AO222X1)                        2.82       3.64 f
+  result[61] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[60] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1372/Q (AO222X1)                        2.82       3.64 f
+  result[60] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[59] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1374/Q (AO222X1)                        2.82       3.64 f
+  result[59] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[58] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1375/Q (AO222X1)                        2.82       3.64 f
+  result[58] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[57] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1376/Q (AO222X1)                        2.82       3.64 f
+  result[57] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[56] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1377/Q (AO222X1)                        2.82       3.64 f
+  result[56] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[55] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1378/Q (AO222X1)                        2.82       3.64 f
+  result[55] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[54] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1379/Q (AO222X1)                        2.82       3.64 f
+  result[54] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[53] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1380/Q (AO222X1)                        2.82       3.64 f
+  result[53] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[52] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1381/Q (AO222X1)                        2.82       3.64 f
+  result[52] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[51] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1382/Q (AO222X1)                        2.82       3.64 f
+  result[51] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[50] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1383/Q (AO222X1)                        2.82       3.64 f
+  result[50] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[49] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1385/Q (AO222X1)                        2.82       3.64 f
+  result[49] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[48] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1386/Q (AO222X1)                        2.82       3.64 f
+  result[48] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[47] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1387/Q (AO222X1)                        2.82       3.64 f
+  result[47] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[46] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1388/Q (AO222X1)                        2.82       3.64 f
+  result[46] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[45] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1389/Q (AO222X1)                        2.82       3.64 f
+  result[45] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[44] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1390/Q (AO222X1)                        2.82       3.64 f
+  result[44] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[43] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1391/Q (AO222X1)                        2.82       3.64 f
+  result[43] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[42] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1392/Q (AO222X1)                        2.82       3.64 f
+  result[42] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[41] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1393/Q (AO222X1)                        2.82       3.64 f
+  result[41] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[40] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1394/Q (AO222X1)                        2.82       3.64 f
+  result[40] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[39] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1396/Q (AO222X1)                        2.82       3.64 f
+  result[39] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[38] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1397/Q (AO222X1)                        2.82       3.64 f
+  result[38] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[37] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1398/Q (AO222X1)                        2.82       3.64 f
+  result[37] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[36] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1399/Q (AO222X1)                        2.82       3.64 f
+  result[36] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[35] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1400/Q (AO222X1)                        2.82       3.64 f
+  result[35] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[34] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1401/Q (AO222X1)                        2.82       3.64 f
+  result[34] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[33] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1402/Q (AO222X1)                        2.82       3.64 f
+  result[33] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[32] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1403/Q (AO222X1)                        2.82       3.64 f
+  result[32] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1404/Q (AO222X1)                        2.82       3.64 f
+  result[31] (out)                         2.02       5.66 f
+  data arrival time                                   5.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[30] (input port)
+  Endpoint: result[30] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[30] (in)                               0.00       0.20 r
+  U1278/QN (NOR2X1)                        0.96       1.16 f
+  U1406/Q (AO222X1)                        2.69       3.85 f
+  result[30] (out)                         2.02       5.87 f
+  data arrival time                                   5.87
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[29] (input port)
+  Endpoint: result[29] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[29] (in)                               0.00       0.20 r
+  U1279/QN (NOR2X1)                        1.04       1.24 f
+  U1408/Q (AO222X1)                        2.69       3.93 f
+  result[29] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[28] (input port)
+  Endpoint: result[28] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[28] (in)                               0.00       0.20 r
+  U1280/QN (NOR2X1)                        1.04       1.24 f
+  U1409/Q (AO222X1)                        2.69       3.93 f
+  result[28] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[27] (input port)
+  Endpoint: result[27] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[27] (in)                               0.00       0.20 r
+  U1281/QN (NOR2X1)                        1.04       1.24 f
+  U1410/Q (AO222X1)                        2.69       3.93 f
+  result[27] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[26] (input port)
+  Endpoint: result[26] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[26] (in)                               0.00       0.20 r
+  U1282/QN (NOR2X1)                        1.04       1.24 f
+  U1411/Q (AO222X1)                        2.69       3.93 f
+  result[26] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[25] (input port)
+  Endpoint: result[25] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[25] (in)                               0.00       0.20 r
+  U1283/QN (NOR2X1)                        1.04       1.24 f
+  U1412/Q (AO222X1)                        2.69       3.93 f
+  result[25] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[24] (input port)
+  Endpoint: result[24] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[24] (in)                               0.00       0.20 r
+  U1284/QN (NOR2X1)                        1.04       1.24 f
+  U1413/Q (AO222X1)                        2.69       3.93 f
+  result[24] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[23] (input port)
+  Endpoint: result[23] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[23] (in)                               0.00       0.20 r
+  U1285/QN (NOR2X1)                        1.04       1.24 f
+  U1414/Q (AO222X1)                        2.69       3.93 f
+  result[23] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[22] (input port)
+  Endpoint: result[22] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[22] (in)                               0.00       0.20 r
+  U1286/QN (NOR2X1)                        1.04       1.24 f
+  U1415/Q (AO222X1)                        2.69       3.93 f
+  result[22] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[21] (input port)
+  Endpoint: result[21] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[21] (in)                               0.00       0.20 r
+  U1287/QN (NOR2X1)                        1.04       1.24 f
+  U1416/Q (AO222X1)                        2.69       3.93 f
+  result[21] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[20] (input port)
+  Endpoint: result[20] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[20] (in)                               0.00       0.20 r
+  U1288/QN (NOR2X1)                        1.04       1.24 f
+  U1417/Q (AO222X1)                        2.69       3.93 f
+  result[20] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[19] (input port)
+  Endpoint: result[19] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[19] (in)                               0.00       0.20 r
+  U1289/QN (NOR2X1)                        1.04       1.24 f
+  U1420/Q (AO222X1)                        2.69       3.93 f
+  result[19] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[18] (input port)
+  Endpoint: result[18] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[18] (in)                               0.00       0.20 r
+  U1290/QN (NOR2X1)                        1.04       1.24 f
+  U1421/Q (AO222X1)                        2.69       3.93 f
+  result[18] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[17] (input port)
+  Endpoint: result[17] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[17] (in)                               0.00       0.20 r
+  U1291/QN (NOR2X1)                        1.04       1.24 f
+  U1422/Q (AO222X1)                        2.69       3.93 f
+  result[17] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[16] (input port)
+  Endpoint: result[16] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[16] (in)                               0.00       0.20 r
+  U1292/QN (NOR2X1)                        1.04       1.24 f
+  U1423/Q (AO222X1)                        2.69       3.93 f
+  result[16] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[15] (input port)
+  Endpoint: result[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[15] (in)                               0.00       0.20 r
+  U1293/QN (NOR2X1)                        1.04       1.24 f
+  U1424/Q (AO222X1)                        2.69       3.93 f
+  result[15] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[14] (input port)
+  Endpoint: result[14] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[14] (in)                               0.00       0.20 r
+  U1294/QN (NOR2X1)                        1.04       1.24 f
+  U1425/Q (AO222X1)                        2.69       3.93 f
+  result[14] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[13] (input port)
+  Endpoint: result[13] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[13] (in)                               0.00       0.20 r
+  U1295/QN (NOR2X1)                        1.04       1.24 f
+  U1426/Q (AO222X1)                        2.69       3.93 f
+  result[13] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[12] (input port)
+  Endpoint: result[12] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[12] (in)                               0.00       0.20 r
+  U1296/QN (NOR2X1)                        1.04       1.24 f
+  U1427/Q (AO222X1)                        2.69       3.93 f
+  result[12] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[11] (input port)
+  Endpoint: result[11] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[11] (in)                               0.00       0.20 r
+  U1297/QN (NOR2X1)                        1.04       1.24 f
+  U1428/Q (AO222X1)                        2.69       3.93 f
+  result[11] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[10] (input port)
+  Endpoint: result[10] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[10] (in)                               0.00       0.20 r
+  U1298/QN (NOR2X1)                        1.04       1.24 f
+  U1429/Q (AO222X1)                        2.69       3.93 f
+  result[10] (out)                         2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[9] (input port)
+  Endpoint: result[9] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[9] (in)                                0.00       0.20 r
+  U1299/QN (NOR2X1)                        1.04       1.24 f
+  U1367/Q (AO222X1)                        2.69       3.93 f
+  result[9] (out)                          2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[8] (input port)
+  Endpoint: result[8] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[8] (in)                                0.00       0.20 r
+  U1300/QN (NOR2X1)                        1.04       1.24 f
+  U1368/Q (AO222X1)                        2.69       3.93 f
+  result[8] (out)                          2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[7] (input port)
+  Endpoint: result[7] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[7] (in)                                0.00       0.20 r
+  U1301/QN (NOR2X1)                        1.04       1.24 f
+  U1369/Q (AO222X1)                        2.69       3.93 f
+  result[7] (out)                          2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[6] (input port)
+  Endpoint: result[6] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[6] (in)                                0.00       0.20 r
+  U1302/QN (NOR2X1)                        1.04       1.24 f
+  U1370/Q (AO222X1)                        2.69       3.93 f
+  result[6] (out)                          2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[5] (input port)
+  Endpoint: result[5] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[5] (in)                                0.00       0.20 r
+  U1303/QN (NOR2X1)                        1.04       1.24 f
+  U1373/Q (AO222X1)                        2.69       3.93 f
+  result[5] (out)                          2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[4] (input port)
+  Endpoint: result[4] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[4] (in)                                0.00       0.20 r
+  U1304/QN (NOR2X1)                        1.04       1.24 f
+  U1384/Q (AO222X1)                        2.69       3.93 f
+  result[4] (out)                          2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[3] (input port)
+  Endpoint: result[3] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[3] (in)                                0.00       0.20 r
+  U1305/QN (NOR2X1)                        1.04       1.24 f
+  U1395/Q (AO222X1)                        2.69       3.93 f
+  result[3] (out)                          2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[2] (input port)
+  Endpoint: result[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 r
+  b[2] (in)                                0.00       0.20 r
+  U1306/QN (NOR2X1)                        1.04       1.24 f
+  U1407/Q (AO222X1)                        2.69       3.93 f
+  result[2] (out)                          2.02       5.95 f
+  data arrival time                                   5.95
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[0] (input port)
+  Endpoint: result[1] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[0] (in)                                0.00       0.20 f
+  U1432/Q (AND2X1)                         2.61       2.81 f
+  U1419/Q (MUX21X1)                        0.70       3.51 f
+  U1418/Q (AO21X1)                         0.49       4.00 f
+  result[1] (out)                          2.02       6.02 f
+  data arrival time                                   6.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[63] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1366/Q (AO222X1)                        2.85       3.67 f
+  result[63] (out)                         2.36       6.03 f
+  data arrival time                                   6.03
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[62] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_multiplier   140000                saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  U1405/Q (AND2X1)                         0.62       0.82 f
+  U1366/Q (AO222X1)                        2.85       3.67 f
+  result[62] (out)                         2.36       6.03 f
+  data arrival time                                   6.03
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

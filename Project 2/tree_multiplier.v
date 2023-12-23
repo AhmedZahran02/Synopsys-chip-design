@@ -1,15 +1,15 @@
 module tree_multiplier(
-    input wire [31:0] A,
-    input wire [31:0] B,
-    output wire [63:0] P
+    input wire [31:0] a,
+    input wire [31:0] b,
+    output wire [63:0] result
 );
     wire [63:0] temp [31:0];
     wire [63:0] tempResults [59:0];
     wire [63:0] unsignedTempA[31:0];
     wire [31:0] tempA;
     wire [31:0] tempB;
-    removeSign rs(A,tempA);
-    removeSign rs2(B,tempB);
+    removeSign rs(a,tempA);
+    removeSign rs2(b,tempB);
     genvar i;
     generate
         for (i = 0; i < 32; i = i + 1) begin : u1
@@ -68,7 +68,7 @@ module tree_multiplier(
 wire [63:0]unsignedP;
 assign unsignedP = tempResults[58]+tempResults[59];
 
-fixSign fs(unsignedP,A[31],B[31],P);
+fixSign fs(unsignedP,a[31],b[31],result);
 
 endmodule
 

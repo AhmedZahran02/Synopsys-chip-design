@@ -1,4 +1,4 @@
-module SAMul
+module shift_accumulate_mul
 (
     input [31: 0] a,
     input [31: 0] b,

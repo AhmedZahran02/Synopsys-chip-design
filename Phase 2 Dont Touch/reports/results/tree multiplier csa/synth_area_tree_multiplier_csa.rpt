@@ -1,0 +1,35 @@
+Warning: Design 'tree_multiplier_csa' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : tree_multiplier_csa
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 17:23:47 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'tree_multiplier_csa' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user37/Downloads/Lab4/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                        19842
+Number of nets:                         27265
+Number of cells:                         9318
+Number of combinational cells:           7299
+Number of sequential cells:                 1
+Number of macros/black boxes:               0
+Number of buf/inv:                        261
+Number of references:                      36
+
+Combinational area:              86569.575385
+Buf/Inv area:                     1443.225637
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:            9130.773560
+
+Total cell area:                 86569.575385
+Total area:                      95700.348945
+
+Information: This design contains black box (unknown) components. (RPT-8)
+1

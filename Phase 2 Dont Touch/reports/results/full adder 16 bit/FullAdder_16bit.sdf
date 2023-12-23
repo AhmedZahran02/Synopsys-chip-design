@@ -1,0 +1,434 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 200
+Design : FullAdder_16bit
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 17:31:02 2023
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: a[15] (input port)
+  Endpoint: cout (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[15] (in)                                              0.00       0.20 r
+  full_adder_ripple[15].FA/a (full_adder_ripple_1)        0.00       0.20 r
+  full_adder_ripple[15].FA/U2/Q (AO22X1)                  0.19       0.39 r
+  full_adder_ripple[15].FA/cout (full_adder_ripple_1)     0.00       0.39 r
+  cout (out)                                              0.22       0.61 r
+  data arrival time                                                  0.61
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: cin (input port)
+  Endpoint: sum[0] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 f
+  cin (in)                                                0.00       0.20 f
+  full_adder_ripple[0].FA/cin (full_adder_ripple_0)       0.00       0.20 f
+  full_adder_ripple[0].FA/U1/Q (XOR2X1)                   0.20       0.40 r
+  full_adder_ripple[0].FA/sum (full_adder_ripple_0)       0.00       0.40 r
+  sum[0] (out)                                            0.22       0.62 r
+  data arrival time                                                  0.62
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: cin (input port)
+  Endpoint: sum[1] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  cin (in)                                                0.00       0.20 r
+  full_adder_ripple[0].FA/cin (full_adder_ripple_0)       0.00       0.20 r
+  full_adder_ripple[0].FA/U2/Q (AO22X1)                   0.15       0.35 r
+  full_adder_ripple[0].FA/cout (full_adder_ripple_0)      0.00       0.35 r
+  full_adder_ripple[1].FA/cin (full_adder_ripple_15)      0.00       0.35 r
+  full_adder_ripple[1].FA/U1/Q (XOR2X1)                   0.23       0.57 r
+  full_adder_ripple[1].FA/sum (full_adder_ripple_15)      0.00       0.57 r
+  sum[1] (out)                                            0.22       0.79 r
+  data arrival time                                                  0.79
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[1] (input port)
+  Endpoint: sum[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[1] (in)                                               0.00       0.20 r
+  full_adder_ripple[1].FA/a (full_adder_ripple_15)        0.00       0.20 r
+  full_adder_ripple[1].FA/U2/Q (AO22X1)                   0.17       0.37 r
+  full_adder_ripple[1].FA/cout (full_adder_ripple_15)     0.00       0.37 r
+  full_adder_ripple[2].FA/cin (full_adder_ripple_14)      0.00       0.37 r
+  full_adder_ripple[2].FA/U1/Q (XOR2X1)                   0.23       0.60 r
+  full_adder_ripple[2].FA/sum (full_adder_ripple_14)      0.00       0.60 r
+  sum[2] (out)                                            0.22       0.82 r
+  data arrival time                                                  0.82
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[2] (input port)
+  Endpoint: sum[3] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[2] (in)                                               0.00       0.20 r
+  full_adder_ripple[2].FA/a (full_adder_ripple_14)        0.00       0.20 r
+  full_adder_ripple[2].FA/U2/Q (AO22X1)                   0.17       0.37 r
+  full_adder_ripple[2].FA/cout (full_adder_ripple_14)     0.00       0.37 r
+  full_adder_ripple[3].FA/cin (full_adder_ripple_13)      0.00       0.37 r
+  full_adder_ripple[3].FA/U1/Q (XOR2X1)                   0.23       0.60 r
+  full_adder_ripple[3].FA/sum (full_adder_ripple_13)      0.00       0.60 r
+  sum[3] (out)                                            0.22       0.82 r
+  data arrival time                                                  0.82
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[14] (input port)
+  Endpoint: sum[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[14] (in)                                              0.00       0.20 r
+  full_adder_ripple[14].FA/a (full_adder_ripple_2)        0.00       0.20 r
+  full_adder_ripple[14].FA/U2/Q (AO22X1)                  0.17       0.37 r
+  full_adder_ripple[14].FA/cout (full_adder_ripple_2)     0.00       0.37 r
+  full_adder_ripple[15].FA/cin (full_adder_ripple_1)      0.00       0.37 r
+  full_adder_ripple[15].FA/U1/Q (XOR2X1)                  0.23       0.60 r
+  full_adder_ripple[15].FA/sum (full_adder_ripple_1)      0.00       0.60 r
+  sum[15] (out)                                           0.22       0.82 r
+  data arrival time                                                  0.82
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[13] (input port)
+  Endpoint: sum[14] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[13] (in)                                              0.00       0.20 r
+  full_adder_ripple[13].FA/a (full_adder_ripple_3)        0.00       0.20 r
+  full_adder_ripple[13].FA/U2/Q (AO22X1)                  0.17       0.37 r
+  full_adder_ripple[13].FA/cout (full_adder_ripple_3)     0.00       0.37 r
+  full_adder_ripple[14].FA/cin (full_adder_ripple_2)      0.00       0.37 r
+  full_adder_ripple[14].FA/U1/Q (XOR2X1)                  0.23       0.60 r
+  full_adder_ripple[14].FA/sum (full_adder_ripple_2)      0.00       0.60 r
+  sum[14] (out)                                           0.22       0.82 r
+  data arrival time                                                  0.82
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[12] (input port)
+  Endpoint: sum[13] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[12] (in)                                              0.00       0.20 r
+  full_adder_ripple[12].FA/a (full_adder_ripple_4)        0.00       0.20 r
+  full_adder_ripple[12].FA/U2/Q (AO22X1)                  0.17       0.37 r
+  full_adder_ripple[12].FA/cout (full_adder_ripple_4)     0.00       0.37 r
+  full_adder_ripple[13].FA/cin (full_adder_ripple_3)      0.00       0.37 r
+  full_adder_ripple[13].FA/U1/Q (XOR2X1)                  0.23       0.60 r
+  full_adder_ripple[13].FA/sum (full_adder_ripple_3)      0.00       0.60 r
+  sum[13] (out)                                           0.22       0.82 r
+  data arrival time                                                  0.82
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[11] (input port)
+  Endpoint: sum[12] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[11] (in)                                              0.00       0.20 r
+  full_adder_ripple[11].FA/a (full_adder_ripple_5)        0.00       0.20 r
+  full_adder_ripple[11].FA/U2/Q (AO22X1)                  0.17       0.37 r
+  full_adder_ripple[11].FA/cout (full_adder_ripple_5)     0.00       0.37 r
+  full_adder_ripple[12].FA/cin (full_adder_ripple_4)      0.00       0.37 r
+  full_adder_ripple[12].FA/U1/Q (XOR2X1)                  0.23       0.60 r
+  full_adder_ripple[12].FA/sum (full_adder_ripple_4)      0.00       0.60 r
+  sum[12] (out)                                           0.22       0.82 r
+  data arrival time                                                  0.82
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[10] (input port)
+  Endpoint: sum[11] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[10] (in)                                              0.00       0.20 r
+  full_adder_ripple[10].FA/a (full_adder_ripple_6)        0.00       0.20 r
+  full_adder_ripple[10].FA/U2/Q (AO22X1)                  0.17       0.37 r
+  full_adder_ripple[10].FA/cout (full_adder_ripple_6)     0.00       0.37 r
+  full_adder_ripple[11].FA/cin (full_adder_ripple_5)      0.00       0.37 r
+  full_adder_ripple[11].FA/U1/Q (XOR2X1)                  0.23       0.60 r
+  full_adder_ripple[11].FA/sum (full_adder_ripple_5)      0.00       0.60 r
+  sum[11] (out)                                           0.22       0.82 r
+  data arrival time                                                  0.82
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[9] (input port)
+  Endpoint: sum[10] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[9] (in)                                               0.00       0.20 r
+  full_adder_ripple[9].FA/a (full_adder_ripple_7)         0.00       0.20 r
+  full_adder_ripple[9].FA/U2/Q (AO22X1)                   0.17       0.37 r
+  full_adder_ripple[9].FA/cout (full_adder_ripple_7)      0.00       0.37 r
+  full_adder_ripple[10].FA/cin (full_adder_ripple_6)      0.00       0.37 r
+  full_adder_ripple[10].FA/U1/Q (XOR2X1)                  0.23       0.60 r
+  full_adder_ripple[10].FA/sum (full_adder_ripple_6)      0.00       0.60 r
+  sum[10] (out)                                           0.22       0.82 r
+  data arrival time                                                  0.82
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[8] (input port)
+  Endpoint: sum[9] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[8] (in)                                               0.00       0.20 r
+  full_adder_ripple[8].FA/a (full_adder_ripple_8)         0.00       0.20 r
+  full_adder_ripple[8].FA/U2/Q (AO22X1)                   0.17       0.37 r
+  full_adder_ripple[8].FA/cout (full_adder_ripple_8)      0.00       0.37 r
+  full_adder_ripple[9].FA/cin (full_adder_ripple_7)       0.00       0.37 r
+  full_adder_ripple[9].FA/U1/Q (XOR2X1)                   0.23       0.60 r
+  full_adder_ripple[9].FA/sum (full_adder_ripple_7)       0.00       0.60 r
+  sum[9] (out)                                            0.22       0.82 r
+  data arrival time                                                  0.82
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[7] (input port)
+  Endpoint: sum[8] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[7] (in)                                               0.00       0.20 r
+  full_adder_ripple[7].FA/a (full_adder_ripple_9)         0.00       0.20 r
+  full_adder_ripple[7].FA/U2/Q (AO22X1)                   0.17       0.37 r
+  full_adder_ripple[7].FA/cout (full_adder_ripple_9)      0.00       0.37 r
+  full_adder_ripple[8].FA/cin (full_adder_ripple_8)       0.00       0.37 r
+  full_adder_ripple[8].FA/U1/Q (XOR2X1)                   0.23       0.60 r
+  full_adder_ripple[8].FA/sum (full_adder_ripple_8)       0.00       0.60 r
+  sum[8] (out)                                            0.22       0.82 r
+  data arrival time                                                  0.82
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[6] (input port)
+  Endpoint: sum[7] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[6] (in)                                               0.00       0.20 r
+  full_adder_ripple[6].FA/a (full_adder_ripple_10)        0.00       0.20 r
+  full_adder_ripple[6].FA/U2/Q (AO22X1)                   0.17       0.37 r
+  full_adder_ripple[6].FA/cout (full_adder_ripple_10)     0.00       0.37 r
+  full_adder_ripple[7].FA/cin (full_adder_ripple_9)       0.00       0.37 r
+  full_adder_ripple[7].FA/U1/Q (XOR2X1)                   0.23       0.60 r
+  full_adder_ripple[7].FA/sum (full_adder_ripple_9)       0.00       0.60 r
+  sum[7] (out)                                            0.22       0.82 r
+  data arrival time                                                  0.82
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[5] (input port)
+  Endpoint: sum[6] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[5] (in)                                               0.00       0.20 r
+  full_adder_ripple[5].FA/a (full_adder_ripple_11)        0.00       0.20 r
+  full_adder_ripple[5].FA/U2/Q (AO22X1)                   0.17       0.37 r
+  full_adder_ripple[5].FA/cout (full_adder_ripple_11)     0.00       0.37 r
+  full_adder_ripple[6].FA/cin (full_adder_ripple_10)      0.00       0.37 r
+  full_adder_ripple[6].FA/U1/Q (XOR2X1)                   0.23       0.60 r
+  full_adder_ripple[6].FA/sum (full_adder_ripple_10)      0.00       0.60 r
+  sum[6] (out)                                            0.22       0.82 r
+  data arrival time                                                  0.82
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[4] (input port)
+  Endpoint: sum[5] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[4] (in)                                               0.00       0.20 r
+  full_adder_ripple[4].FA/a (full_adder_ripple_12)        0.00       0.20 r
+  full_adder_ripple[4].FA/U2/Q (AO22X1)                   0.17       0.37 r
+  full_adder_ripple[4].FA/cout (full_adder_ripple_12)     0.00       0.37 r
+  full_adder_ripple[5].FA/cin (full_adder_ripple_11)      0.00       0.37 r
+  full_adder_ripple[5].FA/U1/Q (XOR2X1)                   0.23       0.60 r
+  full_adder_ripple[5].FA/sum (full_adder_ripple_11)      0.00       0.60 r
+  sum[5] (out)                                            0.22       0.82 r
+  data arrival time                                                  0.82
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: sum[4] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FullAdder_16bit    8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.20       0.20 r
+  a[3] (in)                                               0.00       0.20 r
+  full_adder_ripple[3].FA/a (full_adder_ripple_13)        0.00       0.20 r
+  full_adder_ripple[3].FA/U2/Q (AO22X1)                   0.17       0.37 r
+  full_adder_ripple[3].FA/cout (full_adder_ripple_13)     0.00       0.37 r
+  full_adder_ripple[4].FA/cin (full_adder_ripple_12)      0.00       0.37 r
+  full_adder_ripple[4].FA/U1/Q (XOR2X1)                   0.23       0.60 r
+  full_adder_ripple[4].FA/sum (full_adder_ripple_12)      0.00       0.60 r
+  sum[4] (out)                                            0.22       0.82 r
+  data arrival time                                                  0.82
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

@@ -1,0 +1,215 @@
+ 
+****************************************
+Report : resources
+Design : samul_v1
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 16:54:15 2023
+****************************************
+
+Resource Sharing Report for design samul_v1 in file ./source/samul_v1.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r524     | DW01_inc     | width=32   |               | add_0_root_add_22_ni |
+| r526     | DW01_inc     | width=32   |               | add_0_root_add_28_ni |
+| r528     | DW01_add     | width=33   |               | add_38_I2_aco        |
+| r530     | DW01_add     | width=33   |               | add_38_I3_aco        |
+| r532     | DW01_add     | width=33   |               | add_38_I4_aco        |
+| r534     | DW01_add     | width=33   |               | add_38_I5_aco        |
+| r536     | DW01_add     | width=33   |               | add_38_I6_aco        |
+| r538     | DW01_add     | width=33   |               | add_38_I7_aco        |
+| r540     | DW01_add     | width=33   |               | add_38_I8_aco        |
+| r542     | DW01_add     | width=33   |               | add_38_I9_aco        |
+| r544     | DW01_add     | width=33   |               | add_38_I10_aco       |
+| r546     | DW01_add     | width=33   |               | add_38_I11_aco       |
+| r548     | DW01_add     | width=33   |               | add_38_I12_aco       |
+| r550     | DW01_add     | width=33   |               | add_38_I13_aco       |
+| r552     | DW01_add     | width=33   |               | add_38_I14_aco       |
+| r554     | DW01_add     | width=33   |               | add_38_I15_aco       |
+| r556     | DW01_add     | width=33   |               | add_38_I16_aco       |
+| r558     | DW01_add     | width=33   |               | add_38_I17_aco       |
+| r560     | DW01_add     | width=33   |               | add_38_I18_aco       |
+| r562     | DW01_add     | width=33   |               | add_38_I19_aco       |
+| r564     | DW01_add     | width=33   |               | add_38_I20_aco       |
+| r566     | DW01_add     | width=33   |               | add_38_I21_aco       |
+| r568     | DW01_add     | width=33   |               | add_38_I22_aco       |
+| r570     | DW01_add     | width=33   |               | add_38_I23_aco       |
+| r572     | DW01_add     | width=33   |               | add_38_I24_aco       |
+| r574     | DW01_add     | width=33   |               | add_38_I25_aco       |
+| r576     | DW01_add     | width=33   |               | add_38_I26_aco       |
+| r578     | DW01_add     | width=33   |               | add_38_I27_aco       |
+| r580     | DW01_add     | width=33   |               | add_38_I28_aco       |
+| r582     | DW01_add     | width=33   |               | add_38_I29_aco       |
+| r584     | DW01_add     | width=33   |               | add_38_I30_aco       |
+| r586     | DW01_add     | width=33   |               | add_38_I31_aco       |
+| r588     | DW01_add     | width=33   |               | add_38_I32_aco       |
+| r590     | DW01_sub     | width=32   |               | sub_1_root_add_22_ni |
+| r592     | DW01_sub     | width=32   |               | sub_1_root_add_28_ni |
+| r594     | DW01_inc     | width=64   |               | add_0_root_add_45_ni |
+| r596     | DW01_sub     | width=64   |               | sub_1_root_add_45_ni |
+| r598     | DW02_mult    | A_width=32 |               | mult_add_38_I2_aco   |
+|          |              | B_width=1  |               |                      |
+| r600     | DW02_mult    | A_width=32 |               | mult_add_38_I3_aco   |
+|          |              | B_width=1  |               |                      |
+| r602     | DW02_mult    | A_width=32 |               | mult_add_38_I4_aco   |
+|          |              | B_width=1  |               |                      |
+| r604     | DW02_mult    | A_width=32 |               | mult_add_38_I5_aco   |
+|          |              | B_width=1  |               |                      |
+| r606     | DW02_mult    | A_width=32 |               | mult_add_38_I6_aco   |
+|          |              | B_width=1  |               |                      |
+| r608     | DW02_mult    | A_width=32 |               | mult_add_38_I7_aco   |
+|          |              | B_width=1  |               |                      |
+| r610     | DW02_mult    | A_width=32 |               | mult_add_38_I8_aco   |
+|          |              | B_width=1  |               |                      |
+| r612     | DW02_mult    | A_width=32 |               | mult_add_38_I9_aco   |
+|          |              | B_width=1  |               |                      |
+| r614     | DW02_mult    | A_width=32 |               | mult_add_38_I10_aco  |
+|          |              | B_width=1  |               |                      |
+| r616     | DW02_mult    | A_width=32 |               | mult_add_38_I11_aco  |
+|          |              | B_width=1  |               |                      |
+| r618     | DW02_mult    | A_width=32 |               | mult_add_38_I12_aco  |
+|          |              | B_width=1  |               |                      |
+| r620     | DW02_mult    | A_width=32 |               | mult_add_38_I13_aco  |
+|          |              | B_width=1  |               |                      |
+| r622     | DW02_mult    | A_width=32 |               | mult_add_38_I14_aco  |
+|          |              | B_width=1  |               |                      |
+| r624     | DW02_mult    | A_width=32 |               | mult_add_38_I15_aco  |
+|          |              | B_width=1  |               |                      |
+| r626     | DW02_mult    | A_width=32 |               | mult_add_38_I16_aco  |
+|          |              | B_width=1  |               |                      |
+| r628     | DW02_mult    | A_width=32 |               | mult_add_38_I17_aco  |
+|          |              | B_width=1  |               |                      |
+| r630     | DW02_mult    | A_width=32 |               | mult_add_38_I18_aco  |
+|          |              | B_width=1  |               |                      |
+| r632     | DW02_mult    | A_width=32 |               | mult_add_38_I19_aco  |
+|          |              | B_width=1  |               |                      |
+| r634     | DW02_mult    | A_width=32 |               | mult_add_38_I20_aco  |
+|          |              | B_width=1  |               |                      |
+| r636     | DW02_mult    | A_width=32 |               | mult_add_38_I21_aco  |
+|          |              | B_width=1  |               |                      |
+| r638     | DW02_mult    | A_width=32 |               | mult_add_38_I22_aco  |
+|          |              | B_width=1  |               |                      |
+| r640     | DW02_mult    | A_width=32 |               | mult_add_38_I23_aco  |
+|          |              | B_width=1  |               |                      |
+| r642     | DW02_mult    | A_width=32 |               | mult_add_38_I24_aco  |
+|          |              | B_width=1  |               |                      |
+| r644     | DW02_mult    | A_width=32 |               | mult_add_38_I25_aco  |
+|          |              | B_width=1  |               |                      |
+| r646     | DW02_mult    | A_width=32 |               | mult_add_38_I26_aco  |
+|          |              | B_width=1  |               |                      |
+| r648     | DW02_mult    | A_width=32 |               | mult_add_38_I27_aco  |
+|          |              | B_width=1  |               |                      |
+| r650     | DW02_mult    | A_width=32 |               | mult_add_38_I28_aco  |
+|          |              | B_width=1  |               |                      |
+| r652     | DW02_mult    | A_width=32 |               | mult_add_38_I29_aco  |
+|          |              | B_width=1  |               |                      |
+| r654     | DW02_mult    | A_width=32 |               | mult_add_38_I30_aco  |
+|          |              | B_width=1  |               |                      |
+| r656     | DW02_mult    | A_width=32 |               | mult_add_38_I31_aco  |
+|          |              | B_width=1  |               |                      |
+| r658     | DW02_mult    | A_width=32 |               | mult_add_38_I32_aco  |
+|          |              | B_width=1  |               |                      |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| add_0_root_add_22_ni                  |                    |                |
+|                    | DW01_inc         | rpl                |                |
+| add_0_root_add_28_ni                  |                    |                |
+|                    | DW01_inc         | rpl                |                |
+| mult_add_38_I2_aco | DW02_mult        | csa                |                |
+| add_38_I2_aco      | DW01_add         | rpl                |                |
+| mult_add_38_I3_aco | DW02_mult        | csa                |                |
+| add_38_I3_aco      | DW01_add         | rpl                |                |
+| mult_add_38_I4_aco | DW02_mult        | csa                |                |
+| add_38_I4_aco      | DW01_add         | rpl                |                |
+| mult_add_38_I5_aco | DW02_mult        | csa                |                |
+| add_38_I5_aco      | DW01_add         | rpl                |                |
+| mult_add_38_I6_aco | DW02_mult        | csa                |                |
+| add_38_I6_aco      | DW01_add         | rpl                |                |
+| mult_add_38_I7_aco | DW02_mult        | csa                |                |
+| add_38_I7_aco      | DW01_add         | rpl                |                |
+| mult_add_38_I8_aco | DW02_mult        | csa                |                |
+| add_38_I8_aco      | DW01_add         | rpl                |                |
+| mult_add_38_I9_aco | DW02_mult        | csa                |                |
+| add_38_I9_aco      | DW01_add         | rpl                |                |
+| mult_add_38_I10_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I10_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I11_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I11_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I12_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I12_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I13_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I13_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I14_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I14_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I15_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I15_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I16_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I16_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I17_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I17_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I18_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I18_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I19_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I19_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I20_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I20_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I21_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I21_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I22_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I22_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I23_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I23_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I24_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I24_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I25_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I25_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I26_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I26_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I27_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I27_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I28_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I28_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I29_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I29_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I30_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I30_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I31_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I31_aco     | DW01_add         | rpl                |                |
+| mult_add_38_I32_aco                   |                    |                |
+|                    | DW02_mult        | csa                |                |
+| add_38_I32_aco     | DW01_add         | rpl                |                |
+| add_0_root_add_45_ni                  |                    |                |
+|                    | DW01_inc         | rpl                |                |
+===============================================================================
+
+1

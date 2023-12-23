@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : cell
+Design : csa_64
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 17:40:14 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U37                       MUX21X1         saed90nm_typ_ht 11.059200 
+U38                       MUX21X1         saed90nm_typ_ht 11.059200 
+U39                       MUX21X1         saed90nm_typ_ht 11.059200 
+U40                       MUX21X1         saed90nm_typ_ht 11.059200 
+U41                       MUX21X1         saed90nm_typ_ht 11.059200 
+U42                       MUX21X1         saed90nm_typ_ht 11.059200 
+U43                       MUX21X1         saed90nm_typ_ht 11.059200 
+U44                       MUX21X1         saed90nm_typ_ht 11.059200 
+U45                       MUX21X1         saed90nm_typ_ht 11.059200 
+U46                       MUX21X1         saed90nm_typ_ht 11.059200 
+U47                       MUX21X1         saed90nm_typ_ht 11.059200 
+U48                       MUX21X1         saed90nm_typ_ht 11.059200 
+U49                       MUX21X1         saed90nm_typ_ht 11.059200 
+U50                       MUX21X1         saed90nm_typ_ht 11.059200 
+U51                       MUX21X1         saed90nm_typ_ht 11.059200 
+U52                       MUX21X1         saed90nm_typ_ht 11.059200 
+U53                       MUX21X1         saed90nm_typ_ht 11.059200 
+U54                       MUX21X1         saed90nm_typ_ht 11.059200 
+U55                       MUX21X1         saed90nm_typ_ht 11.059200 
+U56                       MUX21X1         saed90nm_typ_ht 11.059200 
+U57                       MUX21X1         saed90nm_typ_ht 11.059200 
+U58                       MUX21X1         saed90nm_typ_ht 11.059200 
+U59                       MUX21X1         saed90nm_typ_ht 11.059200 
+U60                       MUX21X1         saed90nm_typ_ht 11.059200 
+U61                       MUX21X1         saed90nm_typ_ht 11.059200 
+U62                       MUX21X1         saed90nm_typ_ht 11.059200 
+U63                       MUX21X1         saed90nm_typ_ht 11.059200 
+U64                       MUX21X1         saed90nm_typ_ht 11.059200 
+U65                       MUX21X1         saed90nm_typ_ht 11.059200 
+U66                       MUX21X1         saed90nm_typ_ht 11.059200 
+U67                       MUX21X1         saed90nm_typ_ht 11.059200 
+U68                       MUX21X1         saed90nm_typ_ht 11.059200 
+U69                       MUX21X1         saed90nm_typ_ht 11.059200 
+u1                        csa_32_0                        2102.169624
+                                                                    h
+u2                        csa_32_2                        2090.188824
+                                                                    h
+u3                        csa_32_1                        2090.188824
+                                                                    h
+--------------------------------------------------------------------------------
+Total 36 cells                                            6647.500881
+1

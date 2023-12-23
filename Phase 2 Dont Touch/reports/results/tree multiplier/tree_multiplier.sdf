@@ -1,0 +1,1553 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 200
+Design : tree_multiplier
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 17:07:47 2023
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[63] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U7/Q (MUX21X1)                        0.62       5.90 f
+  fs/newP[63] (fixSign)                    0.00       5.90 f
+  result[63] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[62] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U8/Q (MUX21X1)                        0.62       5.90 f
+  fs/newP[62] (fixSign)                    0.00       5.90 f
+  result[62] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[61] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U9/Q (MUX21X1)                        0.62       5.90 f
+  fs/newP[61] (fixSign)                    0.00       5.90 f
+  result[61] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[60] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U10/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[60] (fixSign)                    0.00       5.90 f
+  result[60] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[59] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U12/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[59] (fixSign)                    0.00       5.90 f
+  result[59] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[58] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U13/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[58] (fixSign)                    0.00       5.90 f
+  result[58] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[57] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U14/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[57] (fixSign)                    0.00       5.90 f
+  result[57] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[56] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U15/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[56] (fixSign)                    0.00       5.90 f
+  result[56] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[55] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U16/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[55] (fixSign)                    0.00       5.90 f
+  result[55] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[54] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U17/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[54] (fixSign)                    0.00       5.90 f
+  result[54] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[53] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U18/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[53] (fixSign)                    0.00       5.90 f
+  result[53] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[52] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U19/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[52] (fixSign)                    0.00       5.90 f
+  result[52] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[51] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U20/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[51] (fixSign)                    0.00       5.90 f
+  result[51] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[50] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U21/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[50] (fixSign)                    0.00       5.90 f
+  result[50] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[49] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U23/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[49] (fixSign)                    0.00       5.90 f
+  result[49] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[48] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U24/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[48] (fixSign)                    0.00       5.90 f
+  result[48] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[47] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U25/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[47] (fixSign)                    0.00       5.90 f
+  result[47] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[46] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U26/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[46] (fixSign)                    0.00       5.90 f
+  result[46] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[45] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U27/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[45] (fixSign)                    0.00       5.90 f
+  result[45] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[44] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U28/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[44] (fixSign)                    0.00       5.90 f
+  result[44] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[43] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U29/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[43] (fixSign)                    0.00       5.90 f
+  result[43] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[42] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U30/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[42] (fixSign)                    0.00       5.90 f
+  result[42] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[41] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U31/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[41] (fixSign)                    0.00       5.90 f
+  result[41] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[40] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U32/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[40] (fixSign)                    0.00       5.90 f
+  result[40] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[39] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U34/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[39] (fixSign)                    0.00       5.90 f
+  result[39] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[38] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U35/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[38] (fixSign)                    0.00       5.90 f
+  result[38] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[37] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U36/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[37] (fixSign)                    0.00       5.90 f
+  result[37] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[36] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U37/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[36] (fixSign)                    0.00       5.90 f
+  result[36] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[35] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U38/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[35] (fixSign)                    0.00       5.90 f
+  result[35] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[34] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U39/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[34] (fixSign)                    0.00       5.90 f
+  result[34] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[33] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U40/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[33] (fixSign)                    0.00       5.90 f
+  result[33] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[32] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U41/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[32] (fixSign)                    0.00       5.90 f
+  result[32] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U42/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[31] (fixSign)                    0.00       5.90 f
+  result[31] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[30] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U43/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[30] (fixSign)                    0.00       5.90 f
+  result[30] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[29] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U45/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[29] (fixSign)                    0.00       5.90 f
+  result[29] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[28] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U46/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[28] (fixSign)                    0.00       5.90 f
+  result[28] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[27] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U47/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[27] (fixSign)                    0.00       5.90 f
+  result[27] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[26] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U48/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[26] (fixSign)                    0.00       5.90 f
+  result[26] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[25] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U49/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[25] (fixSign)                    0.00       5.90 f
+  result[25] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[24] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U50/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[24] (fixSign)                    0.00       5.90 f
+  result[24] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[23] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U51/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[23] (fixSign)                    0.00       5.90 f
+  result[23] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[22] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U52/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[22] (fixSign)                    0.00       5.90 f
+  result[22] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[21] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U53/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[21] (fixSign)                    0.00       5.90 f
+  result[21] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[20] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U54/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[20] (fixSign)                    0.00       5.90 f
+  result[20] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[19] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U56/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[19] (fixSign)                    0.00       5.90 f
+  result[19] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[18] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U57/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[18] (fixSign)                    0.00       5.90 f
+  result[18] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[17] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U58/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[17] (fixSign)                    0.00       5.90 f
+  result[17] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[16] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U59/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[16] (fixSign)                    0.00       5.90 f
+  result[16] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U60/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[15] (fixSign)                    0.00       5.90 f
+  result[15] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[14] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U61/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[14] (fixSign)                    0.00       5.90 f
+  result[14] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[13] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U62/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[13] (fixSign)                    0.00       5.90 f
+  result[13] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[12] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U63/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[12] (fixSign)                    0.00       5.90 f
+  result[12] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[11] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U64/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[11] (fixSign)                    0.00       5.90 f
+  result[11] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[10] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U65/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[10] (fixSign)                    0.00       5.90 f
+  result[10] (out)                         2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[9] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U3/Q (MUX21X1)                        0.62       5.90 f
+  fs/newP[9] (fixSign)                     0.00       5.90 f
+  result[9] (out)                          2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[8] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U4/Q (MUX21X1)                        0.62       5.90 f
+  fs/newP[8] (fixSign)                     0.00       5.90 f
+  result[8] (out)                          2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[7] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U5/Q (MUX21X1)                        0.62       5.90 f
+  fs/newP[7] (fixSign)                     0.00       5.90 f
+  result[7] (out)                          2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[6] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U6/Q (MUX21X1)                        0.62       5.90 f
+  fs/newP[6] (fixSign)                     0.00       5.90 f
+  result[6] (out)                          2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[5] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U11/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[5] (fixSign)                     0.00       5.90 f
+  result[5] (out)                          2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[4] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U22/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[4] (fixSign)                     0.00       5.90 f
+  result[4] (out)                          2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[3] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U33/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[3] (fixSign)                     0.00       5.90 f
+  result[3] (out)                          2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U44/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[2] (fixSign)                     0.00       5.90 f
+  result[2] (out)                          2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[1] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U55/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[1] (fixSign)                     0.00       5.90 f
+  result[1] (out)                          2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: result[0] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tree_multiplier    140000                saed90nm_typ_ht
+  fixSign            8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.20       0.20 f
+  b[31] (in)                               0.00       0.20 f
+  fs/bCheck (fixSign)                      0.00       0.20 f
+  fs/U2/Q (XOR2X2)                         5.08       5.28 f
+  fs/U66/Q (MUX21X1)                       0.62       5.90 f
+  fs/newP[0] (fixSign)                     0.00       5.90 f
+  result[0] (out)                          2.02       7.92 f
+  data arrival time                                   7.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

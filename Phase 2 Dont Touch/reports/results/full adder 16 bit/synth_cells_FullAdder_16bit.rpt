@@ -1,0 +1,36 @@
+ 
+****************************************
+Report : cell
+Design : FullAdder_16bit
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 17:31:02 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+full_adder_ripple[0].FA   full_adder_ripple_0             39.628800 h
+full_adder_ripple[1].FA   full_adder_ripple_15            39.628800 h
+full_adder_ripple[2].FA   full_adder_ripple_14            39.628800 h
+full_adder_ripple[3].FA   full_adder_ripple_13            39.628800 h
+full_adder_ripple[4].FA   full_adder_ripple_12            39.628800 h
+full_adder_ripple[5].FA   full_adder_ripple_11            39.628800 h
+full_adder_ripple[6].FA   full_adder_ripple_10            39.628800 h
+full_adder_ripple[7].FA   full_adder_ripple_9             39.628800 h
+full_adder_ripple[8].FA   full_adder_ripple_8             39.628800 h
+full_adder_ripple[9].FA   full_adder_ripple_7             39.628800 h
+full_adder_ripple[10].FA  full_adder_ripple_6             39.628800 h
+full_adder_ripple[11].FA  full_adder_ripple_5             39.628800 h
+full_adder_ripple[12].FA  full_adder_ripple_4             39.628800 h
+full_adder_ripple[13].FA  full_adder_ripple_3             39.628800 h
+full_adder_ripple[14].FA  full_adder_ripple_2             39.628800 h
+full_adder_ripple[15].FA  full_adder_ripple_1             39.628800 h
+--------------------------------------------------------------------------------
+Total 16 cells                                            634.060806
+1

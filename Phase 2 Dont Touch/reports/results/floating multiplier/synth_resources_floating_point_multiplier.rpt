@@ -1,0 +1,37 @@
+ 
+****************************************
+Report : resources
+Design : floating_point_multiplier
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 19:37:25 2023
+****************************************
+
+Resource Sharing Report for design floating_point_multiplier in file
+        ./source/floating_point_multiplier.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r100     | DW01_add     | width=8    |               | add_1_root_add_29    |
+| r102     | DW01_add     | width=8    |               | add_2_root_add_29    |
+| r104     | DW01_sub     | width=8    |               | sub_0_root_add_29    |
+| r106     | DW02_mult    | A_width=24 |               | mult_30              |
+|          |              | B_width=24 |               |                      |
+| r108     | DW01_inc     | width=48   |               | add_33               |
+| r110     | DW01_add     | width=8    |               | add_37               |
+| r112     | DW01_add     | width=8    |               | add_42               |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| add_2_root_add_29  | DW01_add         | rpl                |                |
+| mult_30            | DW02_mult        | csa                |                |
+| add_33             | DW01_inc         | rpl                |                |
+===============================================================================
+
+1

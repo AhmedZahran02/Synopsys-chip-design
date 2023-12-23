@@ -1,0 +1,22 @@
+ 
+****************************************
+Report : cell
+Design : halfadder
+Version: U-2022.12-SP7
+Date   : Sat Dec 23 17:19:06 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U3                        XOR2X1          saed90nm_typ_ht 13.824000 
+U4                        AND2X1          saed90nm_typ_ht 7.372800  
+--------------------------------------------------------------------------------
+Total 2 cells                                             21.196800
+1

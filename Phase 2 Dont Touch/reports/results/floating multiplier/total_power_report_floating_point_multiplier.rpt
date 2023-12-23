@@ -1,14 +1,14 @@
+Loading db file '/home/user37/Downloads/Lab4/ref/models/saed90nm_typ_ht.db'
 Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
 Warning: There is no defined clock in the design. (PWR-80)
 Warning: Design has unannotated primary inputs. (PWR-414)
-Warning: Design has unannotated sequential cell outputs. (PWR-415)
  
 ****************************************
 Report : power
         -analysis_effort low
 Design : floating_point_multiplier
 Version: U-2022.12-SP7
-Date   : Sat Dec 23 19:37:25 2023
+Date   : Sat Dec 23 21:36:51 2023
 ****************************************
 
 
@@ -48,12 +48,12 @@ Attributes
 i - Including register clock pin internal power
 
 
-  Cell Internal Power  =  12.2401 mW   (77%)
-  Net Switching Power  =   3.6860 mW   (23%)
+  Cell Internal Power  =  12.2288 mW   (77%)
+  Net Switching Power  =   3.6841 mW   (23%)
                          ---------
-Total Dynamic Power    =  15.9260 mW  (100%)
+Total Dynamic Power    =  15.9129 mW  (100%)
 
-Cell Leakage Power     = 329.3380 uW
+Cell Leakage Power     = 328.6354 uW
 
 Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
 
@@ -65,8 +65,8 @@ memory             0.0000            0.0000            0.0000            0.0000 
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)  i
 register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
-sequential         0.5071            0.6463        3.4818e+05            1.5016  (   0.01%)
-combinational  1.2240e+04        3.6853e+03        3.2899e+08        1.6254e+04  (  99.99%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  1.2229e+04        3.6841e+03        3.2864e+08        1.6242e+04  ( 100.00%)
 --------------------------------------------------------------------------------------------------
-Total          1.2240e+04 uW     3.6860e+03 uW     3.2934e+08 pW     1.6255e+04 uW
+Total          1.2229e+04 uW     3.6841e+03 uW     3.2864e+08 pW     1.6242e+04 uW
 1

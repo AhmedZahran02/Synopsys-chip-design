@@ -3,7 +3,7 @@
 Report : resources
 Design : floating_point_multiplier
 Version: U-2022.12-SP7
-Date   : Sat Dec 23 19:37:25 2023
+Date   : Sat Dec 23 21:36:51 2023
 ****************************************
 
 Resource Sharing Report for design floating_point_multiplier in file
@@ -13,14 +13,14 @@ Resource Sharing Report for design floating_point_multiplier in file
 |          |              |            | Contained     |                      |
 | Resource | Module       | Parameters | Resources     | Contained Operations |
 ===============================================================================
-| r100     | DW01_add     | width=8    |               | add_1_root_add_29    |
-| r102     | DW01_add     | width=8    |               | add_2_root_add_29    |
-| r104     | DW01_sub     | width=8    |               | sub_0_root_add_29    |
-| r106     | DW02_mult    | A_width=24 |               | mult_30              |
+| r101     | DW01_add     | width=8    |               | add_1_root_add_30    |
+| r103     | DW01_add     | width=8    |               | add_2_root_add_30    |
+| r105     | DW01_sub     | width=8    |               | sub_0_root_add_30    |
+| r107     | DW02_mult    | A_width=24 |               | mult_31              |
 |          |              | B_width=24 |               |                      |
-| r108     | DW01_inc     | width=48   |               | add_33               |
-| r110     | DW01_add     | width=8    |               | add_37               |
-| r112     | DW01_add     | width=8    |               | add_42               |
+| r109     | DW01_inc     | width=48   |               | add_34               |
+| r111     | DW01_add     | width=8    |               | add_38               |
+| r113     | DW01_add     | width=8    |               | add_43               |
 ===============================================================================
 
 
@@ -29,9 +29,9 @@ Implementation Report
 |                    |                  | Current            | Set            |
 | Cell               | Module           | Implementation     | Implementation |
 ===============================================================================
-| add_2_root_add_29  | DW01_add         | rpl                |                |
-| mult_30            | DW02_mult        | csa                |                |
-| add_33             | DW01_inc         | rpl                |                |
+| add_2_root_add_30  | DW01_add         | rpl                |                |
+| mult_31            | DW02_mult        | csa                |                |
+| add_34             | DW01_inc         | rpl                |                |
 ===============================================================================
 
 1

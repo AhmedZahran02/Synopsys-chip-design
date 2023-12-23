@@ -3,14 +3,14 @@
 Report : qor
 Design : floating_point_multiplier
 Version: U-2022.12-SP7
-Date   : Sat Dec 23 19:37:25 2023
+Date   : Sat Dec 23 21:36:51 2023
 ****************************************
 
 
   Timing Path Group (none)
   -----------------------------------
   Levels of Logic:              58.00
-  Critical Path Length:         17.64
+  Critical Path Length:         17.63
   Critical Path Slack:         uninit
   Critical Path Clk Period:       n/a
   Total Negative Slack:          0.00
@@ -25,34 +25,34 @@ Date   : Sat Dec 23 19:37:25 2023
   -----------------------------------
   Hierarchical Cell Count:          4
   Hierarchical Port Count:        359
-  Leaf Cell Count:               1463
-  Buf/Inv Cell Count:              77
+  Leaf Cell Count:               1458
+  Buf/Inv Cell Count:              75
   Buf Cell Count:                   0
-  Inv Cell Count:                  77
+  Inv Cell Count:                  75
   CT Buf/Inv Cell Count:            0
-  Combinational Cell Count:      1462
-  Sequential Cell Count:            1
+  Combinational Cell Count:      1458
+  Sequential Cell Count:            0
   Macro Count:                      0
   -----------------------------------
 
 
   Area
   -----------------------------------
-  Combinational Area:    21997.670244
-  Noncombinational Area:    22.118401
-  Buf/Inv Area:            425.779211
+  Combinational Area:    21970.022243
+  Noncombinational Area:     0.000000
+  Buf/Inv Area:            414.720011
   Total Buffer Area:             0.00
-  Total Inverter Area:         425.78
+  Total Inverter Area:         414.72
   Macro/Black Box Area:      0.000000
-  Net Area:               1326.716047
+  Net Area:               1324.160480
   -----------------------------------
-  Cell Area:             22019.788645
-  Design Area:           23346.504692
+  Cell Area:             21970.022243
+  Design Area:           23294.182724
 
 
   Design Rules
   -----------------------------------
-  Total Number of Nets:          2069
+  Total Number of Nets:          2064
   Nets With Violations:             0
   Max Trans Violations:             0
   Max Cap Violations:               0
@@ -64,11 +64,11 @@ Date   : Sat Dec 23 19:37:25 2023
   Compile CPU Statistics
   -----------------------------------------
   Resource Sharing:                    2.26
-  Logic Optimization:                  0.15
-  Mapping Optimization:                0.23
+  Logic Optimization:                  0.06
+  Mapping Optimization:                0.31
   -----------------------------------------
-  Overall Compile Time:                3.00
-  Overall Compile Wall Clock Time:     3.26
+  Overall Compile Time:                3.02
+  Overall Compile Wall Clock Time:     3.25
 
   --------------------------------------------------------------------
 

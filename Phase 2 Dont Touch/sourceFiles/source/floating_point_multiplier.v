@@ -17,6 +17,7 @@ reg temp_overflow;
 always @(*) begin
     if (a == 0 || b == 0) begin
         temp_result = 0;
+        temp_overflow = 0;
     end
     else begin
         {sign_a, exp_a, mantissa_a} = a;

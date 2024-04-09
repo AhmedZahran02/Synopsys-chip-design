@@ -1,0 +1,45 @@
+ 
+****************************************
+Report : resources
+Design : floating_point_adder_sequential
+Version: G-2012.06-SP2
+Date   : Tue Dec 29 04:58:51 2015
+****************************************
+
+Resource Sharing Report for design floating_point_adder_sequential in file
+        /home/ahesham/Desktop/Teaching/johnson/syn/source/floating_point_adder_sequential.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r91      | DW01_cmp2    | width=8    |               | gte_53               |
+| r93      | DW01_sub     | width=8    |               | sub_63               |
+| r95      | DW_rash      | A_width=24 |               | srl_64               |
+|          |              | SH_width=8 |               |                      |
+| r97      | DW01_sub     | width=25   |               | sub_66               |
+| r99      | DW01_add     | width=25   |               | add_66               |
+| r101     | DW01_inc     | width=8    |               | add_96               |
+| r103     | DW01_ash     | A_width=23 |               | sll_99               |
+|          |              | SH_width=8 |               |                      |
+| r105     | DW01_sub     | width=8    |               | sub_100              |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_63             | DW01_sub         | rpl                |                |
+| srl_64             | DW_rash          | mx2                |                |
+| sub_66             | DW01_sub         | rpl                |                |
+| add_66             | DW01_add         | rpl                |                |
+| add_96             | DW01_inc         | rpl                |                |
+| sll_99             | DW01_ash         | mx2                |                |
+| sub_100            | DW01_sub         | rpl                |                |
+===============================================================================
+
+
+No multiplexors to report
+1

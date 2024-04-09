@@ -1,0 +1,16 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 100
+Design : floating_point_multiplier_sequential
+Version: G-2012.06-SP2
+Date   : Tue Dec 29 05:03:16 2015
+****************************************
+
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+Wire Load Model Mode: top
+No paths.
+
+1

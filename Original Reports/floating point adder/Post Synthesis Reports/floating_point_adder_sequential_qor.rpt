@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : qor
+Design : floating_point_adder_sequential
+Version: G-2012.06-SP2
+Date   : Tue Dec 29 04:58:51 2015
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:              78.00
+  Critical Path Length:          4.94
+  Critical Path Slack:           0.03
+  Critical Path Clk Period:      5.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          7
+  Hierarchical Port Count:        336
+  Leaf Cell Count:                960
+  Buf/Inv Cell Count:             222
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:       863
+  Sequential Cell Count:           97
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     1153.642008
+  Noncombinational Area:   438.633984
+  Buf/Inv Area:            131.138000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:              1592.275992
+  Design Area:            1592.275992
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          1137
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: localhost.localdomain
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.38
+  Logic Optimization:                  1.43
+  Mapping Optimization:                0.85
+  -----------------------------------------
+  Overall Compile Time:                2.95
+  Overall Compile Wall Clock Time:     3.43
+
+1

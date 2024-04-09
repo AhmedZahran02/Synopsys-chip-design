@@ -1,0 +1,54 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort high
+Design : floating_point_adder_sequential
+Version: G-2012.06-SP2
+Date   : Tue Dec 29 04:58:52 2015
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
+
+
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+floating_point_adder_sequential
+                       5K_hvratio_1_1    NangateOpenCellLibrary_ss0p95vn40c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+floating_point_adder_sequential          38.197  106.903 7.68e+03  152.777 100.0
+  sub_63 (floating_point_adder_sequential_DW01_sub_2)
+                                          1.310    1.160  158.079    2.629   1.7
+  srl_64 (floating_point_adder_sequential_DW_rash_0)
+                                          8.218    4.541 1.17e+03   13.929   9.1
+  sub_66 (floating_point_adder_sequential_DW01_sub_1)
+                                          1.080    2.089  483.360    3.653   2.4
+  add_66 (floating_point_adder_sequential_DW01_add_0)
+                                          0.808    1.870  297.019    2.974   1.9
+  add_96 (floating_point_adder_sequential_DW01_inc_0)
+                                          0.245    0.620   71.228    0.936   0.6
+  sll_99 (floating_point_adder_sequential_DW01_ash_0)
+                                          3.601    6.307  938.843   10.847   7.1
+  sub_100 (floating_point_adder_sequential_DW01_sub_0)
+                                          0.163    0.461  166.350    0.790   0.5
+1

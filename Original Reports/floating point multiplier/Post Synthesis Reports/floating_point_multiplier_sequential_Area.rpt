@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : floating_point_multiplier_sequential
+Version: G-2012.06-SP2
+Date   : Tue Dec 29 05:03:15 2015
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
+
+Number of ports:                           99
+Number of nets:                           342
+Number of cells:                          195
+Number of combinational cells:            159
+Number of sequential cells:                33
+Number of macros:                           0
+Number of buf/inv:                         43
+Number of references:                      17
+
+Combinational area:       3138.534010
+Buf/Inv area:               64.904000
+Noncombinational area:     149.225995
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:          3287.760004
+Total area:                 undefined
+1

@@ -1,0 +1,39 @@
+ 
+****************************************
+Report : resources
+Design : floating_point_multiplier_sequential
+Version: G-2012.06-SP2
+Date   : Tue Dec 29 05:03:15 2015
+****************************************
+
+Resource Sharing Report for design floating_point_multiplier_sequential in file
+        /home/ahesham/Desktop/Teaching/johnson/syn/source/floating_point_multiplier_sequential.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r84      | DW01_inc     | width=48   |               | add_65               |
+| r86      | DW01_add     | width=8    |               | add_69               |
+| r88      | DW01_add     | width=8    |               | add_74               |
+| r189     | DW01_add     | width=8    |               | add_1_root_add_0_root_add_61_cf |
+| r191     | DW01_add     | width=8    |               | add_0_root_add_0_root_add_61_cf |
+| r283     | DW02_mult    | A_width=24 |               | mult_62              |
+|          |              | B_width=24 |               |                      |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| mult_62            | DW02_mult        | csa                |                |
+| add_0_root_add_0_root_add_61_cf       |                    |                |
+|                    | DW01_add         | rpl                |                |
+| add_65             | DW01_inc         | rpl                |                |
+===============================================================================
+
+
+No multiplexors to report
+1

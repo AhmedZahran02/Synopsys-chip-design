@@ -1,0 +1,47 @@
+Information: Clock object is not specified; all clock nets of the design are considered. (PWR-487)
+Information: Found clock clk clock net clk of port clk
+ 
+****************************************
+Report : clock_tree_power
+Design : floating_point_adder_sequential
+Version: G-2012.06-ICC-SP2
+Date   : Tue Dec 29 05:01:16 2015
+****************************************
+
+
+Report Clock Tree Power on clock net clk/clk.
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
+
+
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+floating_point_adder_sequential
+                       5K_hvratio_1_1    NangateOpenCellLibrary_ss0p95vn40c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+
+
+  Cell Internal Power  =  36.8128 uW   (52%)
+  Net Switching Power  =  33.9709 uW   (48%)
+                         ---------
+Total Dynamic Power    =  70.7837 uW  (100%)
+
+Cell Leakage Power     = 310.8441 nW
+
+1

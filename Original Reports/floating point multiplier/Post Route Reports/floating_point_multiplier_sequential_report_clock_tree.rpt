@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : clock tree
+Design : floating_point_multiplier_sequential
+Version: G-2012.06-ICC-SP2
+Date   : Tue Dec 29 05:08:11 2015
+****************************************
+
+Information: Float pin scale factor for the 'max' operating condition of scenario 'default' is set to 1.000 (CTS-375)
+
+============ Global Skew Report ================
+
+Clock Tree Name                : "clk"
+Clock Period                   : 5.00000        
+Clock Tree root pin            : "clk"
+Number of Levels               : 1
+Number of Sinks                : 33
+Number of CT Buffers           : 0
+Number of CTS added gates      : 0
+Number of Preexisting Gates    : 0
+Number of Preexisting Buf/Inv  : 0
+Total Number of Clock Cells    : 0
+Total Area of CT Buffers       : 0.00000        
+Total Area of CT cells         : 0.00000        
+Max Global Skew                : 0.00857   
+Number of MaxTran Violators    : 0
+Number of MaxCap Violators     : 0
+Number of MaxFanout Violators  : 0
+
+
+Operating Condition               worst
+Clock global Skew                 0.009
+Longest path delay                0.009
+Shortest path delay               0.001
+
+The longest path delay end pin: reg_result_reg_0_/CK
+The shortest path delay end pin: reg_overflow_reg/CK
+
+The longest Path:
+Pin           Cap                 Fanout    Trans     Incr      Arri
+--------------------------------------------------------------------------------
+clk           0.000                      1  0.000     0.000     0.000     r
+clk           40.236                    33  0.000     0.000     0.000     r
+reg_result_reg_0_/CK
+              40.236                     0  0.008     0.009     0.009     r
+[clock delay]                                                   0.009
+--------------------------------------------------------------------------------
+
+The Shortest Path:
+Pin           Cap                 Fanout    Trans     Incr      Arri
+--------------------------------------------------------------------------------
+clk           0.000                      1  0.000     0.000     0.000     r
+clk           40.236                    33  0.000     0.000     0.000     r
+reg_overflow_reg/CK
+              40.236                     0  0.001     0.001     0.001     r
+[clock delay]                                                   0.001
+--------------------------------------------------------------------------------
+
+1

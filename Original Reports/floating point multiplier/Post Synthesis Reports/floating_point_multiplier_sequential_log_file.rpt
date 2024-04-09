@@ -1,0 +1,46 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort high
+Design : floating_point_multiplier_sequential
+Version: G-2012.06-SP2
+Date   : Tue Dec 29 05:03:16 2015
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
+
+
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+floating_point_multiplier_sequential
+                       5K_hvratio_1_1    NangateOpenCellLibrary_ss0p95vn40c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+floating_point_multiplier_sequential    213.238  293.120 1.34e+04  519.738 100.0
+  mult_62 (floating_point_multiplier_sequential_DW02_mult_0)
+                                        192.488  235.983 1.14e+04  439.891  84.6
+  add_0_root_add_0_root_add_61_cf (floating_point_multiplier_sequential_DW01_add_2)
+                                          1.569    1.869  136.300    3.575   0.7
+  add_65 (floating_point_multiplier_sequential_DW01_inc_0)
+                                          3.374   11.227  282.087   14.883   2.9
+1

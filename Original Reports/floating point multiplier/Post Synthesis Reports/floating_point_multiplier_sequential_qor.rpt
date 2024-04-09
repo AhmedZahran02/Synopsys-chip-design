@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : qor
+Design : floating_point_multiplier_sequential
+Version: G-2012.06-SP2
+Date   : Tue Dec 29 05:03:15 2015
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:              58.00
+  Critical Path Length:          4.58
+  Critical Path Slack:           0.18
+  Critical Path Clk Period:      5.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          4
+  Hierarchical Port Count:        359
+  Leaf Cell Count:               1602
+  Buf/Inv Cell Count:             112
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      1505
+  Sequential Cell Count:           97
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     3138.534010
+  Noncombinational Area:   149.225995
+  Buf/Inv Area:             64.904000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:              3287.760004
+  Design Area:            3287.760004
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          2146
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: localhost.localdomain
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.98
+  Logic Optimization:                  0.24
+  Mapping Optimization:                0.52
+  -----------------------------------------
+  Overall Compile Time:                2.19
+  Overall Compile Wall Clock Time:     2.53
+
+1
